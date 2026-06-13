@@ -40,7 +40,7 @@ CONFIG = {
     "NEW_HOURS":      24,                     # jobs newer than this show under "New"
     "PUBLISH_TO_GIT": True,                   # auto commit+push the dashboard each cycle
     "GITHUB_USER":  "Shruthi423",             # GitHub username (for the dashboard URL)
-    "GITHUB_REPO":  "job_bot",                # repo name
+    "GITHUB_REPO":  "OpenTabs_job_bot",       # repo name
 }
 
 TZ = ZoneInfo(CONFIG["TIMEZONE"])

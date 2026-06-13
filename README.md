@@ -1,8 +1,10 @@
-# 🎨 UX/Design Job Alert Bot
+# OpenTabs — UX/Design Job Tracker
 
-Scrapes UX/product design job postings from LinkedIn, Indeed, Glassdoor,
-ZipRecruiter, and several design RSS boards, then pushes near-real-time
-alerts to a Telegram channel. Built for an early-career designer job hunt.
+Scrapes UX/product design jobs from LinkedIn, Indeed, Glassdoor, ZipRecruiter,
+Y Combinator, BuiltIn SF and many design boards, sends Telegram alerts, and
+publishes a live one-page dashboard. Built for an early-career designer job hunt.
+
+**Live dashboard:** https://shruthi423.github.io/OpenTabs_job_bot/
 
 ## Setup
 
@@ -22,22 +24,23 @@ alerts to a Telegram channel. Built for an early-career designer job hunt.
    ```bash
    python3 job_bot.py
    ```
-   It runs continuously: a job check every 2 minutes, an hourly heartbeat,
-   and a daily digest at 9 AM Pacific. Press `Ctrl+C` to stop.
+   It runs continuously: a job check every 15 minutes, an hourly heartbeat,
+   and a daily digest at 9 AM Pacific. Press `Ctrl+C` to stop. (Or run it in
+   the background — see below.)
 
 ## Web dashboard (GitHub Pages)
 
 The bot also publishes a one-page dashboard with three sections — **New**
 (found in the last 24h), **Yet to Apply**, and **Applied**. You move jobs
-between sections by tapping **✅ Applied** / **🗑 Dismiss** on the Telegram
-alerts; the board updates itself.
+between sections with the **Done** / **Not yet** buttons on each card; your
+choices are saved in your browser and the board updates itself.
 
 **One-time setup:**
-1. In `job_bot.py` `CONFIG`, set `GITHUB_USER` to your GitHub username
-   (and `GITHUB_REPO` if you renamed the repo).
+1. In `job_bot.py` `CONFIG`, set `GITHUB_USER` and `GITHUB_REPO`.
 2. Push this repo to GitHub (make sure `git push` works without a prompt —
    use a saved HTTPS token or SSH key).
-3. On GitHub: **Settings → Pages → Source: `main` branch, `/docs` folder.**
+3. On GitHub: **Settings → Pages → Source: Deploy from a branch →
+   `main` branch, `/docs` folder** (must be `/docs`, not root).
 4. Your dashboard goes live at
    `https://<GITHUB_USER>.github.io/<GITHUB_REPO>/`.
 
