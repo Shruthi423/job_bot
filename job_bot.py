@@ -745,20 +745,38 @@ def scrape_startups_gallery() -> list:
 #  roles are injected into the job board; the raise itself is alerted
 #  to a separate funding channel and shown in the "Just Raised" tab.
 # ═════════════════════════════════════════════════════════════════
+# a16z / Sequoia / First Round don't expose a working RSS feed (404 / 403),
+# so we follow each via a Google News query instead — this actually surfaces
+# the funding rounds they lead, not just their blog posts.
+def _gnews(query: str) -> str:
+    return ("https://news.google.com/rss/search?q="
+            f"{requests.utils.quote(query)}&hl=en-US&gl=US&ceid=US:en")
+
 FUNDING_FEEDS = [
+    # ── Core tech/VC press (verified working) ──
     ("TechCrunch Venture",  "https://techcrunch.com/category/venture/feed/"),
     ("TechCrunch Startups", "https://techcrunch.com/category/startups/feed/"),
     ("TechCrunch Funding",  "https://techcrunch.com/tag/funding/feed/"),
     ("VentureBeat",         "https://venturebeat.com/category/business/feed/"),
     ("Crunchbase News",     "https://news.crunchbase.com/feed/"),
-    ("Fortune Term Sheet",  "https://fortune.com/section/term-sheet/feed/"),
     ("StrictlyVC",          "https://strictlyvc.com/feed/"),
-    ("SiliconANGLE VC",     "https://siliconangle.com/category/venture-capital/feed/"),
     ("GeekWire Funding",    "https://www.geekwire.com/tag/funding/feed/"),
-    ("a16z Blog",           "https://a16z.com/feed/"),
-    ("Sequoia Blog",        "https://www.sequoiacap.com/stories/feed/"),
     ("YC Blog",             "https://www.ycombinator.com/blog/rss.xml"),
-    ("First Round Review",  "https://review.firstround.com/feed.xml"),
+    ("Fortune",             "https://fortune.com/feed/"),
+    ("SiliconANGLE",        "https://siliconangle.com/feed/"),
+    ("Axios",               "https://api.axios.com/feed/"),
+    # ── Funding-specific sources (added) ──
+    ("Tech Funding News",   "https://techfundingnews.com/feed/"),
+    ("TechStartups",        "https://techstartups.com/feed/"),
+    ("AlleyWatch",          "https://www.alleywatch.com/feed/"),
+    ("SaaStr",              "https://www.saastr.com/feed/"),
+    ("The SaaS News",       "https://thesaasnews.com/feed"),
+    # ── VC firms followed via Google News (no usable native RSS) ──
+    ("a16z (news)",         _gnews('"Andreessen Horowitz" (raises OR funding OR "series") when:7d')),
+    ("Sequoia (news)",      _gnews('"Sequoia Capital" (raises OR funding OR "series") when:7d')),
+    ("First Round (news)",  _gnews('"First Round Capital" (raises OR funding OR "series") when:7d')),
+    # ── Broad early-stage funding sweep (catches raises no single outlet covers) ──
+    ("Funding Sweep (news)", _gnews('startup ("raises" OR "raised") ("seed" OR "series a" OR "series b") when:2d')),
 ]
 
 AMOUNT_RE = re.compile(r'\$\s*([\d,.]+)\s*(billion|million|B|M)\b', re.IGNORECASE)
