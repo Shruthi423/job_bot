@@ -253,7 +253,7 @@ def notify(job: dict, reminder: bool = False, jid: str = ""):
     bt      = job.get("is_big_tech", False)
 
     badges = ""
-    if job.get("is_funded"): badges += "🔥 JUST RAISED  "
+    if job.get("is_funded"): badges += "💰 JUST RAISED  "
     if ng: badges += "🎓 NEW GRAD FRIENDLY  "
     if bt: badges += "⭐ BIG TECH"
 
@@ -936,7 +936,7 @@ def notify_funding(item: dict, roles: list = None, reminder: bool = False):
     roles     = roles or []
 
     tier1 = "⭐ TIER 1 VC  " if priority >= 8  else ""
-    hot   = "🔥 HOT  "      if priority >= 10 else ""
+    hot   = "💥 HOT  "      if priority >= 10 else ""
 
     roles_block = ""
     if roles:
