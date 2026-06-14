@@ -1,5 +1,44 @@
 [
   {
+    "id": "578fcbef93ded102a37f33a03e797fbd",
+    "company": "Manam chocolate",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORWw3enNtQ21Cb0xaOC1ZVmRaaC1jTkpyLWd6S2p6QzE5eXp2WTNsUnZTWmZ2ajZ5NlJkSTJvVWJIb0Q1R2c3YXVvWDlvc3I0Sl9OV1V1UlBVSVVlaFJhTjJxeWVpd1hQWkNPd21pdkhnbURZZFR5NmxpNWV2WkFaSTFLR21YSHpKaGo1c0cwMXhrTVVGNW1RN0Y5MGZrWmNyREhZZEVPdUpCMnFWWllZTGsxNW92aWs2eUx3V3dGX2RDU21vRjBiUDBvMjdrck0?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-14T11:52:03.449344-07:00",
+    "status": "active"
+  },
+  {
+    "id": "7045af367b299d79e36f8303b814579a",
+    "company": "Jeff Bezos\u2019s Prometheus",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcUpaZmxDY0lxR0g2THJOODEtTU1GT3QtckJiQXJuZk56RV9TbHczLUhvckc0bXdRSFJJQUh0TGdDdFVMblRfVXpHOFhweXNKaDljQ2ZkWm05UE0yNTNQTEVKYXZ1OW91aVZVNXhpaFE4U1k1UktmTXJmOUdCbTIyVjBWZHhSZGd4bUo1X2l4OW9qZWlWN3FMek9xOXFKNnNjUGtEcFBWVDdNMjkzb3lxRW5GN3FsNTZINzVUTnc2Wmt4QUJCMjloNHh3Tk9SY3RqSGg3eEItNFdScG5IQ3h0WkY0SUlhUQ?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-14T11:51:59.916009-07:00",
+    "status": "active"
+  },
+  {
+    "id": "0905464db3eb5e8080d40e0888e312fe",
+    "company": "Moroccan proptech platform Agenz",
+    "amount": "$5.0M",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1mMDBwVHg3azBLZlZCZTFZN0VsaDB3ZmtpQ1c4ajBINm95OVU4QmVsQjFNWWpYckdXNDBUWXgyVQ?oc=5",
+    "priority": 9,
+    "roles": [],
+    "first_seen": "2026-06-14T11:51:56.308494-07:00",
+    "status": "active"
+  },
+  {
     "id": "841e863967faa0fa0e5b5bdc6b07ac5e",
     "company": "Iran proved it can",
     "amount": "Undisclosed",
