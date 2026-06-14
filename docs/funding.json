@@ -1,5 +1,18 @@
 [
   {
+    "id": "30a7f1b3451e173b399ca1f64dd58e76",
+    "company": "Prometheus",
+    "amount": "$12.0B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPajRuQkVKcGkzdXNaaUVTdzhPeUlIVjdVUTV5Y2tvQ0hPNFZ0THJNSWRWeHhKMjhKTkxCaGxKWE40a3lCa0lSYUpSaWpuR281Z1pCcEpMdTU3MFdsTEJoY1ZSZnBQN25qejdrWC1YOXBQSGd4UjN3RjNDUVVacVoxWGF1el83X0U3YUZ6N19VRWYyenFTSjNfdnNjZDdjMjFEd28zNzQ5WEVTZw?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-13T18:50:04.599862-07:00",
+    "status": "active"
+  },
+  {
     "id": "bae53ab1070efa9f1a6eae99ed9f52f8",
     "company": "Airwallex",
     "amount": "Undisclosed",
