@@ -1,5 +1,18 @@
 [
   {
+    "id": "5dce2e7e48fa8f5301e4b8083b3b5ef5",
+    "company": "Coram AI plans 20 Sunnyvale hires",
+    "amount": "$35.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUU1FVWpPUmlaUHNhTzVGOU5Ia290STNScDAyeEVadm5JRUtCeUtBWnpid0dScDBRV0ZIZWdVX19aZG1GdjBCclg2V2VsMEw1Q21EZzQ3eEJIT0REdVQ0aHlmd2pLNEdrMmJuYlNYXzI3ZW9QS0NCRi1tSUktUVAtRmxNekpBOWFjdGRNSWVGYmgwU1ozb29NWjZR?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-13T20:06:30.070647-07:00",
+    "status": "active"
+  },
+  {
     "id": "be688f1e6686da51be41b0a35e358a94",
     "company": "Bezos",
     "amount": "$12.0B",
