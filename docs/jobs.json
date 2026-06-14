@@ -1,5 +1,21 @@
 [
   {
+    "id": "e43c67deb5d305124cf2bdeeb565d86b",
+    "title": "UI/UX Designer Intern",
+    "company": "Airflow Dynamics",
+    "location": "Massachusetts, United States",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4427454277",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "None",
+    "priority": 4,
+    "first_seen": "2026-06-14T13:57:03.203936-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "9259cce33fd1e20aa67dced38a2d7ef0",
     "title": "Consultant - Data Visualization and User Experience",
     "company": "Pyrovio",
