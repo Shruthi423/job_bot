@@ -1,5 +1,31 @@
 [
   {
+    "id": "7b05a94caa872081f0e3429a714d5943",
+    "company": "See Major Venture Funding",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "a16z (news)",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbWJMSkZjWVdUQkxEM256WUJrOU1zaHlRUV9aRFcxdi01MVh0ejlGd3U1eXVqVjJLc2lJT0FKNHQzQTVKMnYtQmhGd0k4cDNUS2pYMzY3c3h3cWpwRUdLSFdxdXVmcXdFMXZnTlEwZXhUb0pnVG9XeUpOejB1UFpJWm1LeThtY3lkY2tZZmYwVDQ?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-13T20:54:43.382388-07:00",
+    "status": "active"
+  },
+  {
+    "id": "a22deb8d5a7fc1e1e988bcc20f72ce92",
+    "company": "Gothenburg\u2019s Arkeon",
+    "amount": "Undisclosed",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONmRFWjBlQkJ4ZDNVM0Z1Q3h4TG9kanUxWFVxSzRzeF90X3hwY3VXX0tPZjNqWklETy1mb2thNlMyNnFjWU9vaXFlNVNfUzh6ODBFOVRmZ0luQi1EVmxOTWZETThGZVlTWGU4SmYzM0ptUXp0N1FLU0U2b1ExYzJKZHY3OGtFUklqRXVLUWl0UE4tay0zZ21ZUjYzSWxwcGpMYzFHQ3VEUGtqZVRic1VIWVR6NG4tWXNMcDJTR1B3ZllZcWZFZWc?oc=5",
+    "priority": 9,
+    "roles": [],
+    "first_seen": "2026-06-13T20:54:39.608025-07:00",
+    "status": "active"
+  },
+  {
     "id": "5dce2e7e48fa8f5301e4b8083b3b5ef5",
     "company": "Coram AI plans 20 Sunnyvale hires",
     "amount": "$35.0M",
