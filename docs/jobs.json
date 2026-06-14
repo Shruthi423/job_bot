@@ -1,5 +1,21 @@
 [
   {
+    "id": "803c45bb1cb9df63345fd02e7c146bad",
+    "title": "User Experience Designer",
+    "company": "Egotechworld",
+    "location": "Mobile, AL",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4427439564",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "None",
+    "priority": 4,
+    "first_seen": "2026-06-14T14:19:17.073124-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "e43c67deb5d305124cf2bdeeb565d86b",
     "title": "UI/UX Designer Intern",
     "company": "Airflow Dynamics",
