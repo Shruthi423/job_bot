@@ -1,5 +1,31 @@
 [
   {
+    "id": "c344422817332fcedb74d4c72488dfca",
+    "company": "Singapore's Pints AI",
+    "amount": "$5.6M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU1VkWG1icEluOVpwc2JoOTQtNmYzN0lIY1dxeXhhelZ1ZDVKRU5qbFZqYWs4S1dsT1dmdFg1c3psZjd1NEFrblUtVmZNcy1qMVJyODF4Wk5QWHZZSkFNcm9wcUtkaTJEV2JraktSQjVvd25XRmxldUE0V2lHWmxwemxyZl9mOFNEdnpGOTc5UUZNamhOVWFsZE9YQ2VMS09jMnNteU5RZ2RGM2VtZUE2dGIxcGJoY3phRDNUNUczM0hteVdrSFNJYndGNk5tdw?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-14T20:25:47.114354-07:00",
+    "status": "active"
+  },
+  {
+    "id": "f74d1c664eb7385393819a44b6263111",
+    "company": "Base10",
+    "amount": "$850.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzR205cE1QTkhOc0tHNDFLVkJZdFRscDVzR3JjZ2xkV3pyM2pvMTdNeXlnbEJmQTIyZVhseHhJTlhmV2R3YUh5ZzU0RVJNdDZaRDFGRTV5dU13QXJBRFNkbnJXbXpidmxJR0J6M1doNjZHVFU2OFBvMmdR?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-14T20:25:43.408560-07:00",
+    "status": "active"
+  },
+  {
     "id": "2d8f9c456626a7b76d8751a51556c44b",
     "company": "Sentinel DeepActive",
     "amount": "Undisclosed",
