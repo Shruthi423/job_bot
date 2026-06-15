@@ -1,5 +1,18 @@
 [
   {
+    "id": "52add73a07fa94d9abec57c85932e672",
+    "company": "Paris wellness studio",
+    "amount": "$1.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Tech Funding News",
+    "url": "https://techfundingnews.com/rocapine-13m-series-a-paris-wellness-venture-studio-1m-arr-16-days/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-15T16:18:23.676176-07:00",
+    "status": "active"
+  },
+  {
     "id": "dc9001f11f476a6ece6927d9d6a8d165",
     "company": "New Mexico",
     "amount": "Undisclosed",

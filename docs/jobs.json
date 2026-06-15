@@ -1,5 +1,37 @@
 [
   {
+    "id": "19455cbbee79b44dca7fefab6bc60895",
+    "title": "Product Designer",
+    "company": "Avenue Code",
+    "location": "Sunnyvale, CA",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4427767371",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "nan",
+    "priority": 2,
+    "first_seen": "2026-06-15T16:18:02.775242-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
+    "id": "f645237672e19f2ecbb62442bc53f88a",
+    "title": "Founding UX/UI Designer \u2013 Physical AI Infrastructure",
+    "company": "nan",
+    "location": "Pittsburgh, PA, US",
+    "salary": "$100,000 \u2013 $150,000 / yearly",
+    "url": "https://www.indeed.com/viewjob?jk=27e976ce7d502805",
+    "source": "Indeed",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "2026-06-15",
+    "priority": 4,
+    "first_seen": "2026-06-15T16:18:01.263074-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "9ea431611bc10e3bdcfaddd69794508d",
     "title": "UX Designer",
     "company": "Ascend Learning",
