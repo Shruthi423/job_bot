@@ -1,5 +1,37 @@
 [
   {
+    "id": "2d5ab6bfdba903b6cc6e07cc385fe006",
+    "company": "Decagon",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "a16z (news)",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmdmRVY0VGIzZGlMUmZSZ19mWmZhTW1ucDh2NkJNRE1mSlZ2dmRWR2RzQ3k3cm5Yc1ZyNmVYV0RncWVodUphT1N6cnRzQmRIM1BxZ3hodTlJMmdDMjRVMjVlVVZnTHliLVFUeVV5NUhZcWp1QXRGZ184N3FmSHpKdWFsU2tEZEFvX1FQRGJqU1hzamZMcHV6eGI1WVJXSFJNN1hzVlFQM3dIZw?oc=5",
+    "priority": 3,
+    "roles": [
+      {
+        "title": "Product Designer",
+        "url": "https://jobs.ashbyhq.com/decagon/1117aac8-58b5-4b24-bc82-849317a52719",
+        "location": "San Francisco"
+      }
+    ],
+    "first_seen": "2026-06-15T12:04:05.897440-07:00",
+    "status": "active"
+  },
+  {
+    "id": "418bedcac649aede75c3ff93363aba17",
+    "company": "Maya",
+    "amount": "$1.9M",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS0tuOUdYakQ1T0prNGVNVUZxSzBaeTF6N19Yc0FkSW94M3plWllGUU9kcDBELUl5R0VvSW5aUFJjektBcnJHT0lmSENUd1RvcldxUXN3eWF0azhpUTBfTWVpd01YUWtuaHBSWHl2M3cyck9QT0pIYVN6ODNBcjhXR0dpQQ?oc=5",
+    "priority": 9,
+    "roles": [],
+    "first_seen": "2026-06-15T12:04:01.798591-07:00",
+    "status": "active"
+  },
+  {
     "id": "3547853a09b79bc3aaf311fb2e5aee32",
     "company": "America committed $1.2 trillion",
     "amount": "Undisclosed",
