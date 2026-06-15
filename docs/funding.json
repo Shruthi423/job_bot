@@ -1,5 +1,31 @@
 [
   {
+    "id": "0ac5b89fafce0f9d4d73632eb624d507",
+    "company": "Orbio",
+    "amount": "Undisclosed",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWFotV19GaFJmb0hPbFZ4YU9tSzZ2RjhsTXhJMDZjTzdaQnBWcDhDbG5sQVUxS01fdWhYSTBuVndNOWQ1aW5tRENocWxRdGVuSEVEUU0xTGlITDdOM2tGNGFHbUVTNHI2STZTS1ZoWk5BTVRpamZPSU9zMjJGQjRiOS1DbTRoOWllQWhuOGJCSW5NWkZ6cU1GNmp3YXNPR21oZVZPajFfbXpxeVNNeHpxZw?oc=5",
+    "priority": 8,
+    "roles": [],
+    "first_seen": "2026-06-14T22:34:06.760489-07:00",
+    "status": "active"
+  },
+  {
+    "id": "d183ccb890006e5653bcab0691f611b5",
+    "company": "YouLabs",
+    "amount": "$2.6M",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "The SaaS News",
+    "url": "https://www.thesaasnews.com/news/youlabs-raises-2-6m-seed/",
+    "priority": 9,
+    "roles": [],
+    "first_seen": "2026-06-14T22:34:04.251023-07:00",
+    "status": "active"
+  },
+  {
     "id": "506fd4056acf3fe6794b4f750e91ca28",
     "company": "Thirdworks",
     "amount": "Undisclosed",

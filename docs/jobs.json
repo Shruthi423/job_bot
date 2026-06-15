@@ -1,5 +1,21 @@
 [
   {
+    "id": "f1b0afc9ae61fa706b2020861ae3b9c1",
+    "title": "Product Designer",
+    "company": "Ahrefs",
+    "location": "Palo Alto, CA",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4405619890",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "None",
+    "priority": 2,
+    "first_seen": "2026-06-14T22:33:38.574557-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "f7b1ae1e86a6d0460b96413710ec6aa1",
     "title": "Product Designer/Design Engineer",
     "company": "New Generation",
