@@ -1,5 +1,18 @@
 [
   {
+    "id": "3547853a09b79bc3aaf311fb2e5aee32",
+    "company": "America committed $1.2 trillion",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/13/infrastructure-digital-twins-water-visibility-iija-spending/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-15T11:40:20.079991-07:00",
+    "status": "active"
+  },
+  {
     "id": "3e9df2dd70f6069140e57f0380beb956",
     "company": "OpenAI and Anthropic vying",
     "amount": "Undisclosed",
