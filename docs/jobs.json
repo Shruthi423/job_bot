@@ -1,5 +1,37 @@
 [
   {
+    "id": "1744a0944dff26f7679a6fa7c1d856b4",
+    "title": "Graphic/Product Designer (Consumer Electronics)",
+    "company": "Solomon Page",
+    "location": "Kissimmee, FL",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4426404723",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "nan",
+    "priority": 4,
+    "first_seen": "2026-06-15T09:17:53.545647-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
+    "id": "7d8085ca49f955a2bd08b33a39f3f4e3",
+    "title": "UX Designer \u2014 B2B Product",
+    "company": "BayOne Solutions",
+    "location": "Seattle, WA",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4427711973",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "nan",
+    "priority": 3,
+    "first_seen": "2026-06-15T09:17:52.027547-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "dd02d82ac3c4b00f8da954138d4a4a00",
     "title": "Product Designer",
     "company": "Range",

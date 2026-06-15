@@ -1,5 +1,18 @@
 [
   {
+    "id": "28ca984c1600d2e481145c733ea6d597",
+    "company": "Sarvam",
+    "amount": "$234.0M",
+    "stage": "Series B",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvblc1QWUtWm83WVdhOE5EVTF6QlBrbERoTFVGdnZnTnc4SzRBSkZuWDFTdm9jbEM2MEszX0taM3hZWUViMTVNSUc2WFl3dG4zZEJ1T1BVZFktRWZRUEhxY0lTMG9nc3AzQVhlSQ?oc=5",
+    "priority": 7,
+    "roles": [],
+    "first_seen": "2026-06-15T09:18:28.109944-07:00",
+    "status": "active"
+  },
+  {
     "id": "2fe0a40869811cdea16312779ac7667d",
     "company": "Zumutor",
     "amount": "$7.3M",
