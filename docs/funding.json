@@ -1,5 +1,18 @@
 [
   {
+    "id": "86c3edcc0447c7c8d4545c4d294e2907",
+    "company": "How Gianni Infantino built a FIFA-dom",
+    "amount": "$9.0B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/04/world-cup-fifa-president-gianni-infantino-soccer-football/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-15T13:40:36.843943-07:00",
+    "status": "active"
+  },
+  {
     "id": "5e60f92001fb2501b13bf0747fc24057",
     "company": "OpenAI and Oracle",
     "amount": "Undisclosed",
