@@ -1,5 +1,18 @@
 [
   {
+    "id": "3330193f3de3e2598a24b7a1e02b4300",
+    "company": "Undo",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "The SaaS News",
+    "url": "https://www.thesaasnews.com/news/undo-raises-31m-other/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-15T23:54:13.077300-07:00",
+    "status": "active"
+  },
+  {
     "id": "2dda740b2e36f5e81b852a8c7a2797b8",
     "company": "Interchecks",
     "amount": "$50.0M",
