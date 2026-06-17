@@ -1,5 +1,63 @@
 [
   {
+    "id": "ffd4a2bd536bda518d33e5ee41b0596a",
+    "company": "Z.ai\u2019s open-source GLM-5.2 beats GPT-5.5",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "TechStartups",
+    "url": "https://techstartups.com/2026/06/17/z-ais-open-source-glm-5-2-beats-gpt-5-5-on-coding-benchmarks-at-one-sixth-the-cost/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-17T10:03:18.291545-07:00",
+    "status": "active"
+  },
+  {
+    "id": "59e45e7d707e3f579964c52107182710",
+    "company": "Anthropic export ban sounds alarms",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/16/ai-anthropic-export-controls",
+    "priority": 3,
+    "roles": [
+      {
+        "title": "Motion Designer, Core Brand",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5116771008",
+        "location": "Remote-Friendly, United States; San Francisco, CA | New York City, NY"
+      }
+    ],
+    "first_seen": "2026-06-17T10:03:14.966540-07:00",
+    "status": "active"
+  },
+  {
+    "id": "809e7aab8292bb25b1d8478bb5320e3a",
+    "company": "He fled Iran",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/17/iran-war-refugee-american-dream-health-tech-millionaire-seqster-founder-father-cancer/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-17T10:03:11.581039-07:00",
+    "status": "active"
+  },
+  {
+    "id": "a1cb18281fd82ed9453a63484db97d8a",
+    "company": "The million-dollar starter home",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/17/why-do-starter-homes-cost-1-million-gen-z-millennials-zillow-report/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-17T10:03:08.329860-07:00",
+    "status": "active"
+  },
+  {
     "id": "e9f4d9665fa15bd542473ea7916183d1",
     "company": "Why standing still",
     "amount": "Undisclosed",
