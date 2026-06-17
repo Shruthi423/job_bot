@@ -1,5 +1,18 @@
 [
   {
+    "id": "dd021dfc19e1f876b644e09dc245c886",
+    "company": "Observable Space",
+    "amount": "$90.0M",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXdmFmNnVQZk1JYXBpaDVoR0Q3ZFExNVBzSVVJTTlwajVlV1A1eFVSNlB0UWt5allRakVYaEw1ODFIeGhKWnRTNDBQRVpFWDJKNktHTFVQZW1uWHVDbXBsQWZHY0lxWk1LVUpvZU04bw?oc=5",
+    "priority": 8,
+    "roles": [],
+    "first_seen": "2026-06-17T11:38:19.655139-07:00",
+    "status": "active"
+  },
+  {
     "id": "6c7614b07436d37794805165f5789a90",
     "company": "World model maker Odyssey",
     "amount": "$1.45B",
