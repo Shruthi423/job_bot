@@ -1,5 +1,31 @@
 [
   {
+    "id": "5ed561b9340a65d48e570dd4603477e9",
+    "company": "Funding Rounds of All Time (2026",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Sequoia (news)",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYWI4MXZ2U2lhVnNLcG9fQ2lUMHpBZ21FYy1EUlVHaGg2NktVTFhxS2lkSzJ3NlRZYnR4OTB5NGp6dUd3MDdLZFJ0TkN4ZHNBTWM4RnlVSDFadDUyNHNMODZLa0RWTUozdTExTkluZkNFLUxEajcwLW9UdlZmLWQyZUM1TmxXNUp5Y0JoZk5BajhEdw?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-17T15:25:30.125314-07:00",
+    "status": "active"
+  },
+  {
+    "id": "978f520f6327f73187fc025fee2bee00",
+    "company": "Chi-Hua Chien saw Facebook coming",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "TechCrunch Venture",
+    "url": "https://techcrunch.com/2026/06/17/chi-hua-chien-saw-facebook-coming-now-he-says-the-real-ai-winners-wont-be-selling-ai/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-17T15:25:26.882158-07:00",
+    "status": "active"
+  },
+  {
     "id": "d2d0537998853cd9cb58875544afe38a",
     "company": "CuspAI reportedly raising $400M round",
     "amount": "$400.0M",
