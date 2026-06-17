@@ -1,5 +1,31 @@
 [
   {
+    "id": "1c1a8862dac2ac752ee6f70f21534d13",
+    "company": "Kevin O\u2019Leary slams work-life balance",
+    "amount": "$4.2B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/17/kevin-olearly-work-life-balance-harvard-business-school-podcast-founder-mindset/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-17T08:50:59.907928-07:00",
+    "status": "active"
+  },
+  {
+    "id": "aeca88e86c44b5705878685e4210500b",
+    "company": "Convey",
+    "amount": "$38.0M",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "a16z (news)",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV3hoTkRQRUxfNDdZWGdmdTFSdm9sTzRvRHVGN3BhX0VKd3hhakMtWVFfeTBsNkd5b05STjdPR1pzbzBWSnI0dHFfemJRWkFQWGtIY2h1c2xZNGVNOWZQSUNZZVlYRXpTMUZ3OWdVUmRWcVVONUFRakVEc1haODh2VmplUHVDM2J1SDI2QlpDTlZDellQR3F5UmE3SDlUZ0ZKMGJGV3B6QUZMUWdJSHFvbzRwaGZkSVNlMmd3TktoOS04S3BDSjBfLWhPNFR5aW1NWHJVSEE4ellJQQ?oc=5",
+    "priority": 8,
+    "roles": [],
+    "first_seen": "2026-06-17T08:50:56.785624-07:00",
+    "status": "active"
+  },
+  {
     "id": "06eab12769497e91c46e6397f3333cc9",
     "company": "Ploy",
     "amount": "$27.0M",
