@@ -1,5 +1,31 @@
 [
   {
+    "id": "b2fe9ac51d165c9096f6ca6a4e7c6822",
+    "company": "Teamsters and DOJ move",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/17/teamsters-sean-o-brien-federal-oversight",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-17T16:35:51.558865-07:00",
+    "status": "active"
+  },
+  {
+    "id": "fed694ce49f6801f3f95cd242aaeaa09",
+    "company": "SubBase",
+    "amount": "$7.0M",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcmlMR3k3WkpUazluRTYwRmdFUG9rWnhxbTZxZWJHU3NnNVRoT2tZNW1iV1doaFd0SVZSTGhSMEs0Nm55QlpucjV0OTFhYnJOcWZMU2Nhc3djVC1DSFFTdmlYVy1xZnBqNWNURVFUWmhXYl9fUE5pYzN1OUI4WExVdFZ3dEZTZ3ZsRVNZ?oc=5",
+    "priority": 8,
+    "roles": [],
+    "first_seen": "2026-06-17T16:17:50.481476-07:00",
+    "status": "active"
+  },
+  {
     "id": "5ed561b9340a65d48e570dd4603477e9",
     "company": "Funding Rounds of All Time (2026",
     "amount": "Undisclosed",
