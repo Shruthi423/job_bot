@@ -1,5 +1,18 @@
 [
   {
+    "id": "603bf4a13b55bc042ebd29ad26050e7e",
+    "company": "Prem AI",
+    "amount": "$100.0M",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "Sequoia (news)",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMXZIbnl6Q0ZVb1V5RWN2ZDBaLXJjVGs0dTVvdzNEUEZRdVk0c1ZBdjJXNmxkekNWQUNmQ0p1RVNtMmVLdlU0ZTNjbGhwSXF3MHdrbXhBUWN3ZzB1X1ZlUEZEMjUwX2JTYlRTLXlfLUVWRkdRM21ZYnhlME92V2UxUThaTEh2TlFqeEdRRUhTY2JpNFhmRzl1UzNxb3NMSEMxaDZnY2YzOFgyOVF1LXp2MWpOOWp4d2xHdUJaelAwLXFKMDNWMVVaMVlfcXFaQQ?oc=5",
+    "priority": 8,
+    "roles": [],
+    "first_seen": "2026-06-18T07:53:52.352613-07:00",
+    "status": "active"
+  },
+  {
     "id": "d9fd6d4ee16e1d844e7b09c1199b8f05",
     "company": "Copenhagen-based Kvasir Technologies",
     "amount": "Undisclosed",
