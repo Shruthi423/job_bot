@@ -1,5 +1,31 @@
 [
   {
+    "id": "8802f8c94fc26d264ebb45fe3e884fd7",
+    "company": "Warren",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObTZqdjYtUDgyTFFTWVNtUkI4LUdLa3JXZFNYeFlVbHB2b2tuY0RlbFNGeU9ncXNkRnNmSTFzU3R2cVE3Z0Q5S1VfSGVBVmExbTJ5QmVOaVJaYzFVeVlyZ1hNclBlMVAwRTVLc3BucDFPZkpIWktJUFNrOUNNSjZVYU1mSXdob0w0SUZhdmFld3h0OC05NWUtazdmSlE1c0JOQXpTTnVQNUhkZF9yb242blNxUk1wLXAwWUs5U0U4eDFjd3RiSWZHQ083aTR2cGM?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T09:02:18.321761-07:00",
+    "status": "active"
+  },
+  {
+    "id": "d4027a76a7d9131ca93a966be26d2968",
+    "company": "\u2018It\u2019s incredibly freeing\u2019",
+    "amount": "$965.0B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/18/anthropic-ceo-dario-amodei-one-direct-report-unconventional-management-structure-start-up-success/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T09:02:16.019446-07:00",
+    "status": "active"
+  },
+  {
     "id": "603bf4a13b55bc042ebd29ad26050e7e",
     "company": "Prem AI",
     "amount": "$100.0M",
