@@ -1,5 +1,18 @@
 [
   {
+    "id": "b21fd5e1efad9fee328f645eb8e54096",
+    "company": "Moadna",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa255Ukcyemx6V3dNQlpLb01vRHBnSlg3MWFLcWhtcnhiX3ZYSHQ3WTBXWnQwdjNWX2FodGlmY3RJLWZpZm5EQ205aG40Q2lFMlhIU3hqbTFfc2pWRGlqOXYtekVVeHNBNnRrdEhfT29iWU40XzhlV3BOTnNpZXBtSHphMkI5YlMwQU9TekE1RTRMSUtDQS1VeV92aGtFc3ho?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T12:16:22.676284-07:00",
+    "status": "active"
+  },
+  {
     "id": "09e41d0de91c72ff79443dd117f12954",
     "company": "The Week\u2019s 10 Biggest Funding Rounds",
     "amount": "$310.0M",
