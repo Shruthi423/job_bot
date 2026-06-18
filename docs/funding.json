@@ -1,5 +1,18 @@
 [
   {
+    "id": "19b981d34a9a25023bd125546d9034db",
+    "company": "Republican Rep. Tom Kean Jr.",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/18/tom-kean-jr-june-30-return-capitol-dc-congress",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T12:40:49.627627-07:00",
+    "status": "active"
+  },
+  {
     "id": "b21fd5e1efad9fee328f645eb8e54096",
     "company": "Moadna",
     "amount": "Undisclosed",
