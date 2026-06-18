@@ -1,5 +1,31 @@
 [
   {
+    "id": "db5d79c8908fe96d1d9698ff16fe056a",
+    "company": "SpaceX",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Sequoia (news)",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTDR1TE9lZUJKQTRkQ1E2VjdYUzh3bERLWERiOFZxTmdnSlhmdGlQYXVxSXREUzA2a2VrTU5Fd01hSXJEUklUeG53bS1Fa1Jqd2cxZXdXek9qdE5ObzBnMm5GZHZzcXktaXozTkZ4T19GOUVPcTJncVJuQlZiRVAxQko5MmFpTTFvbDNBaHFZZ3Q?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T09:26:42.719482-07:00",
+    "status": "active"
+  },
+  {
+    "id": "1687089fb6353079e30adaf0d7b22087",
+    "company": "from Meta",
+    "amount": "$2.0B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "TechStartups",
+    "url": "https://techstartups.com/2026/06/18/manus-original-investors-seek-to-buy-back-ai-startup-from-meta-for-2-billion-as-revenue-nears-500-million/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T09:26:39.949077-07:00",
+    "status": "active"
+  },
+  {
     "id": "8802f8c94fc26d264ebb45fe3e884fd7",
     "company": "Warren",
     "amount": "Undisclosed",
