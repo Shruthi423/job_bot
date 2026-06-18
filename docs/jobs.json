@@ -1,5 +1,37 @@
 [
   {
+    "id": "38f88b6a78d112637be27e93874c4afa",
+    "title": "User Experience Researcher",
+    "company": "Delta Air Lines",
+    "location": "Atlanta, GA, US",
+    "salary": "Not listed",
+    "url": "https://www.indeed.com/viewjob?jk=e39cdd0f7627afb5",
+    "source": "Indeed",
+    "is_new_grad": true,
+    "is_big_tech": false,
+    "posted_at": "2026-01-23",
+    "priority": 4,
+    "first_seen": "2026-06-17T21:03:46.807645-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
+    "id": "f78717e0767d0a2005c8cf661a9a1a25",
+    "title": "Advanced Interaction Designer",
+    "company": "General Dynamics Mission Systems",
+    "location": "Dedham, MA",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4428792280",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "nan",
+    "priority": 4,
+    "first_seen": "2026-06-17T21:03:45.268250-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "ba2036e617d8424eb78fc2143864b309",
     "title": "Motion Designer at Moniepoint Group",
     "company": "Unknown",

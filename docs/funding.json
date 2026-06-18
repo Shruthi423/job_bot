@@ -1,5 +1,18 @@
 [
   {
+    "id": "4ca360d633435f300ed18d4a1a7b5577",
+    "company": "Tonada",
+    "amount": "Undisclosed",
+    "stage": "Pre-Seed",
+    "investors": "Undisclosed",
+    "source": "The SaaS News",
+    "url": "https://www.thesaasnews.com/news/tonada-raises-2-6m-pre-seed/",
+    "priority": 10,
+    "roles": [],
+    "first_seen": "2026-06-17T21:04:10.609594-07:00",
+    "status": "active"
+  },
+  {
     "id": "92ecb7a6cdbdab727564034550aa0ffd",
     "company": "Tenet",
     "amount": "$6.0M",
