@@ -1,5 +1,37 @@
 [
   {
+    "id": "ba2036e617d8424eb78fc2143864b309",
+    "title": "Motion Designer at Moniepoint Group",
+    "company": "Unknown",
+    "location": "Remote",
+    "salary": "$250",
+    "url": "https://remotefirstjobs.com/companies/moniepoint-inc/jobs/motion-designer-824484",
+    "source": "JobsCollider",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "Recently",
+    "priority": 5,
+    "first_seen": "2026-06-17T20:40:13.626289-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
+    "id": "8469cc64fb9cfdb30c9029d693075fc8",
+    "title": "Product Designer, Human Interface",
+    "company": "Meta",
+    "location": "New York, NY",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4430176948",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": true,
+    "posted_at": "nan",
+    "priority": 3,
+    "first_seen": "2026-06-17T20:40:12.056689-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "f7839b6e6d42eafb77918f684ce6b0b2",
     "title": "UI Designer - Remote in UK at Immersive Labs",
     "company": "Unknown",
