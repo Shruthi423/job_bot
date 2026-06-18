@@ -1,5 +1,44 @@
 [
   {
+    "id": "910a557376f11f956fc8dfea3b2814b5",
+    "company": "Context",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "SiliconANGLE",
+    "url": "https://siliconangle.com/2026/06/18/context-becoming-missing-layer-enterprise-ai-thecuberesearch/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T15:09:02.849242-07:00",
+    "status": "active"
+  },
+  {
+    "id": "ed867e19801368cb41822b4273219fef",
+    "company": "Singapore punches above its weight",
+    "amount": "$240.0B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/18/singapore-leads-southeast-asia-500-trafigura-dbs-flex-wilmar-olam-singtel/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T15:09:00.016604-07:00",
+    "status": "active"
+  },
+  {
+    "id": "b7b0d3fa5463b83335f43aaa08ffdaef",
+    "company": "Baseten reportedly raising $1.5B months",
+    "amount": "$1.5B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "TechCrunch Startups",
+    "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T14:51:39.758582-07:00",
+    "status": "active"
+  },
+  {
     "id": "ac47a49808ea5762a56c6db8801c65c0",
     "company": "Hispanic Caucus spending \"heavily\"",
     "amount": "$2.5M",
