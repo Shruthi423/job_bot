@@ -1,5 +1,18 @@
 [
   {
+    "id": "72a01d64523ffc3fa420a56b70401a3b",
+    "company": "Trace Finance",
+    "amount": "$32.0M",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "The SaaS News",
+    "url": "https://www.thesaasnews.com/news/trace-finance-raises-32m-series-a/",
+    "priority": 8,
+    "roles": [],
+    "first_seen": "2026-06-18T00:30:55.066455-07:00",
+    "status": "active"
+  },
+  {
     "id": "bad0a02e73b6cc42f203bff38a3a8032",
     "company": "Andera",
     "amount": "$37.0M",
