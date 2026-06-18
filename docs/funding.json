@@ -1,5 +1,44 @@
 [
   {
+    "id": "09e41d0de91c72ff79443dd117f12954",
+    "company": "The Week\u2019s 10 Biggest Funding Rounds",
+    "amount": "$310.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Sequoia (news)",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaWRoMXdkcDI2NXZYOFN1WUFIejZZbzBFNWN6MzVyVy10eFU3UEVtR1pSQTl6RHdYdXJFQTlqZlk5S3dRaXR3MHY3cGZhMXVFUkdCYl9RM3dmdzFSeFBSMkgxcVl0cFFlWDJPT1c0dE9mZWZLWXNsa0h4dVQwN1VuaGVBMFJ2Y1ZLRkVQNjJhdGtIbkRUTzJFRHlUZEhIWUVqbDNZd3ByU1lqUQ?oc=5",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T11:51:11.453124-07:00",
+    "status": "active"
+  },
+  {
+    "id": "e3a82f9b7b8af0b3da6ec159b0f711c9",
+    "company": "Kevin Warsh's Fed starts",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "will need to quickly wrap their heads around this new regime",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/18/fed-warsh-guidance-greenspan",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T11:51:08.071745-07:00",
+    "status": "active"
+  },
+  {
+    "id": "d67bdff88dd5692cc28849339d2fb7cc",
+    "company": "Iran's supreme leader",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/18/iran-us-deal-supreme-leader-mojtaba-khamenei-talks",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-18T11:51:04.664874-07:00",
+    "status": "active"
+  },
+  {
     "id": "db5d79c8908fe96d1d9698ff16fe056a",
     "company": "SpaceX",
     "amount": "Undisclosed",
