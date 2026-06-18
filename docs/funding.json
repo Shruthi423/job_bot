@@ -1,5 +1,18 @@
 [
   {
+    "id": "c3d7d823342da051fc76e9560a02705b",
+    "company": "Netanyahu fumes",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/18/israel-reaction-trump-iran-deal-netanyahu",
+    "priority": 3,
+    "roles": [],
+    "first_seen": "2026-06-17T20:11:26.295191-07:00",
+    "status": "active"
+  },
+  {
     "id": "707601c511d556c4e200091be6ea8431",
     "company": "XDOF",
     "amount": "$70.0M",
