@@ -1,5 +1,44 @@
 [
   {
+    "id": "bad0a02e73b6cc42f203bff38a3a8032",
+    "company": "Andera",
+    "amount": "$37.0M",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "The SaaS News",
+    "url": "https://www.thesaasnews.com/news/andera-raises-37m-series-a/",
+    "priority": 8,
+    "roles": [],
+    "first_seen": "2026-06-18T00:08:25.149279-07:00",
+    "status": "active"
+  },
+  {
+    "id": "b7e89af143e2d5dc2163539fca156e15",
+    "company": "Tringbox",
+    "amount": "Undisclosed",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRkhYbEswYmRHaUwzeTUtenJ3SGtNS3VqLXdTLTVlTVBmYVdwd1FWdTNybE1kblJaYUw1VGVlOW8zOTdUaFV0Vko1OVZhQ096Mnhia3lDRFh1bmd3TzEza2wwc0RwdWl1bDhSN1ZFUV83QWIteTFmU0lWT3dvQURtSE96XzlwUUhxQWpDQ19peXVxWDE5ZEZEdzhaMNIBmwFBVV95cUxQRkhYbEswYmRHaUwzeTUtenJ3SGtNS3VqLXdTLTVlTVBmYVdwd1FWdTNybE1kblJaYUw1VGVlOW8zOTdUaFV0Vko1OVZhQ096Mnhia3lDRFh1bmd3TzEza2wwc0RwdWl1bDhSN1ZFUV83QWIteTFmU0lWT3dvQURtSE96XzlwUUhxQWpDQ19peXVxWDE5ZEZEdzhaMA?oc=5",
+    "priority": 9,
+    "roles": [],
+    "first_seen": "2026-06-18T00:08:22.672711-07:00",
+    "status": "active"
+  },
+  {
+    "id": "235c30d521575ef20f879e75b92ecb3d",
+    "company": "CREST",
+    "amount": "$3.1M",
+    "stage": "Pre-Seed",
+    "investors": "Undisclosed",
+    "source": "The SaaS News",
+    "url": "https://www.thesaasnews.com/news/crest-raises-3-1m-pre-seed/",
+    "priority": 10,
+    "roles": [],
+    "first_seen": "2026-06-18T00:08:19.997485-07:00",
+    "status": "active"
+  },
+  {
     "id": "648c4fc761aa89ff735fb7b6f3202b00",
     "company": "TruNativ",
     "amount": "$30.0M",
