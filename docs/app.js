@@ -411,6 +411,10 @@ function load(animate) {
     .catch(() => {});
 }
 
+// arriving from the Just Raised page's tabs? open the requested drawer
+if (location.hash === "#drawer-app") state.drawer = "app";
+else if (location.hash === "#drawer-notapply") state.drawer = "notapply";
+
 applyChrome();
 bind();
 load(true);                          // animate on first paint

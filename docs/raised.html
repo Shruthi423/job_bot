@@ -13,13 +13,17 @@
 </head>
 <body>
   <!-- ── Top navigation (brand · back to board · status) ───────────── -->
-  <header class="nav nav-raised">
-    <a class="cell brand" href="#top">
+  <header class="nav">
+    <a class="cell brand" href="./index.html">
       <svg class="logo" viewBox="0 0 256 256" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M232,216H208V40a16,16,0,0,0-16-16H64A16,16,0,0,0,48,40V216H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16Zm-64,0H64V40H168Zm-40-84a12,12,0,1,1,12,12A12,12,0,0,1,128,132Z"></path></svg>
       <span>OpenTabs</span>
     </a>
-    <a class="cell tab" href="./index.html"><span class="t">← Job Board</span></a>
     <a class="cell tab is-active"><span class="t">Just Raised <em id="raisedCount">0</em></span></a>
+    <a class="cell tab" href="./index.html#sec-new"><span class="t">New <em data-count="new">0</em></span></a>
+    <a class="cell tab" href="./index.html#sec-yet"><span class="t">Older than a day <em data-count="yet">0</em></span></a>
+    <a class="cell tab" href="./index.html#sec-week"><span class="t">Older than a week <em data-count="week">0</em></span></a>
+    <a class="cell tab" href="./index.html#drawer-app"><span class="t">Apply <em data-count="app">0</em></span></a>
+    <a class="cell tab" href="./index.html#drawer-notapply"><span class="t">Not Apply <em data-count="notapply">0</em></span></a>
     <div class="cell status" id="status">Loading…</div>
   </header>
 

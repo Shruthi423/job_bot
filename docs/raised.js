@@ -125,7 +125,32 @@ $$('[data-rsort]').forEach((b) => b.addEventListener("click", () => {
   rsort = b.dataset.rsort; localStorage.setItem("raisedSort", rsort); applySort(); draw();
 }));
 
+/* ── Mirror the board's section counts on the shared top nav. Reads the
+   same localStorage marks/removed so the numbers match index.html.
+   (Bucket rule kept in sync with bucket() in app.js.) ── */
+function navCounts() {
+  let marks = {}, removed = new Set();
+  try { marks = JSON.parse(localStorage.getItem("marks") || "{}"); } catch {}
+  try { removed = new Set(JSON.parse(localStorage.getItem("removed") || "[]")); } catch {}
+  const NEW = 864e5, WEEK = 7 * 864e5, now = Date.now();
+  fetch("./jobs.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : [])).then((JOBS) => {
+    const c = { new: 0, yet: 0, week: 0, app: 0, notapply: 0 };
+    (Array.isArray(JOBS) ? JOBS : []).forEach((j) => {
+      if (removed.has(j.id)) return;
+      const m = marks[j.id];
+      let k;
+      if (m === "done" || j.status === "applied") k = "app";
+      else if (m === "notapply") k = "notapply";
+      else { const age = now - new Date(j.first_seen).getTime(); k = age <= NEW ? "new" : age <= WEEK ? "yet" : "week"; }
+      c[k]++;
+    });
+    Object.entries(c).forEach(([k, v]) =>
+      document.querySelectorAll(`[data-count="${k}"]`).forEach((e) => (e.textContent = v)));
+  }).catch(() => {});
+}
+
 applySort();
 applyView();
+navCounts();
 load();
-setInterval(load, 60000);   // live: silent refresh every 60s
+setInterval(() => { load(); navCounts(); }, 60000);   // live: silent refresh every 60s
