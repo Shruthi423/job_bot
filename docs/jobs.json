@@ -1,5 +1,21 @@
 [
   {
+    "id": "6ac8db1dd247739a432ab7022502c67b",
+    "title": "UI / UX Designer",
+    "company": "York Space Systems",
+    "location": "Austin, TX",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4428506107",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "nan",
+    "priority": 4,
+    "first_seen": "2026-06-19T11:06:05.411861-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "445379c40c948a57de8bbb936d9aeb6a",
     "title": "Visual Designer, Marketing & Communications",
     "company": "Accenture Federal Services",
