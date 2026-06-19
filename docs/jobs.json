@@ -1,5 +1,37 @@
 [
   {
+    "id": "7101e34768a31b36ea2be9772b0f6fe8",
+    "title": "Product Designer",
+    "company": "Traveler's Choice",
+    "location": "Pomona, CA, US",
+    "salary": "$65,000 \u2013 $100,000 / yearly",
+    "url": "https://www.indeed.com/viewjob?jk=cd9d354109891770",
+    "source": "Indeed",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "2026-06-19",
+    "priority": 4,
+    "first_seen": "2026-06-19T12:42:33.389487-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
+    "id": "4e415ff9279f54bcb922ad73fe53c244",
+    "title": "UX/UI Designer",
+    "company": "Skyward",
+    "location": "Rockville, MD",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4431127425",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "nan",
+    "priority": 4,
+    "first_seen": "2026-06-19T12:42:31.917454-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "f41d50a896f506a78bd18e34e3ae8289",
     "title": "User Experience Designer",
     "company": "Synchrony Systems, Inc.",
