@@ -1,5 +1,21 @@
 [
   {
+    "id": "1be7366febb139609c01d2e34a422e20",
+    "title": "Salesforce Developer / SDET (Automation & AI)",
+    "company": "Cognizant",
+    "location": "Hartford, CT, US",
+    "salary": "$53,477 \u2013 $104,500 / yearly",
+    "url": "https://www.indeed.com/viewjob?jk=1a296f74f7def640",
+    "source": "Indeed",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "2026-06-19",
+    "priority": 4,
+    "first_seen": "2026-06-19T15:03:56.074987-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "4b068cfb4008151fa6ae774e81c29221",
     "title": "Product Designer, AI Design Systems",
     "company": "Pop-Up Talent",
@@ -12,22 +28,6 @@
     "posted_at": "nan",
     "priority": 4,
     "first_seen": "2026-06-19T14:44:21.172922-07:00",
-    "status": "active",
-    "applied_at": null
-  },
-  {
-    "id": "c7742e626f618c6ef8d4649afc9a4193",
-    "title": "Front End .NET Developer",
-    "company": "Woven",
-    "location": "Carmel, IN, US",
-    "salary": "$60,000 \u2013 $80,000 / yearly",
-    "url": "https://www.indeed.com/viewjob?jk=adf6ddf9787e9d5c",
-    "source": "Indeed",
-    "is_new_grad": false,
-    "is_big_tech": false,
-    "posted_at": "2026-06-19",
-    "priority": 4,
-    "first_seen": "2026-06-19T14:44:19.685951-07:00",
     "status": "active",
     "applied_at": null
   },
