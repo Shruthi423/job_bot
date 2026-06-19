@@ -1,5 +1,37 @@
 [
   {
+    "id": "d0c631b4de861bc1a76e4d3980a935da",
+    "title": "User Experience Designer",
+    "company": "Accenture Federal Services",
+    "location": "Arlington, VA",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4369952565",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "nan",
+    "priority": 4,
+    "first_seen": "2026-06-19T09:47:16.987802-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
+    "id": "81ad27d0c606d3f4a4ff7318a4da0e1e",
+    "title": "UI Developer",
+    "company": "hackajob",
+    "location": "Hanover, NJ",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4419081329",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "nan",
+    "priority": 4,
+    "first_seen": "2026-06-19T09:47:15.477974-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "f76faacc76dde1f45ccdca299dded11c",
     "title": "Product Designer",
     "company": "Profound",
