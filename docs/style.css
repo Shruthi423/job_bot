@@ -198,6 +198,18 @@ input[type="range"]::-moz-range-thumb {
 }
 .raise-top .badge.t1 { color: var(--fg); }
 .raise-top .src { margin-left: auto; }
+/* Highlighted facts: how much they raised + where they're based */
+.raise-highlight {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 11px;
+}
+.hl {
+  display: inline-flex; align-items: center; gap: 5px;
+  border: 1px solid var(--line); border-radius: 20px;
+  padding: 4px 11px; font-size: 13px; line-height: 1;
+}
+.hl-amt { color: var(--spec); font-weight: 700; letter-spacing: -.01em; border-color: var(--spec); }
+.hl-loc { color: var(--fg); }
+.hl-loc .ico-pin { flex: none; opacity: .8; }
 .raise-co {
   display: block; color: var(--fg); font-family: var(--font-title);
   font-size: calc(var(--spec-size, 24px) * .8); line-height: 1.12;
@@ -330,12 +342,14 @@ main.list .apply { font-size: 12px; }
 .seg-view .view svg { display: block; opacity: .85; transition: opacity .15s ease; }
 .seg-view .view:hover svg, .seg-view .view.is-on svg { opacity: 1; }
 
-/* ── Remove button (sits alongside the other card actions) ─────── */
-.act.remove {
-  background: none; border: 0; color: var(--mut); padding: 4px 2px;
-  border-bottom: 1px solid transparent;
+/* ── Icon actions: Undo + Remove (sit alongside Done / Not yet) ── */
+.act.icon {
+  background: none; border: 0; padding: 2px; color: var(--mut);
+  display: inline-flex; align-items: center; line-height: 0; cursor: pointer;
 }
-.act.remove:hover { color: var(--fg); border-bottom-color: var(--fg); }
+.act.icon svg { display: block; }
+.act.icon:hover { color: var(--fg); }
+.act.icon.remove:hover { color: #e5484d; }   /* destructive hint on hover */
 
 /* ── "N hidden · Restore" link in the footer ───────────────────── */
 .restore {

@@ -24,20 +24,28 @@ function ago(when) {
   return Math.floor(d / 86400) + "d ago";
 }
 
+/* map-pin glyph for the highlighted location chip */
+const PIN_SVG = '<svg class="ico-pin" width="13" height="13" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M128,16a88.1,88.1,0,0,0-88,88c0,75.3,80,132.17,83.41,134.55a8,8,0,0,0,9.18,0C136,236.17,216,179.3,216,104A88.1,88.1,0,0,0,128,16Zm0,56a32,32,0,1,1-32,32A32,32,0,0,1,128,72Z"></path></svg>';
+
 function cardHTML(f, n) {
   const idx   = String(n).padStart(2, "0");
   const tier1 = (f.priority || 0) >= 8;
+  // company HQ from the bot, else fall back to the first matched role's location
+  const loc   = f.location || (f.roles && f.roles[0] && f.roles[0].location) || "";
   const roles = (f.roles || []).map((r) =>
     `<a class="role" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}` +
     (r.location ? `<span class="role-loc"> · ${esc(r.location)}</span>` : "") + `</a>`).join("");
   return `<article class="raise">
       <div class="raise-top">
         <span class="idx">${idx}</span>
-        <span class="amt">${esc(f.amount || "Undisclosed")}</span>
         ${tier1 ? '<span class="badge t1">Tier-1 VC</span>' : ""}
         <span class="src">${esc(f.source || "")} · ${ago(f.first_seen)}</span>
       </div>
       <a class="raise-co" href="${esc(f.url || "#")}" target="_blank" rel="noopener">${esc(f.company)}</a>
+      <div class="raise-highlight">
+        <span class="hl hl-amt">${esc(f.amount || "Undisclosed")}</span>
+        ${loc ? `<span class="hl hl-loc">${PIN_SVG}${esc(loc)}</span>` : ""}
+      </div>
       <div class="raise-meta">${esc(f.stage || "—")}<span class="sep">/</span>${esc(f.investors || "—")}</div>
       ${roles ? `<div class="roles"><span class="roles-lbl">Open design roles</span>${roles}</div>`
               : `<div class="roles none">No design roles posted yet — DM the founder.</div>`}

@@ -6,6 +6,7 @@
    ════════════════════════════════════════════════════════════════ */
 
 const NEW_MS = 24 * 3600 * 1000;        // "New" = found in the last 24h
+const WEEK_MS = 7 * 24 * 3600 * 1000;   // boundary between "older than a day" and "a week"
 let JOBS = [];                          // raw data from jobs.json
 let FUND = [];                          // raw data from funding.json (raises)
 
@@ -15,7 +16,7 @@ const state = {
   source: "",
   loc: "",
   badge: "",
-  sort: "priority",
+  sort: "location",
   size: +(localStorage.getItem("size") || 24),
   theme: localStorage.getItem("theme") || "dark",
   view: localStorage.getItem("view") || "board",   // "board" (cols) or "list"
@@ -113,10 +114,11 @@ function salaryNum(s) {                  // first $ figure, for sorting
 }
 function bucket(j) {                      // which section a job belongs to
   const s = effStatus(j);
-  if (s === "done") return "app";        // Applied
-  if (s === "yet") return "yet";         // Not yet → Yet to Apply
-  if (Date.now() - new Date(j.first_seen).getTime() <= NEW_MS) return "new";
-  return "yet";                          // older & untouched → Yet to Apply
+  if (s === "done") return "app";        // Applied (drawer)
+  const age = Date.now() - new Date(j.first_seen).getTime();
+  if (s !== "yet" && age <= NEW_MS) return "new";  // fresh & not "Not yet"-demoted
+  if (age <= WEEK_MS) return "yet";      // older than a day (within a week)
+  return "week";                         // older than a week
 }
 
 /* ── filtering + sorting ──────────────────────────────────────── */
@@ -134,20 +136,22 @@ function visible() {
     return true;
   });
   out.sort((a, b) => {
-    if (state.sort === "priority") {                 // SF → Bay → Seattle/LA/NY/Philly → US → remote
-      const pa = a.priority || 9, pb = b.priority || 9;
-      if (pa !== pb) return pa - pb;
-      return (b.first_seen || "").localeCompare(a.first_seen || "");
-    }
-    if (state.sort === "salary")  return salaryNum(b.salary) - salaryNum(a.salary);
-    if (state.sort === "company") return (a.company || "").localeCompare(b.company || "");
-    return (b.first_seen || "").localeCompare(a.first_seen || ""); // newest
+    if (state.sort === "salary") return salaryNum(b.salary) - salaryNum(a.salary);
+    // Location (default): SF → Bay → Seattle/LA/NY/Philly → US → remote,
+    // newest first within a tier.
+    const pa = a.priority || 9, pb = b.priority || 9;
+    if (pa !== pb) return pa - pb;
+    return (b.first_seen || "").localeCompare(a.first_seen || "");
   });
   return out;
 }
 
 /* LinkedIn glyph — shown in place of the "Linkedin" source label */
-const LI_SVG = '<svg class="ico-li" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" aria-label="LinkedIn"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg>';
+const LI_SVG = '<svg class="ico-li" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" aria-label="LinkedIn"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24ZM96,176a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0ZM88,96a12,12,0,1,1,12-12A12,12,0,0,1,88,96Zm96,80a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140Z"></path></svg>';
+
+/* Action icons — undo (revert) + remove (hide). Inherit currentColor. */
+const UNDO_SVG = '<svg width="16" height="16" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M232,112a64.07,64.07,0,0,1-64,64H88v40a8,8,0,0,1-13.66,5.66l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,88,120v40h80a48,48,0,0,0,0-96H80a8,8,0,0,1,0-16h88A64.07,64.07,0,0,1,232,112Z"></path></svg>';
+const REMOVE_SVG = '<svg width="16" height="16" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,130.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>';
 /* Money glyph — replaces the 💰 emoji on "just raised" sources */
 const MONEY_SVG = '<svg class="ico-money" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" aria-label="Just raised"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm40-68a28,28,0,0,1-28,28h-4v8a8,8,0,0,1-16,0v-8H104a8,8,0,0,1,0-16h36a12,12,0,0,0,0-24H116a28,28,0,0,1,0-56h4V72a8,8,0,0,1,16,0v8h16a8,8,0,0,1,0,16H116a12,12,0,0,0,0,24h24A28,28,0,0,1,168,148Z"></path></svg>';
 function sourceLabel(src) {
@@ -167,17 +171,17 @@ function jobHTML(j, n, k) {
   const href = j.url ? esc(j.url) : "#";
   const idx = String(n).padStart(2, "0");
   let actions;
-  if (k === "app") {                       // Applied → Undo
-    actions = '<button class="act ghost" data-act="reset">Undo</button>';
+  if (k === "app") {                       // Applied → (icons only)
+    actions = "";
   } else if (k === "new") {                // New → Done / Not yet
     actions = '<button class="act done" data-act="done">Done</button>' +
               '<button class="act ghost" data-act="yet">Not yet</button>';
-  } else {                                 // Older than a day → Done (+ Undo if moved here)
-    actions = '<button class="act done" data-act="done">Done</button>' +
-              (MARKS[j.id] === "yet" ? '<button class="act ghost" data-act="reset">Undo</button>' : "");
+  } else {                                 // Older than a day → Done
+    actions = '<button class="act done" data-act="done">Done</button>';
   }
-  // every card can be removed from the board (hidden locally, restorable)
-  actions += '<button class="act remove" data-act="remove" aria-label="Remove from list">Remove</button>';
+  // every card: Undo (revert state) + Remove (hide locally, restorable)
+  actions += `<button class="act icon" data-act="reset" title="Undo" aria-label="Undo">${UNDO_SVG}</button>` +
+             `<button class="act icon remove" data-act="remove" title="Remove" aria-label="Remove from list">${REMOVE_SVG}</button>`;
   return `<div class="job" data-id="${esc(j.id)}" data-flip-id="${esc(j.id)}">
       <div class="job-top">
         <span class="idx">${idx}</span>
@@ -197,13 +201,13 @@ function jobHTML(j, n, k) {
 
 function render(animate) {
   const jobs = visible();
-  const groups = { new: [], yet: [], app: [] };
+  const groups = { new: [], yet: [], week: [], app: [] };
   jobs.forEach((j) => groups[bucket(j)].push(j));
-  // "New" column is always newest-posted first; Applied = most recently moved
-  groups.new.sort((a, b) => jobTime(b) - jobTime(a));
+  // New / Older-day / Older-week follow the global Sort-by (Location / Salary)
+  // from visible(). Applied stays most-recently-moved first.
   groups.app.sort((a, b) => jobTime(b) - jobTime(a));
 
-  ["new", "yet", "app"].forEach((k) => {
+  ["new", "yet", "week", "app"].forEach((k) => {
     $("#rows-" + k).innerHTML =
       groups[k].length ? groups[k].map((j, i) => jobHTML(j, i + 1, k)).join("")
                        : '<div class="col-empty">Nothing here.</div>';
@@ -290,13 +294,6 @@ function bind() {
   $$('.sw').forEach((b) => b.addEventListener("click", () => {
     state.theme = b.dataset.theme; localStorage.setItem("theme", state.theme); applyChrome();
   }));
-
-  $("#resetBtn").addEventListener("click", () => {
-    Object.assign(state, { q: "", source: "", loc: "", badge: "", sort: "priority" });
-    $("#q").value = ""; $("#fSource").value = ""; $("#fLoc").value = ""; $("#fBadge").value = "";
-    $$('[data-sort]').forEach((x) => x.classList.toggle("is-on", x.dataset.sort === "priority"));
-    render(true);
-  });
 
   // nav tabs smooth-scroll to their section
   $$('[data-jump]').forEach((t) => t.addEventListener("click", (e) => {

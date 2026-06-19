@@ -21,6 +21,7 @@
     <a class="cell tab" href="./raised.html"><span class="t">Just Raised <em data-count="raised">0</em></span></a>
     <a class="cell tab" data-jump="new"><span class="t">New <em data-count="new">0</em></span></a>
     <a class="cell tab" data-jump="yet"><span class="t">Older than a day <em data-count="yet">0</em></span></a>
+    <a class="cell tab" data-jump="week"><span class="t">Older than a week <em data-count="week">0</em></span></a>
     <a class="cell tab" id="appTab"><span class="t">Applied <em data-count="app">0</em></span></a>
     <div class="cell status" id="status">Loading…</div>
     <button class="cell menu" id="menuBtn" aria-label="Toggle filters">Filters</button>
@@ -70,10 +71,8 @@
       <div class="right">
         <span class="sortlbl">Sort by</span>
         <span class="seg">
-          <button class="sort is-on" data-sort="priority">Priority</button>
-          <button class="sort" data-sort="new">Newest</button>
+          <button class="sort is-on" data-sort="location">Location</button>
           <button class="sort" data-sort="salary">Salary</button>
-          <button class="sort" data-sort="company">A–Z</button>
         </span>
         <span class="swatches" id="swatches" aria-label="Colour theme">
           <button class="sw" data-theme="dark"  style="--c:#0c0d0f" title="Dark"></button>
@@ -82,20 +81,23 @@
           <button class="sw" data-theme="mint"  style="--c:#d9f0db" title="Mint"></button>
           <button class="sw" data-theme="cream" style="--c:#f1efbe" title="Cream"></button>
         </span>
-        <button class="reset" id="resetBtn">Reset All</button>
       </div>
     </div>
   </section>
 
-  <!-- ── Two-column board (Applied lives in the right drawer) ──────── -->
+  <!-- ── Three-column board (Applied lives in the right drawer) ────── -->
   <main id="top" class="board">
     <section class="col" id="sec-new">
-      <div class="col-head"><h2>New</h2><em data-count="new">0</em><span class="hint">newest posted first</span></div>
+      <div class="col-head"><h2>New</h2><em data-count="new">0</em><span class="hint">last 24h</span><button class="clear-all" data-clear="new">Clear all</button></div>
       <div class="rows" id="rows-new"></div>
     </section>
     <section class="col" id="sec-yet">
-      <div class="col-head"><h2>Older than a day</h2><em data-count="yet">0</em><span class="hint">over 24h old</span></div>
+      <div class="col-head"><h2>Older than a day</h2><em data-count="yet">0</em><span class="hint">1–7 days</span><button class="clear-all" data-clear="yet">Clear all</button></div>
       <div class="rows" id="rows-yet"></div>
+    </section>
+    <section class="col" id="sec-week">
+      <div class="col-head"><h2>Older than a week</h2><em data-count="week">0</em><span class="hint">over 7 days</span><button class="clear-all" data-clear="week">Clear all</button></div>
+      <div class="rows" id="rows-week"></div>
     </section>
   </main>
 
