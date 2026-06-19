@@ -1,5 +1,47 @@
 [
   {
+    "id": "5ed561b9340a65d48e570dd4603477e9",
+    "company": "Funding Rounds of All Time (2026",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Sequoia (news)",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYWI4MXZ2U2lhVnNLcG9fQ2lUMHpBZ21FYy1EUlVHaGg2NktVTFhxS2lkSzJ3NlRZYnR4OTB5NGp6dUd3MDdLZFJ0TkN4ZHNBTWM4RnlVSDFadDUyNHNMODZLa0RWTUozdTExTkluZkNFLUxEajcwLW9UdlZmLWQyZUM1TmxXNUp5Y0JoZk5BajhEdw?oc=5",
+    "priority": 3,
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-19T16:56:51.112905-07:00",
+    "status": "active"
+  },
+  {
+    "id": "196ca0e2188a2b2b91307aff7f0d554a",
+    "company": "The Best GTM Data You Own",
+    "amount": "$15.0M",
+    "stage": "Series B",
+    "investors": "Undisclosed",
+    "source": "SaaStr",
+    "url": "https://www.saastr.com/how-attention-com-turns-sales-calls-into-pipeline-the-best-gtm-data-you-own-and-why-most-b2b-teams-throw-it-away/",
+    "priority": 7,
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-19T16:56:47.735996-07:00",
+    "status": "active"
+  },
+  {
+    "id": "21f6a54f2f3b82d5dc6813882937f04c",
+    "company": "Deductive AI",
+    "amount": "$85.0M",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "SiliconANGLE",
+    "url": "https://siliconangle.com/2026/06/19/elastic-reportedly-acquires-site-reliability-engineering-startup-deductive-ai/",
+    "priority": 9,
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-19T16:56:44.335349-07:00",
+    "status": "active"
+  },
+  {
     "id": "d9fd6d4ee16e1d844e7b09c1199b8f05",
     "company": "Copenhagen-based Kvasir Technologies",
     "amount": "Undisclosed",
@@ -1703,19 +1745,6 @@
     "status": "active"
   },
   {
-    "id": "196ca0e2188a2b2b91307aff7f0d554a",
-    "company": "The Best GTM Data You Own",
-    "amount": "$15.0M",
-    "stage": "Series B",
-    "investors": "Undisclosed",
-    "source": "SaaStr",
-    "url": "https://www.saastr.com/how-attention-com-turns-sales-calls-into-pipeline-the-best-gtm-data-you-own-and-why-most-b2b-teams-throw-it-away/",
-    "priority": 7,
-    "roles": [],
-    "first_seen": "2026-06-19T04:36:15.051381-07:00",
-    "status": "active"
-  },
-  {
     "id": "8f9fd44c3e44baceb38923fa70aa7037",
     "company": "Soource",
     "amount": "Undisclosed",
@@ -2129,19 +2158,6 @@
     "priority": 8,
     "roles": [],
     "first_seen": "2026-06-17T16:17:50.481476-07:00",
-    "status": "active"
-  },
-  {
-    "id": "5ed561b9340a65d48e570dd4603477e9",
-    "company": "Funding Rounds of All Time (2026",
-    "amount": "Undisclosed",
-    "stage": "?",
-    "investors": "Undisclosed",
-    "source": "Sequoia (news)",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYWI4MXZ2U2lhVnNLcG9fQ2lUMHpBZ21FYy1EUlVHaGg2NktVTFhxS2lkSzJ3NlRZYnR4OTB5NGp6dUd3MDdLZFJ0TkN4ZHNBTWM4RnlVSDFadDUyNHNMODZLa0RWTUozdTExTkluZkNFLUxEajcwLW9UdlZmLWQyZUM1TmxXNUp5Y0JoZk5BajhEdw?oc=5",
-    "priority": 3,
-    "roles": [],
-    "first_seen": "2026-06-17T15:25:30.125314-07:00",
     "status": "active"
   },
   {
