@@ -1,6 +1,6 @@
 /* ════════════════════════════════════════════════════════════════
    OpenTabs — Just Raised page
-   Reads ./funding.json (written by job_bot.py's funding radar) and
+   Reads ./funding.json (written by opentabs.py's funding radar) and
    renders a feed of recent raises + the design roles each is hiring for.
    Separate from the job board (index.html) on purpose: this page is
    funding NEWS for research/outreach, not postings to apply to.

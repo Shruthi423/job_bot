@@ -1,6 +1,6 @@
 /* ════════════════════════════════════════════════════════════════
    OpenTabs — front-end logic
-   Reads ./jobs.json (written by job_bot.py), renders the three
+   Reads ./jobs.json (written by opentabs.py), renders the three
    sections, and handles search / filters / sort / views / theme.
    The ONLY link to the Python bot is this jobs.json file.
    ════════════════════════════════════════════════════════════════ */
