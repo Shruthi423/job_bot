@@ -22,7 +22,8 @@
     <a class="cell tab" data-jump="new"><span class="t">New <em data-count="new">0</em></span></a>
     <a class="cell tab" data-jump="yet"><span class="t">Older than a day <em data-count="yet">0</em></span></a>
     <a class="cell tab" data-jump="week"><span class="t">Older than a week <em data-count="week">0</em></span></a>
-    <a class="cell tab" id="appTab"><span class="t">Applied <em data-count="app">0</em></span></a>
+    <a class="cell tab" id="appTab"><span class="t">Apply <em data-count="app">0</em></span></a>
+    <a class="cell tab" id="notTab"><span class="t">Not Apply <em data-count="notapply">0</em></span></a>
     <div class="cell status" id="status">Loading…</div>
     <button class="cell menu" id="menuBtn" aria-label="Toggle filters">Filters</button>
   </header>
@@ -81,6 +82,7 @@
           <button class="sw" data-theme="mint"  style="--c:#d9f0db" title="Mint"></button>
           <button class="sw" data-theme="cream" style="--c:#f1efbe" title="Cream"></button>
         </span>
+        <button class="undo-all" id="undoBtn" title="Undo last action" aria-label="Undo last action" disabled><svg viewBox="0 0 256 256" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M232,112a64.07,64.07,0,0,1-64,64H88v40a8,8,0,0,1-13.66,5.66l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,88,120v40h80a48,48,0,0,0,0-96H80a8,8,0,0,1,0-16h88A64.07,64.07,0,0,1,232,112Z"></path></svg></button>
       </div>
     </div>
   </section>
@@ -101,16 +103,29 @@
     </section>
   </main>
 
-  <!-- ── Applied: collapsible drawer that slides in from the right ─── -->
-  <button class="drawer-tab" id="drawerTab" aria-label="Open applied"><span>Applied</span><em data-count="app">0</em></button>
+  <!-- ── Apply + Not Apply: collapsible drawers from the right ─────── -->
+  <div class="drawer-tabs">
+    <button class="drawer-tab" id="tabApp" aria-label="Open Apply"><span>Apply</span><em data-count="app">0</em></button>
+    <button class="drawer-tab" id="tabNot" aria-label="Open Not Apply"><span>Not Apply</span><em data-count="notapply">0</em></button>
+  </div>
   <div class="drawer-scrim" id="drawerScrim"></div>
-  <aside class="drawer" id="drawer" aria-label="Applied jobs">
+
+  <aside class="drawer drawer-app" id="drawerApp" aria-label="Applied jobs">
     <div class="drawer-head">
-      <h2>Applied <em data-count="app">0</em></h2>
+      <h2>Apply <em data-count="app">0</em></h2>
       <button class="clear-all" data-clear="app">Clear all</button>
-      <button class="drawer-close" id="drawerClose" aria-label="Close applied">✕</button>
+      <button class="drawer-close" data-close aria-label="Close">✕</button>
     </div>
     <div class="rows" id="rows-app"></div>
+  </aside>
+
+  <aside class="drawer drawer-not" id="drawerNot" aria-label="Not Apply jobs">
+    <div class="drawer-head">
+      <h2>Not Apply <em data-count="notapply">0</em></h2>
+      <button class="clear-all" data-clear="notapply">Clear all</button>
+      <button class="drawer-close" data-close aria-label="Close">✕</button>
+    </div>
+    <div class="rows" id="rows-notapply"></div>
   </aside>
 
   <footer class="foot">

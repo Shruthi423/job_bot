@@ -30,6 +30,10 @@
   --bg:#f9f8d8; --fg:#1a1a0e; --spec:#1a1a0e; --mut:#9c9a6f;
   --line:rgba(26,26,14,.14); --field-bg:#f9f8d8; --active-bg:#1a1a0e; --active-fg:#f9f8d8;
 }
+/* Native <select> dropdowns follow the active theme (dark vs light popups) */
+:root[data-theme="dark"] { color-scheme: dark; }
+:root[data-theme="paper"], :root[data-theme="blush"],
+:root[data-theme="mint"],  :root[data-theme="cream"] { color-scheme: light; }
 
 * { box-sizing: border-box; }
 html, body { margin: 0; }
@@ -56,7 +60,7 @@ sup { font-size: .5em; vertical-align: super; }
 .nav {
   position: sticky; top: 0; z-index: 20;
   display: grid;
-  grid-template-columns: 1.1fr .8fr .7fr 1.2fr 1.3fr .7fr 1.3fr;
+  grid-template-columns: 1fr .8fr .6fr 1.15fr 1.25fr .7fr .85fr 1.1fr;
   background: var(--bg);
   border-bottom: 1px solid var(--line);
 }
@@ -296,13 +300,16 @@ a.role .role-loc { color: var(--mut); }
 .col-empty { padding: 18px; color: var(--mut); font-size: 12px; }
 
 /* Applied items read as struck-through checklist entries */
-.drawer .job-title {
+.drawer-app .job-title {
   text-decoration: line-through;
   text-decoration-thickness: 2px;
   text-decoration-color: var(--spec);
   color: var(--mut);
 }
-.drawer .job:hover .job-title { opacity: 1; color: var(--fg); }
+.drawer-app .job:hover .job-title { opacity: 1; color: var(--fg); }
+/* Not Apply items read as quietly dimmed (no strike) */
+.drawer-not .job-title { color: var(--mut); }
+.drawer-not .job:hover .job-title { color: var(--fg); }
 
 /* animated strike that draws left→right when you click Done (GSAP sets --strike) */
 .job-title.striking {
@@ -364,25 +371,28 @@ main.list .apply { font-size: 12px; }
 .restore:hover { color: var(--fg); border-bottom-color: var(--fg); }
 
 /* ── Applied drawer — collapsible panel from the right edge ────── */
-.drawer-tab {
+.drawer-tabs {
   position: fixed; right: 0; top: 50%; transform: translateY(-50%);
-  z-index: 25; writing-mode: vertical-rl;
+  z-index: 25; display: flex; flex-direction: column; gap: 8px; align-items: flex-end;
+  transition: opacity .25s ease;
+}
+.drawer-tab {
+  writing-mode: vertical-rl;
   display: inline-flex; align-items: center; gap: 10px;
   background: var(--active-bg); color: var(--active-fg);
   border: 0; border-radius: 10px 0 0 10px; cursor: pointer;
   font-family: var(--font-ui); font-size: 12px; letter-spacing: .12em;
-  text-transform: uppercase; padding: 18px 9px;
-  transition: opacity .25s ease;
+  text-transform: uppercase; padding: 16px 9px; transition: opacity .2s ease;
 }
 .drawer-tab em { font-style: normal; opacity: .7; }
-.drawer-tab:hover { opacity: .9; }
-body.drawer-open .drawer-tab { opacity: 0; pointer-events: none; }
+.drawer-tab:hover { opacity: .88; }
+body[data-drawer]:not([data-drawer=""]) .drawer-tabs { opacity: 0; pointer-events: none; }
 
 .drawer-scrim {
   position: fixed; inset: 0; z-index: 29; background: rgba(0,0,0,.32);
   opacity: 0; pointer-events: none; transition: opacity .35s ease;
 }
-body.drawer-open .drawer-scrim { opacity: 1; pointer-events: auto; }
+body[data-drawer]:not([data-drawer=""]) .drawer-scrim { opacity: 1; pointer-events: auto; }
 
 .drawer {
   position: fixed; top: 0; right: 0; z-index: 30;
@@ -392,7 +402,10 @@ body.drawer-open .drawer-scrim { opacity: 1; pointer-events: auto; }
   transform: translateX(100%);
   transition: transform .42s cubic-bezier(.22,1,.36,1);
 }
-body.drawer-open .drawer { transform: translateX(0); box-shadow: -22px 0 50px rgba(0,0,0,.22); }
+body[data-drawer="app"] .drawer-app,
+body[data-drawer="notapply"] .drawer-not {
+  transform: translateX(0); box-shadow: -22px 0 50px rgba(0,0,0,.22);
+}
 .drawer-head {
   display: flex; align-items: center; gap: 10px;
   padding: 20px 18px 14px; border-bottom: 1px solid var(--line); flex: none;

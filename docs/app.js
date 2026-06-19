@@ -20,7 +20,7 @@ const state = {
   size: +(localStorage.getItem("size") || 24),
   theme: localStorage.getItem("theme") || "dark",
   view: localStorage.getItem("view") || "board",   // "board" (cols) or "list"
-  appliedOpen: localStorage.getItem("appliedOpen") === "1",   // Applied drawer
+  drawer: localStorage.getItem("drawer") || "",     // open drawer: "" | "app" | "notapply"
 };
 const THEMES = ["dark", "paper", "blush", "mint", "cream"];
 if (window.gsap && window.Flip) gsap.registerPlugin(Flip);
@@ -28,16 +28,16 @@ if (window.gsap && window.Flip) gsap.registerPlugin(Flip);
 /* ── Your Applied / Dismissed marks, saved in this browser ──────── */
 function loadMarks() { try { return JSON.parse(localStorage.getItem("marks") || "{}"); } catch { return {}; } }
 function saveMarks(m) { localStorage.setItem("marks", JSON.stringify(m)); }
-let MARKS = loadMarks();                          // { jobId: "done" | "yet" }
+let MARKS = loadMarks();                          // { jobId: "done" | "notapply" }
 function effStatus(j) {
   const m = MARKS[j.id];
   if (m === "done" || j.status === "applied") return "done";
-  if (m === "yet") return "yet";
+  if (m === "notapply") return "notapply";
   return "active";                                // untriaged / fresh
 }
 function applyMark(id, act) {
   if (act === "reset") delete MARKS[id];
-  else MARKS[id] = act;                            // "done" | "yet"
+  else MARKS[id] = act;                            // "done" | "notapply"
   saveMarks(MARKS);
 }
 
@@ -45,6 +45,23 @@ function applyMark(id, act) {
 function loadRemoved() { try { return new Set(JSON.parse(localStorage.getItem("removed") || "[]")); } catch { return new Set(); } }
 function saveRemoved() { localStorage.setItem("removed", JSON.stringify([...REMOVED])); }
 let REMOVED = loadRemoved();                        // Set<jobId>
+
+/* ── One global undo stack — reverts the previous action (session only) ── */
+const UNDO_STACK = [];                              // {type:"mark",id,prev} | {type:"remove",ids}
+function pushUndo(entry) { UNDO_STACK.push(entry); refreshUndo(); }
+function refreshUndo() { const b = $("#undoBtn"); if (b) b.disabled = UNDO_STACK.length === 0; }
+function undoLast() {
+  const e = UNDO_STACK.pop();
+  if (!e) return;
+  if (e.type === "mark") {
+    if (e.prev === undefined) delete MARKS[e.id]; else MARKS[e.id] = e.prev;
+    saveMarks(MARKS);
+  } else if (e.type === "remove") {
+    e.ids.forEach((id) => REMOVED.delete(id)); saveRemoved();
+  }
+  refreshUndo();
+  render(true);
+}
 // move a card between sections with a GSAP Flip transition (card "flies")
 function flipMove(id, act) {
   if (window.gsap && window.Flip) {
@@ -114,9 +131,10 @@ function salaryNum(s) {                  // first $ figure, for sorting
 }
 function bucket(j) {                      // which section a job belongs to
   const s = effStatus(j);
-  if (s === "done") return "app";        // Applied (drawer)
+  if (s === "done") return "app";        // Apply drawer
+  if (s === "notapply") return "notapply"; // Not Apply drawer
   const age = Date.now() - new Date(j.first_seen).getTime();
-  if (s !== "yet" && age <= NEW_MS) return "new";  // fresh & not "Not yet"-demoted
+  if (age <= NEW_MS) return "new";       // fresh
   if (age <= WEEK_MS) return "yet";      // older than a day (within a week)
   return "week";                         // older than a week
 }
@@ -149,8 +167,7 @@ function visible() {
 /* LinkedIn glyph — shown in place of the "Linkedin" source label */
 const LI_SVG = '<svg class="ico-li" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" aria-label="LinkedIn"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24ZM96,176a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0ZM88,96a12,12,0,1,1,12-12A12,12,0,0,1,88,96Zm96,80a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140Z"></path></svg>';
 
-/* Action icons — undo (revert) + remove (hide). Inherit currentColor. */
-const UNDO_SVG = '<svg width="16" height="16" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M232,112a64.07,64.07,0,0,1-64,64H88v40a8,8,0,0,1-13.66,5.66l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,88,120v40h80a48,48,0,0,0,0-96H80a8,8,0,0,1,0-16h88A64.07,64.07,0,0,1,232,112Z"></path></svg>';
+/* Remove glyph (X-circle) on each card. Inherits currentColor. */
 const REMOVE_SVG = '<svg width="16" height="16" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,130.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>';
 /* Money glyph — replaces the 💰 emoji on "just raised" sources */
 const MONEY_SVG = '<svg class="ico-money" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" aria-label="Just raised"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm40-68a28,28,0,0,1-28,28h-4v8a8,8,0,0,1-16,0v-8H104a8,8,0,0,1,0-16h36a12,12,0,0,0,0-24H116a28,28,0,0,1,0-56h4V72a8,8,0,0,1,16,0v8h16a8,8,0,0,1,0,16H116a12,12,0,0,0,0,24h24A28,28,0,0,1,168,148Z"></path></svg>';
@@ -170,18 +187,13 @@ function jobHTML(j, n, k) {
     (j.is_big_tech ? '<span class="badge">Big Tech</span>' : "");
   const href = j.url ? esc(j.url) : "#";
   const idx = String(n).padStart(2, "0");
-  let actions;
-  if (k === "app") {                       // Applied → (icons only)
-    actions = "";
-  } else if (k === "new") {                // New → Done / Not yet
-    actions = '<button class="act done" data-act="done">Done</button>' +
-              '<button class="act ghost" data-act="yet">Not yet</button>';
-  } else {                                 // Older than a day → Done
-    actions = '<button class="act done" data-act="done">Done</button>';
-  }
-  // every card: Undo (revert state) + Remove (hide locally, restorable)
-  actions += `<button class="act icon" data-act="reset" title="Undo" aria-label="Undo">${UNDO_SVG}</button>` +
-             `<button class="act icon remove" data-act="remove" title="Remove" aria-label="Remove from list">${REMOVE_SVG}</button>`;
+  // Drawer items (Apply / Not Apply) show only Remove; board cards get the
+  // Apply / Not apply actions. A single global Undo handles reverts.
+  let actions = (k === "app" || k === "notapply")
+    ? ""
+    : '<button class="act done" data-act="done">Apply</button>' +
+      '<button class="act ghost" data-act="notapply">Not apply</button>';
+  actions += `<button class="act icon remove" data-act="remove" title="Remove" aria-label="Remove from list">${REMOVE_SVG}</button>`;
   return `<div class="job" data-id="${esc(j.id)}" data-flip-id="${esc(j.id)}">
       <div class="job-top">
         <span class="idx">${idx}</span>
@@ -201,13 +213,14 @@ function jobHTML(j, n, k) {
 
 function render(animate) {
   const jobs = visible();
-  const groups = { new: [], yet: [], week: [], app: [] };
+  const groups = { new: [], yet: [], week: [], app: [], notapply: [] };
   jobs.forEach((j) => groups[bucket(j)].push(j));
-  // New / Older-day / Older-week follow the global Sort-by (Location / Salary)
-  // from visible(). Applied stays most-recently-moved first.
+  // Board columns follow the global Sort-by (Location / Salary) from visible().
+  // Drawers stay most-recently-moved first.
   groups.app.sort((a, b) => jobTime(b) - jobTime(a));
+  groups.notapply.sort((a, b) => jobTime(b) - jobTime(a));
 
-  ["new", "yet", "week", "app"].forEach((k) => {
+  ["new", "yet", "week", "app", "notapply"].forEach((k) => {
     $("#rows-" + k).innerHTML =
       groups[k].length ? groups[k].map((j, i) => jobHTML(j, i + 1, k)).join("")
                        : '<div class="col-empty">Nothing here.</div>';
@@ -261,7 +274,8 @@ function applyChrome() {
   document.documentElement.style.setProperty("--spec-size", state.size + "px");
   $("#size").value = state.size;
   $("#sizeVal").textContent = state.size;
-  document.body.classList.toggle("drawer-open", state.appliedOpen);
+  document.body.dataset.drawer = state.drawer || "";
+  refreshUndo();
 }
 
 /* ── wire up all the controls ─────────────────────────────────── */
@@ -304,23 +318,27 @@ function bind() {
   // mobile: hamburger reveals the filter bars
   $("#menuBtn").addEventListener("click", () => $("#controls").classList.toggle("open"));
 
-  // ── Applied drawer: collapsible panel from the right ──
-  const setDrawer = (open) => {
-    state.appliedOpen = open;
-    localStorage.setItem("appliedOpen", open ? "1" : "0");
-    document.body.classList.toggle("drawer-open", open);
+  // ── Apply + Not Apply drawers: collapse from the right, one open at a time ──
+  const setDrawer = (which) => {
+    state.drawer = (state.drawer === which) ? "" : which;
+    localStorage.setItem("drawer", state.drawer);
+    document.body.dataset.drawer = state.drawer;
   };
-  $("#drawerTab").addEventListener("click", () => setDrawer(true));
-  $("#drawerClose").addEventListener("click", () => setDrawer(false));
-  $("#drawerScrim").addEventListener("click", () => setDrawer(false));
-  $("#appTab").addEventListener("click", () => setDrawer(!state.appliedOpen));
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") setDrawer(false); });
+  $("#tabApp").addEventListener("click", () => setDrawer("app"));
+  $("#tabNot").addEventListener("click", () => setDrawer("notapply"));
+  $("#appTab").addEventListener("click", () => setDrawer("app"));
+  $("#notTab").addEventListener("click", () => setDrawer("notapply"));
+  $("#drawerScrim").addEventListener("click", () => setDrawer(""));
+  $$('.drawer-close').forEach((b) => b.addEventListener("click", () => setDrawer("")));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") setDrawer(""); });
 
-  // restore everything you've removed
+  // global Undo (reverts the previous action) + restore-all-removed
+  $("#undoBtn").addEventListener("click", undoLast);
   $("#restoreBtn").addEventListener("click", () => { REMOVED.clear(); saveRemoved(); render(true); });
 
   // ── Clear all (per column / drawer) with a Yes/No confirm modal ──
-  const SECTION_LABELS = { new: "New", yet: "Older than a day", week: "Older than a week", app: "Applied" };
+  const SECTION_LABELS = { new: "New", yet: "Older than a day", week: "Older than a week",
+                           app: "Apply", notapply: "Not Apply" };
   let pendingClear = null;
   const closeModal = () => { $("#modalScrim").hidden = true; pendingClear = null; };
   const openModal = (k) => {
@@ -335,16 +353,16 @@ function bind() {
   $("#modalYes").addEventListener("click", () => {
     if (!pendingClear) return;
     const k = pendingClear;
-    // hide every currently-shown listing in that section (restorable from footer)
-    visible().filter((j) => bucket(j) === k).forEach((j) => REMOVED.add(j.id));
-    saveRemoved();
+    // hide every currently-shown listing in that section (one Undo reverts it all)
+    const ids = visible().filter((j) => bucket(j) === k).map((j) => j.id);
+    if (ids.length) { pushUndo({ type: "remove", ids }); ids.forEach((id) => REMOVED.add(id)); saveRemoved(); }
     closeModal();
     render(true);
   });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
 
-  // Done / Not yet / Undo / Remove buttons on each card (event delegation).
-  // Attached to both the board and the drawer, since Applied cards live there.
+  // Apply / Not apply / Remove buttons on each card (event delegation).
+  // Attached to the board and both drawers. Each action records an undo entry.
   const onCardClick = (e) => {
     const btn = e.target.closest(".act");
     if (!btn) return;
@@ -352,20 +370,23 @@ function bind() {
     if (!card || !card.dataset.id) return;
     const id = card.dataset.id, act = btn.dataset.act;
     if (act === "remove") {                  // fade out, then hide locally
+      pushUndo({ type: "remove", ids: [id] });
       const drop = () => { REMOVED.add(id); saveRemoved(); render(false); };
       if (window.gsap) gsap.to(card, { opacity: 0, duration: 0.25, ease: "power1.out", onComplete: drop });
       else drop();
       return;
     }
+    // Apply (done) or Not apply (notapply) — record prior mark for global undo
+    pushUndo({ type: "mark", id, prev: MARKS[id] });
     if (act === "done") {
-      // strike the title, then fly the card into Applied
-      drawStrike(card.querySelector(".job-title"), () => flipMove(id, act));
+      drawStrike(card.querySelector(".job-title"), () => flipMove(id, "done"));
     } else {
-      flipMove(id, act);
+      flipMove(id, "notapply");
     }
   };
   $("main").addEventListener("click", onCardClick);
-  $("#drawer").addEventListener("click", onCardClick);
+  $("#drawerApp").addEventListener("click", onCardClick);
+  $("#drawerNot").addEventListener("click", onCardClick);
 }
 
 /* ── load data + refresh loop ─────────────────────────────────── */

@@ -1,5 +1,37 @@
 [
   {
+    "id": "4b068cfb4008151fa6ae774e81c29221",
+    "title": "Product Designer, AI Design Systems",
+    "company": "Pop-Up Talent",
+    "location": "Truckee, CA",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4430038042",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "nan",
+    "priority": 4,
+    "first_seen": "2026-06-19T14:44:21.172922-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
+    "id": "c7742e626f618c6ef8d4649afc9a4193",
+    "title": "Front End .NET Developer",
+    "company": "Woven",
+    "location": "Carmel, IN, US",
+    "salary": "$60,000 \u2013 $80,000 / yearly",
+    "url": "https://www.indeed.com/viewjob?jk=adf6ddf9787e9d5c",
+    "source": "Indeed",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "posted_at": "2026-06-19",
+    "priority": 4,
+    "first_seen": "2026-06-19T14:44:19.685951-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "2588d6bbed13f1255e068c9faeee7b5e",
     "title": "User Experience Designer",
     "company": "Grey Parrot Systems LLC",
