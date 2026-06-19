@@ -101,7 +101,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-19T07:47:35.433129-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Cambridge"
   },
   {
     "id": "a490def8e0cf5b3ac530fa94a4e156e9",
@@ -231,7 +232,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-19T05:07:00.833531-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "San Francisco"
   },
   {
     "id": "e46229419b3c4833772880864af07937",
@@ -244,7 +246,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-19T05:06:57.412039-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "New York"
   },
   {
     "id": "d78f3406367a922de62094da39ba44a4",
@@ -257,7 +260,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-19T05:06:52.980315-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "New York"
   },
   {
     "id": "a7f0fcb2aa8d8e616fbac67ef996c67a",
@@ -308,7 +312,8 @@
       }
     ],
     "first_seen": "2026-06-19T04:52:55.034667-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Seattle"
   },
   {
     "id": "196ca0e2188a2b2b91307aff7f0d554a",
@@ -412,7 +417,8 @@
     "priority": 11,
     "roles": [],
     "first_seen": "2026-06-19T03:30:42.305392-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Brazil"
   },
   {
     "id": "bd0f2b94068dd95fb6e476d82eba5d23",
@@ -477,7 +483,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-18T16:18:15.986247-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Tel Aviv"
   },
   {
     "id": "8807dc5fe546dcc6db59f069c592c53b",
@@ -490,7 +497,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-18T16:18:13.501920-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "The New York"
   },
   {
     "id": "910a557376f11f956fc8dfea3b2814b5",
@@ -542,7 +550,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-18T13:53:03.073332-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "New York"
   },
   {
     "id": "bfab93b82ac804ff1c087aea437189ae",
@@ -607,7 +616,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-18T11:51:08.071745-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Philadelphia"
   },
   {
     "id": "d67bdff88dd5692cc28849339d2fb7cc",
@@ -620,7 +630,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-18T11:51:04.664874-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Washington"
   },
   {
     "id": "db5d79c8908fe96d1d9698ff16fe056a",
@@ -698,7 +709,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-18T07:28:48.979447-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Copenhagen"
   },
   {
     "id": "08d4f542b2e35db260a1ca14897197aa",
@@ -938,7 +950,8 @@
     "priority": 9,
     "roles": [],
     "first_seen": "2026-06-18T07:27:39.803781-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Seattle"
   },
   {
     "id": "2bdcdcbabe70a457e0da3fe16aeee649",
@@ -1567,7 +1580,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-17T07:36:01.424364-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Wash."
   },
   {
     "id": "077ebbe09b284994a259ebe6d66335a6",
@@ -3146,7 +3160,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-15T08:04:56.364602-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Bengaluru"
   },
   {
     "id": "927ac5164096f82fa175617489b67f8b",
@@ -4739,7 +4754,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:55:10.027024-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Seattle"
   },
   {
     "id": "fa6389d6dc2185fa5f251136c6e6d981",
@@ -4752,7 +4768,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:55:09.117002-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Seattle"
   },
   {
     "id": "bbe07f901f43b06786dc3544a4f845b1",
@@ -4784,7 +4801,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:55:04.086763-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Seattle"
   },
   {
     "id": "607633fbb81b65af35e7f71cdbeb703e",
@@ -4797,7 +4815,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:55:01.858823-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "San Francisco"
   },
   {
     "id": "19701314a4beed91bc0e1736183117e6",
@@ -4810,7 +4829,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:55:00.978893-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Bellevue"
   },
   {
     "id": "6de7fd9f309c3963beb4a538fa07e4db",
@@ -4875,7 +4895,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:54:52.282876-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "San Francisco"
   },
   {
     "id": "a625563a7649ce8a4b3f758678d1a00a",
@@ -4966,7 +4987,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:54:39.775715-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "ARM"
   },
   {
     "id": "acbc74132a8abdcd88401037543afbe1",
@@ -5011,7 +5033,8 @@
       }
     ],
     "first_seen": "2026-06-12T15:54:35.012062-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "New York"
   },
   {
     "id": "5c851105d0e611cb777ef740ef873563",
@@ -5024,7 +5047,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:54:33.975278-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Silicon Valley"
   },
   {
     "id": "77c1c4fdaa2b67c822ee3151c03a1bf5",
@@ -5069,7 +5093,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:54:29.375729-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "IDE"
   },
   {
     "id": "341de6998b55c0959d5d062cf5e40d52",
@@ -5173,7 +5198,8 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:54:18.155466-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Silicon Valley"
   },
   {
     "id": "37e6f1bf18f7858f24711dfb41f438d9",
@@ -5433,7 +5459,8 @@
     "priority": 8,
     "roles": [],
     "first_seen": "2026-06-12T15:53:53.859665-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "LLM"
   },
   {
     "id": "b1665aece0dae573611891ae255b0200",
@@ -5680,7 +5707,8 @@
     "priority": 10,
     "roles": [],
     "first_seen": "2026-06-12T15:53:30.568096-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Seattle"
   },
   {
     "id": "2f654e846a6b099f402bc8fc8b3bfb65",
@@ -5693,7 +5721,8 @@
     "priority": 10,
     "roles": [],
     "first_seen": "2026-06-12T15:53:29.633778-07:00",
-    "status": "active"
+    "status": "active",
+    "location": "Washington"
   },
   {
     "id": "67d551013525fccb624b4a03b4963cb9",
