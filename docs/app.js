@@ -172,10 +172,12 @@ function jobHTML(j, n, k) {
   } else if (k === "new") {                // New → Done / Not yet
     actions = '<button class="act done" data-act="done">Done</button>' +
               '<button class="act ghost" data-act="yet">Not yet</button>';
-  } else {                                 // Yet to Apply → Done (+ Undo if moved here)
+  } else {                                 // Older than a day → Done (+ Undo if moved here)
     actions = '<button class="act done" data-act="done">Done</button>' +
               (MARKS[j.id] === "yet" ? '<button class="act ghost" data-act="reset">Undo</button>' : "");
   }
+  // every card can be removed from the board (hidden locally, restorable)
+  actions += '<button class="act remove" data-act="remove" aria-label="Remove from list">Remove</button>';
   return `<div class="job" data-id="${esc(j.id)}" data-flip-id="${esc(j.id)}">
       <div class="job-top">
         <span class="idx">${idx}</span>
@@ -255,6 +257,7 @@ function applyChrome() {
   document.documentElement.style.setProperty("--spec-size", state.size + "px");
   $("#size").value = state.size;
   $("#sizeVal").textContent = state.size;
+  document.body.classList.toggle("drawer-open", state.appliedOpen);
 }
 
 /* ── wire up all the controls ─────────────────────────────────── */
@@ -304,20 +307,44 @@ function bind() {
   // mobile: hamburger reveals the filter bars
   $("#menuBtn").addEventListener("click", () => $("#controls").classList.toggle("open"));
 
-  // Done / Not yet / Undo buttons on each card (event delegation)
-  $("main").addEventListener("click", (e) => {
+  // ── Applied drawer: collapsible panel from the right ──
+  const setDrawer = (open) => {
+    state.appliedOpen = open;
+    localStorage.setItem("appliedOpen", open ? "1" : "0");
+    document.body.classList.toggle("drawer-open", open);
+  };
+  $("#drawerTab").addEventListener("click", () => setDrawer(true));
+  $("#drawerClose").addEventListener("click", () => setDrawer(false));
+  $("#drawerScrim").addEventListener("click", () => setDrawer(false));
+  $("#appTab").addEventListener("click", () => setDrawer(!state.appliedOpen));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") setDrawer(false); });
+
+  // restore everything you've removed
+  $("#restoreBtn").addEventListener("click", () => { REMOVED.clear(); saveRemoved(); render(true); });
+
+  // Done / Not yet / Undo / Remove buttons on each card (event delegation).
+  // Attached to both the board and the drawer, since Applied cards live there.
+  const onCardClick = (e) => {
     const btn = e.target.closest(".act");
     if (!btn) return;
     const card = e.target.closest(".job");
     if (!card || !card.dataset.id) return;
     const id = card.dataset.id, act = btn.dataset.act;
+    if (act === "remove") {                  // fade out, then hide locally
+      const drop = () => { REMOVED.add(id); saveRemoved(); render(false); };
+      if (window.gsap) gsap.to(card, { opacity: 0, duration: 0.25, ease: "power1.out", onComplete: drop });
+      else drop();
+      return;
+    }
     if (act === "done") {
       // strike the title, then fly the card into Applied
       drawStrike(card.querySelector(".job-title"), () => flipMove(id, act));
     } else {
       flipMove(id, act);
     }
-  });
+  };
+  $("main").addEventListener("click", onCardClick);
+  $("#drawer").addEventListener("click", onCardClick);
 }
 
 /* ── load data + refresh loop ─────────────────────────────────── */
