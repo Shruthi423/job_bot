@@ -1,5 +1,20 @@
 [
   {
+    "id": "fad972d23d0df9c3e7ed3e3f549a51d5",
+    "company": "Top Venture Capital Investors Ranked",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Sequoia (news)",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1fcGVEQ0g0VGFkMnVBQmlYNjNock5lN1FWdF9yM1Z1bmhCdnZFOXZUSlpoSWs0S3dHcTN5NGlMMnZHWXlnU2s2UUxZSQ?oc=5",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-19T22:07:17.072087-07:00",
+    "status": "active"
+  },
+  {
     "id": "4a9e3be0188121b77c3497f673a42178",
     "company": "Copperlane",
     "amount": "$4.1M",
@@ -4781,19 +4796,6 @@
     "priority": 3,
     "roles": [],
     "first_seen": "2026-06-12T15:56:12.230269-07:00",
-    "status": "active"
-  },
-  {
-    "id": "fad972d23d0df9c3e7ed3e3f549a51d5",
-    "company": "Top Venture Capital Investors Ranked",
-    "amount": "Undisclosed",
-    "stage": "?",
-    "investors": "Undisclosed",
-    "source": "Sequoia (news)",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1fcGVEQ0g0VGFkMnVBQmlYNjNock5lN1FWdF9yM1Z1bmhCdnZFOXZUSlpoSWs0S3dHcTN5NGlMMnZHWXlnU2s2UUxZSQ?oc=5",
-    "priority": 3,
-    "roles": [],
-    "first_seen": "2026-06-12T15:56:11.315159-07:00",
     "status": "active"
   },
   {
