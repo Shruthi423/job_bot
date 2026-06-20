@@ -114,17 +114,46 @@ sup { font-size: .5em; vertical-align: super; }
 .field.search input:focus { border-bottom-color: var(--spec); }
 .field.search input::placeholder { color: var(--mut); }
 
-select {
-  appearance: none; -webkit-appearance: none;
-  background: var(--field-bg); color: var(--fg);
-  border: 0; outline: 0; font-family: inherit; font-size: 13px;
-  cursor: pointer; padding-right: 14px;
-  background-image: linear-gradient(45deg, transparent 50%, var(--mut) 50%),
-                    linear-gradient(135deg, var(--mut) 50%, transparent 50%);
-  background-position: right 4px center, right 0 center;
-  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+/* ── Custom multi-select dropdowns (Source / Location / Date / Visa) ──
+   Styled in harmony with the board: theme vars, inherited font, the same
+   pill/chip language used elsewhere. */
+.dd { position: relative; display: inline-flex; }
+.dd-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: none; border: 0; outline: 0; cursor: pointer;
+  font-family: inherit; font-size: 13px; color: var(--fg); padding: 0;
 }
-select option { background: var(--bg); color: var(--fg); }
+.dd-btn .lbl { color: var(--mut); }
+.dd-btn .dd-sum {
+  color: var(--fg); max-width: 150px; overflow: hidden;
+  text-overflow: ellipsis; white-space: nowrap;
+}
+.dd-caret { opacity: .55; transition: transform .2s ease; }
+.dd.open .dd-caret { transform: rotate(180deg); opacity: .9; }
+.dd.has-val .dd-sum { color: var(--spec); }
+
+.dd-panel {
+  position: absolute; top: calc(100% + 9px); left: 0; z-index: 60;
+  min-width: 210px; max-height: 320px; overflow-y: auto;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+  padding: 6px; box-shadow: 0 12px 34px rgba(0,0,0,.28);
+  opacity: 0; transform: translateY(-6px) scale(.98);
+  transform-origin: top left; pointer-events: none;
+  transition: opacity .16s ease, transform .16s ease;
+}
+.dd.open .dd-panel { opacity: 1; transform: none; pointer-events: auto; }
+
+.dd-opt {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 10px; border-radius: 8px; cursor: pointer;
+  font-size: 13px; color: var(--fg); white-space: nowrap;
+  transition: background .14s ease;
+}
+.dd-opt:hover { background: var(--field-bg); }
+.dd-opt input { accent-color: var(--spec); width: 14px; height: 14px; cursor: pointer; flex: none; }
+.dd-empty { padding: 8px 10px; font-size: 12px; color: var(--mut); font-style: italic; }
+/* keep the controls row from clipping an open panel */
+.controls .row { overflow: visible; }
 
 .field.size { gap: 12px; }
 .field.size .lbl { color: var(--fg); min-width: 42px; }

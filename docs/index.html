@@ -33,42 +33,54 @@
       <label class="field search">
         <input id="q" type="search" placeholder="Search title or company" autocomplete="off">
       </label>
-      <label class="field">
-        <span class="lbl">Source</span>
-        <select id="fSource"><option value="">All sources</option></select>
-      </label>
-      <label class="field">
-        <span class="lbl">Location</span>
-        <select id="fLoc">
-          <option value="">All locations</option>
-          <option value="sfbay">San Francisco &amp; Bay Area</option>
-          <option value="ny">New York</option>
-          <option value="us">Rest of USA</option>
-          <option value="remote">Remote</option>
-        </select>
-      </label>
-      <label class="field">
-        <span class="lbl">Date</span>
-        <select id="fDate">
-          <option value="">Any time</option>
-          <option value="3">Last 3 hours</option>
-          <option value="8">Last 8 hours</option>
-          <option value="16">Last 16 hours</option>
-          <option value="24">Last 24 hours</option>
-          <option value="72">Last 3 days</option>
-          <option value="168">Last week</option>
-          <option value="720">Last 30 days</option>
-        </select>
-      </label>
-      <label class="field">
-        <span class="lbl">Visa</span>
-        <select id="fVisa">
-          <option value="">All</option>
-          <option value="yes">Sponsors visa</option>
-          <option value="no">No sponsorship</option>
-          <option value="unknown">Unknown</option>
-        </select>
-      </label>
+      <!-- Custom multi-select dropdowns (styled to match the theme/fonts).
+           data-multi = checkboxes (choose several); no data-multi = single. -->
+      <div class="dd" data-dd="source" data-multi>
+        <button class="dd-btn" type="button" aria-haspopup="true" aria-expanded="false">
+          <span class="lbl">Source</span><span class="dd-sum">All</span>
+          <svg class="dd-caret" viewBox="0 0 256 256" width="11" height="11" fill="currentColor" aria-hidden="true"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+        </button>
+        <div class="dd-panel" role="listbox" aria-label="Source"></div>
+      </div>
+      <div class="dd" data-dd="loc" data-multi>
+        <button class="dd-btn" type="button" aria-haspopup="true" aria-expanded="false">
+          <span class="lbl">Location</span><span class="dd-sum">All</span>
+          <svg class="dd-caret" viewBox="0 0 256 256" width="11" height="11" fill="currentColor" aria-hidden="true"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+        </button>
+        <div class="dd-panel" role="listbox" aria-label="Location">
+          <label class="dd-opt"><input type="checkbox" value="sfbay"><span>San Francisco &amp; Bay Area</span></label>
+          <label class="dd-opt"><input type="checkbox" value="ny"><span>New York</span></label>
+          <label class="dd-opt"><input type="checkbox" value="us"><span>Rest of USA</span></label>
+          <label class="dd-opt"><input type="checkbox" value="remote"><span>Remote</span></label>
+        </div>
+      </div>
+      <div class="dd" data-dd="date">
+        <button class="dd-btn" type="button" aria-haspopup="true" aria-expanded="false">
+          <span class="lbl">Date</span><span class="dd-sum">Any time</span>
+          <svg class="dd-caret" viewBox="0 0 256 256" width="11" height="11" fill="currentColor" aria-hidden="true"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+        </button>
+        <div class="dd-panel" role="listbox" aria-label="Date">
+          <label class="dd-opt"><input type="radio" name="ddDate" value="" checked><span>Any time</span></label>
+          <label class="dd-opt"><input type="radio" name="ddDate" value="3"><span>Last 3 hours</span></label>
+          <label class="dd-opt"><input type="radio" name="ddDate" value="8"><span>Last 8 hours</span></label>
+          <label class="dd-opt"><input type="radio" name="ddDate" value="16"><span>Last 16 hours</span></label>
+          <label class="dd-opt"><input type="radio" name="ddDate" value="24"><span>Last 24 hours</span></label>
+          <label class="dd-opt"><input type="radio" name="ddDate" value="72"><span>Last 3 days</span></label>
+          <label class="dd-opt"><input type="radio" name="ddDate" value="168"><span>Last week</span></label>
+          <label class="dd-opt"><input type="radio" name="ddDate" value="720"><span>Last 30 days</span></label>
+        </div>
+      </div>
+      <div class="dd" data-dd="visa" data-multi>
+        <button class="dd-btn" type="button" aria-haspopup="true" aria-expanded="false">
+          <span class="lbl">Visa</span><span class="dd-sum">All</span>
+          <svg class="dd-caret" viewBox="0 0 256 256" width="11" height="11" fill="currentColor" aria-hidden="true"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+        </button>
+        <div class="dd-panel" role="listbox" aria-label="Visa">
+          <label class="dd-opt"><input type="checkbox" value="yes"><span>Sponsors visa</span></label>
+          <label class="dd-opt"><input type="checkbox" value="no"><span>No sponsorship</span></label>
+          <label class="dd-opt"><input type="checkbox" value="unknown"><span>Unknown</span></label>
+        </div>
+      </div>
       <label class="field size">
         <span class="lbl"><span id="sizeVal">24</span>px</span>
         <input id="size" type="range" min="14" max="44" value="24">

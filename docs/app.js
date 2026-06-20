@@ -12,7 +12,7 @@ let JOBS = [];                          // raw data from jobs.json
 let FUND = [];                          // raw data from funding.json (count only)
 
 const state = {
-  q: "", source: "", loc: "", date: "", visa: "",
+  q: "", source: [], loc: [], date: "", visa: [],   // source/loc/visa = multi
   sort: localStorage.getItem("sort") || "new",   // new | location | salary
   size: +(localStorage.getItem("size") || 24),
   theme: localStorage.getItem("theme") || "dark",
@@ -99,10 +99,10 @@ function visible() {
       const hay = (j.title + " " + j.company).toLowerCase();
       if (!hay.includes(state.q.toLowerCase())) return false;
     }
-    if (state.source && j.source !== state.source) return false;
-    if (state.loc && locGroup(j) !== state.loc) return false;
+    if (state.source.length && !state.source.includes(j.source)) return false;
+    if (state.loc.length && !state.loc.includes(locGroup(j))) return false;
     if (state.date && Date.now() - jobTime(j) > (+state.date) * 3600 * 1000) return false;
-    if (state.visa && (j.visa || "unknown") !== state.visa) return false;
+    if (state.visa.length && !state.visa.includes(j.visa || "unknown")) return false;
     return true;
   });
   out.sort((a, b) => {
@@ -308,10 +308,7 @@ function openModal(k) {
 /* ── wire up all the controls ─────────────────────────────────── */
 function bind() {
   $("#q").addEventListener("input", (e) => { state.q = e.target.value; render(false); });
-  $("#fSource").addEventListener("change", (e) => { state.source = e.target.value; render(true); });
-  $("#fLoc").addEventListener("change",   (e) => { state.loc = e.target.value; render(true); });
-  $("#fDate").addEventListener("change",  (e) => { state.date = e.target.value; render(true); });
-  $("#fVisa").addEventListener("change",  (e) => { state.visa = e.target.value; render(true); });
+  ddInit();
 
   $$('[data-sort]').forEach((b) => b.addEventListener("click", () => {
     state.sort = b.dataset.sort; localStorage.setItem("sort", state.sort);
@@ -363,7 +360,7 @@ function bind() {
     closeModal(); render(true);
   });
 
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") { setTrash(false); clearAsk(); closeModal(); } });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") { setTrash(false); clearAsk(); closeModal(); $$(".dd.open").forEach(ddClose); } });
 
   // ── Tile interactions: apply-prompt / delete / restore, or open posting ──
   const onCardClick = (e) => {
@@ -396,13 +393,77 @@ function bind() {
   $("#drawerTrash").addEventListener("click", onCardClick);
 }
 
+/* ── Custom dropdown controller (multi-select + single) ─────────── */
+// Refresh a dropdown's button summary ("All" / one label / "N selected") and
+// its highlighted state from whatever inputs are currently checked.
+function ddSummary(dd) {
+  const sum = dd.querySelector(".dd-sum");
+  const single = !dd.hasAttribute("data-multi");
+  const checked = $$(".dd-opt input:checked", dd).filter((i) => single || i.value !== "");
+  if (single) {
+    const v = dd.querySelector(".dd-opt input:checked");
+    const has = v && v.value !== "";
+    sum.textContent = v ? v.closest(".dd-opt").querySelector("span").textContent : "Any";
+    dd.classList.toggle("has-val", !!has);
+  } else if (!checked.length) {
+    sum.textContent = "All"; dd.classList.remove("has-val");
+  } else if (checked.length === 1) {
+    sum.textContent = checked[0].closest(".dd-opt").querySelector("span").textContent;
+    dd.classList.add("has-val");
+  } else {
+    sum.textContent = checked.length + " selected"; dd.classList.add("has-val");
+  }
+}
+// Read a dropdown's checked inputs into state[key] (array for multi, string for single).
+function ddApply(dd) {
+  const key = dd.dataset.dd;
+  if (dd.hasAttribute("data-multi"))
+    state[key] = $$(".dd-opt input:checked", dd).map((i) => i.value);
+  else
+    state[key] = (dd.querySelector(".dd-opt input:checked") || {}).value || "";
+  ddSummary(dd);
+  render(true);
+}
+function ddClose(dd) {
+  dd.classList.remove("open");
+  dd.querySelector(".dd-btn").setAttribute("aria-expanded", "false");
+}
+function ddInit() {
+  $$(".dd").forEach((dd) => {
+    const btn = dd.querySelector(".dd-btn");
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const willOpen = !dd.classList.contains("open");
+      $$(".dd.open").forEach(ddClose);
+      dd.classList.toggle("open", willOpen);
+      btn.setAttribute("aria-expanded", String(willOpen));
+    });
+    dd.querySelector(".dd-panel").addEventListener("change", () => {
+      ddApply(dd);
+      if (!dd.hasAttribute("data-multi")) ddClose(dd);   // single-select closes
+    });
+    ddSummary(dd);
+  });
+  // click outside closes any open dropdown
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".dd")) $$(".dd.open").forEach(ddClose);
+  });
+}
+
 /* ── load data + refresh loop ─────────────────────────────────── */
+// Rebuild the Source dropdown's checkbox options from the live job list,
+// preserving the current selection.
 function populateSources() {
   const sources = [...new Set(JOBS.map((j) => j.source).filter(Boolean))].sort();
-  const sel = $("#fSource");
-  sel.innerHTML = '<option value="">All sources</option>' +
-    sources.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join("");
-  sel.value = state.source;
+  const dd = $('.dd[data-dd="source"]');
+  if (!dd) return;
+  const cur = new Set(state.source);
+  const panel = dd.querySelector(".dd-panel");
+  panel.innerHTML = sources.length
+    ? sources.map((s) =>
+        `<label class="dd-opt"><input type="checkbox" value="${esc(s)}"${cur.has(s) ? " checked" : ""}><span>${esc(s)}</span></label>`).join("")
+    : '<div class="dd-empty">No sources yet</div>';
+  ddSummary(dd);
 }
 
 // Hybrid runners publish separate files: jobs.local.json (laptop: LinkedIn/
