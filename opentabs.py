@@ -111,7 +111,6 @@ def now_pt(): return datetime.now(TZ)
 # ─────────────────────────────────────────────────────────────────
 SEARCH_QUERIES = [
     "product designer",
-    "design engineer",
     "founding product designer",
     "UI designer",
     "UX designer",
@@ -119,7 +118,6 @@ SEARCH_QUERIES = [
     "UX researcher",
     # ── adjacent roles ──
     "founding designer",
-    "product design engineer",
     "design technologist",
     "interaction designer",
     "design systems designer",
@@ -158,8 +156,7 @@ INCLUDE = [
     "interaction designer", "visual designer", "ux researcher",
     "user researcher", "design researcher", "design systems",
     "design technologist", "service designer", "founding designer",
-    "motion designer", "brand designer", "design engineer",
-    "design engineering", "product design",
+    "motion designer", "brand designer", "product design",
 ]
 EXCLUDE = [
     "graphic designer", "fashion", "interior design", "industrial design",
@@ -172,8 +169,9 @@ EXCLUDE = [
     # "manufacturing"/"electrical" live in PHYSICAL_DESIGN as whole-word matches
     # to avoid nuking e.g. a UX role for "Manufacturing Cloud".)
     "industrial designer", "hardware designer", "mechanical designer",
-    "mechanical", "cad designer", "footwear designer", "apparel designer",
-    "furniture designer", "soft goods designer", "packaging designer",
+    "mechanical", "design engineer", "cad designer", "footwear designer",
+    "apparel designer", "furniture designer", "soft goods designer",
+    "packaging designer",
     # seniority — we want roles for ≤4 years of experience
     "senior", "staff", "principal", "lead", "director", "head of",
     "vp ", "vice president", "manager",
