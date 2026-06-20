@@ -166,15 +166,41 @@ EXCLUDE = [
     "game designer", "floral", "packaging", "print designer",
     "instructional designer", "curriculum", "learning designer",
     "software engineer", "data engineer", "devops", "web developer",
+    # physical / industrial product design (titles) — we only want digital UI/UX
+    "industrial designer", "hardware designer", "mechanical designer",
+    "cad designer", "footwear designer", "apparel designer",
+    "furniture designer", "soft goods designer", "packaging designer",
     # seniority — we want roles for ≤4 years of experience
     "senior", "staff", "principal", "lead", "director", "head of",
     "vp ", "vice president", "manager",
+]
+# Physical / industrial product design is NOT UI/UX. These terms are near-
+# exclusive to hardware/industrial work, so a hit anywhere in the posting is a
+# reliable signal even when the title is just "Product Designer" / "Design
+# Engineer". High-precision on purpose — collaboration-context words like
+# "hardware"/"manufacturing" alone are omitted to avoid nuking digital
+# designers who merely work near a hardware team.
+PHYSICAL_DESIGN = [
+    "industrial design", "industrial designer", "solidworks", "autocad",
+    "keyshot", "rhino 3d", "rhinoceros 3d", "injection molding",
+    "injection moulding", "design for manufacturing", "sheet metal",
+    "cad software", "3d cad", "cad modeling", "cmf design",
+    "color material finish", "soft goods", "footwear", "plastic part",
+    "physical product", "consumer hardware", "mechanical engineering degree",
 ]
 NEW_GRAD_SIGNALS = [
     "new grad", "new graduate", "entry level", "entry-level", "junior",
     "associate", "0-2 years", "0-1 year", "recent graduate",
     "early career", "2026", "2025 grad",
 ]
+
+def _physical_design(text: str) -> bool:
+    """True if the posting reads as physical/industrial design (hardware, CAD,
+    footwear…) rather than digital UI/UX. Word-boundary matched for precision."""
+    for kw in PHYSICAL_DESIGN:
+        if re.search(rf"\b{re.escape(kw)}\b", text):
+            return True
+    return False
 
 def _kw_hit(kw: str, text: str) -> bool:
     # Short ambiguous tokens (ui/ux) must match as whole words, else
@@ -227,6 +253,8 @@ def classify(title: str, company: str = "", description: str = "") -> dict:
     for ex in EXCLUDE:
         if ex in tl:
             return {"relevant": False}
+    if _physical_design(text):          # drop physical/industrial product design
+        return {"relevant": False}
     if _too_senior(text):
         return {"relevant": False}
     if not any(_kw_hit(kw, text) for kw in INCLUDE):
