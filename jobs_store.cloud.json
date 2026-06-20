@@ -3709,5 +3709,23 @@
     "first_seen": "2026-06-18T21:54:54.785585-07:00",
     "status": "active",
     "applied_at": null
+  },
+  "36e050c842d6c3f4af437e2b5b850962": {
+    "id": "36e050c842d6c3f4af437e2b5b850962",
+    "title": "CX and Service Designer at Kuoni Tumlare",
+    "company": "Unknown",
+    "location": "Remote",
+    "salary": "See posting",
+    "url": "https://remotefirstjobs.com/companies/kuoni-tumlare/jobs/cx-and-service-designer-827305",
+    "source": "JobsCollider",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "visa": null,
+    "founders": [],
+    "posted_at": "Recently",
+    "priority": 5,
+    "first_seen": "2026-06-20T04:12:39.635898-07:00",
+    "status": "active",
+    "applied_at": null
   }
 }

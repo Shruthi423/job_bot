@@ -6007,5 +6007,20 @@
     "roles": [],
     "first_seen": "2026-06-18T21:55:23.930903-07:00",
     "status": "active"
+  },
+  "7181b09f5c75c3a5c1d87cf33a0b47db": {
+    "id": "7181b09f5c75c3a5c1d87cf33a0b47db",
+    "company": "Frontier Health",
+    "amount": "$16.0M",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEeExzdWt6dG8zNkk5U0JnaHJRbElyWXZjcjJNZkhLek9TcG9lQTNQc2JEcnVNTWxLemwtYUcxb0xOLS11ZElTd0RCNGZOQURXY1JzOGtINWF0bnJDQzZOejNhNnpWZ2tTN0ZicWhoUEFlekU?oc=5",
+    "priority": 9,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-20T04:13:03.027310-07:00",
+    "status": "active"
   }
 }
