@@ -6200,5 +6200,41 @@
     ],
     "first_seen": "2026-06-20T11:08:35.614435-07:00",
     "status": "active"
+  },
+  "f4f7a112f0a1ae7751f9c4014efb1422": {
+    "id": "f4f7a112f0a1ae7751f9c4014efb1422",
+    "company": "Vance travels",
+    "amount": "$6.0B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/20/vance-iran-talks-switzerland",
+    "priority": 3,
+    "founders": [],
+    "location": "Washington",
+    "roles": [],
+    "first_seen": "2026-06-20T15:36:15.805300-07:00",
+    "status": "active"
+  },
+  "1b69242d76d707d544dbce7485d2a304": {
+    "id": "1b69242d76d707d544dbce7485d2a304",
+    "company": "Anthropic surpasses OpenAI",
+    "amount": "$965.0B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Sequoia (news)",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpdzhucG94LTAzSVdJSzFRQ1VVR0l2SFJvTWRjb3hOQmxfMUJablMxQkcyNTVEQmlVek92UG1uUWxJZHR0V3NyaEJuek95Q2VPVC1aU092RGRJazE2TnJ3dHpDdmdOYVdaMnZPcENvUnFTWVU?oc=5",
+    "priority": 3,
+    "founders": [],
+    "location": "Remote-Friendly, United States; San Francisco, CA | New York City, NY",
+    "roles": [
+      {
+        "title": "Motion Designer, Core Brand",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5116771008",
+        "location": "Remote-Friendly, United States; San Francisco, CA | New York City, NY"
+      }
+    ],
+    "first_seen": "2026-06-20T15:36:19.063915-07:00",
+    "status": "active"
   }
 }

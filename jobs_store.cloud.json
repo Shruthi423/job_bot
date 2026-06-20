@@ -3763,5 +3763,23 @@
     "first_seen": "2026-06-20T14:12:19.033867-07:00",
     "status": "active",
     "applied_at": null
+  },
+  "636ee03c36cbd0a089596869ce945ceb": {
+    "id": "636ee03c36cbd0a089596869ce945ceb",
+    "title": "Applied AI Engineer at AssemblyAI",
+    "company": "Unknown",
+    "location": "Remote",
+    "salary": "$500",
+    "url": "https://remotefirstjobs.com/companies/assemblyai/jobs/applied-ai-engineer-827652",
+    "source": "JobsCollider",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "visa": null,
+    "founders": [],
+    "posted_at": "Recently",
+    "priority": 5,
+    "first_seen": "2026-06-20T15:35:52.528384-07:00",
+    "status": "active",
+    "applied_at": null
   }
 }
