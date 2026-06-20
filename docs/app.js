@@ -119,6 +119,27 @@ function visible() {
 const LI_SVG = '<svg class="ico-li" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" aria-label="LinkedIn"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24ZM96,176a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0ZM88,96a12,12,0,1,1,12-12A12,12,0,0,1,88,96Zm96,80a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140Z"></path></svg>';
 /* Money glyph — replaces the 💰 emoji on "just raised" sources */
 const MONEY_SVG = '<svg class="ico-money" width="14" height="14" fill="currentColor" viewBox="0 0 256 256" aria-label="Just raised"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm40-68a28,28,0,0,1-28,28h-4v8a8,8,0,0,1-16,0v-8H104a8,8,0,0,1,0-16h36a12,12,0,0,0,0-24H116a28,28,0,0,1,0-56h4V72a8,8,0,0,1,16,0v8h16a8,8,0,0,1,0,16H116a12,12,0,0,0,0,24h24A28,28,0,0,1,168,148Z"></path></svg>';
+/* Globe glyph — company website link in the outreach row */
+const WEB_SVG = '<svg width="12" height="12" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM101.63,168h52.74C149,186.34,140,202.87,128,215.89,116,202.87,107,186.34,101.63,168ZM98,152a145.72,145.72,0,0,1,0-48h60a145.72,145.72,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.79a161.79,161.79,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154.37,88H101.63C107,69.66,116,53.13,128,40.11,140,53.13,149,69.66,154.37,88Zm19.84,16h38.46a88.15,88.15,0,0,1,0,48H174.21a161.79,161.79,0,0,0,0-48Zm32.16-16H170.94a142.39,142.39,0,0,0-20.26-45A88.37,88.37,0,0,1,206.37,88ZM105.32,43A142.39,142.39,0,0,0,85.06,88H49.63A88.37,88.37,0,0,1,105.32,43ZM49.63,168H85.06a142.39,142.39,0,0,0,20.26,45A88.37,88.37,0,0,1,49.63,168Zm101.05,45a142.39,142.39,0,0,0,20.26-45h35.43A88.37,88.37,0,0,1,150.68,213Z"></path></svg>';
+/* Small LinkedIn glyph for the outreach chips */
+const LI_MINI = '<svg width="12" height="12" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24ZM96,176a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm-8-80a12,12,0,1,1,12-12A12,12,0,0,1,88,96Zm96,80a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140Z"></path></svg>';
+/* Outreach deep-links — free layer (no scraping, no API keys) */
+const outreachUrls = {
+  site: (co) => "https://duckduckgo.com/?q=" + encodeURIComponent("\\" + (co || "") + " official site"),
+  company: (co) => "https://www.linkedin.com/search/results/companies/?keywords=" + encodeURIComponent(co || ""),
+  founder: (nm, co) => "https://www.google.com/search?q=" +
+    encodeURIComponent('site:linkedin.com/in "' + (nm || "") + '" ' + (co || "")),
+};
+function outreachHTML(j) {
+  const founders = (j.founders || []).map((nm) =>
+    `<a class="founder" href="${esc(outreachUrls.founder(nm, j.company))}" target="_blank" rel="noopener" ` +
+    `title="Find ${esc(nm)} on LinkedIn">${esc(nm)}${LI_MINI}</a>`).join("");
+  return `<div class="outreach">
+        <a class="ol" href="${esc(outreachUrls.site(j.company))}" target="_blank" rel="noopener">${WEB_SVG}Website</a>
+        <a class="ol" href="${esc(outreachUrls.company(j.company))}" target="_blank" rel="noopener">${LI_MINI}Company</a>
+        ${founders ? `<span class="ol-lbl">Founders</span>${founders}` : ""}
+      </div>`;
+}
 /* Trash glyph — delete button on each tile */
 const TRASH_SVG = '<svg width="16" height="16" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true"><path d="M216,48H176V40a24,24,0,0,0-24-24H104A24,24,0,0,0,80,40v8H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM96,40a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96Zm96,168H64V64H192ZM112,104v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm48,0v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Z"></path></svg>';
 
@@ -170,6 +191,7 @@ function jobHTML(j, n) {
       <div class="job-meta">
         ${esc(j.location || "—")}<span class="sep">/</span>${esc(j.salary || "—")}<span class="sep">/</span>Posted ${postedAgo(j)}
       </div>
+      ${outreachHTML(j)}
       <div class="job-foot">
         <span class="badges">${badges}</span>
         <span class="actions"><button class="act icon del" data-act="delete" title="Delete" aria-label="Delete">${TRASH_SVG}</button></span>
@@ -336,6 +358,9 @@ function bind() {
   // ── Tile interactions: apply-prompt / delete / restore, or open posting ──
   const onCardClick = (e) => {
     const card = e.target.closest(".job"); if (!card) return;
+    // outreach links (website / LinkedIn / founder) open on their own — don't
+    // also open the posting or fire the "did you apply?" prompt
+    if (e.target.closest(".outreach")) return;
     const id = card.dataset.id, url = card.dataset.url;
     const ask = e.target.closest('[data-ask]');
     if (ask) {                                // answered the on-tile prompt
