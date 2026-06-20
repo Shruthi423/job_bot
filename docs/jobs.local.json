@@ -1,5 +1,23 @@
 [
   {
+    "id": "a8fdafb5d7866468d0f11eaffb304881",
+    "title": "Product Designer",
+    "company": "L.A.B. Golf",
+    "location": "Creswell, OR",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4428519087",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "visa": null,
+    "founders": [],
+    "posted_at": "nan",
+    "priority": 4,
+    "first_seen": "2026-06-20T09:31:18.647018-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "4ff05e888a11460230408d1ba440842b",
     "title": "UX Motion Designer, Devices & Services Experience Design",
     "company": "Amazon",
