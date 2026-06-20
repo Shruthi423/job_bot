@@ -1,5 +1,23 @@
 [
   {
+    "id": "9252daff51a3754127093f4206c2e864",
+    "title": "Visual Designer",
+    "company": "Thermo Fisher Scientific",
+    "location": "Pittsburgh, PA",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4428517621",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "visa": null,
+    "founders": [],
+    "posted_at": "nan",
+    "priority": 4,
+    "first_seen": "2026-06-20T12:04:30.644551-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "802a0b4974c4b90c3e7e85e182c8fe9d",
     "title": "UX/Product Designer - AI Trainer",
     "company": "DataAnnotation",
