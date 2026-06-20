@@ -60,7 +60,7 @@ sup { font-size: .5em; vertical-align: super; }
 .nav {
   position: sticky; top: 0; z-index: 20;
   display: grid;
-  grid-template-columns: 1fr .8fr .6fr 1.15fr 1.25fr .7fr .85fr 1.1fr;
+  grid-template-columns: 1fr .9fr .65fr 1.05fr .8fr .8fr 1.2fr;
   background: var(--bg);
   border-bottom: 1px solid var(--line);
 }
@@ -319,17 +319,23 @@ a.role .role-loc { color: var(--mut); }
 .act.ghost:hover { color: var(--fg); border-bottom-color: var(--fg); }
 .col-empty { padding: 18px; color: var(--mut); font-size: 12px; }
 
-/* Applied items read as struck-through checklist entries */
-.drawer-app .job-title {
+/* Applied column reads as a struck-through checklist */
+#sec-app .job-title {
   text-decoration: line-through;
   text-decoration-thickness: 2px;
   text-decoration-color: var(--spec);
   color: var(--mut);
 }
-.drawer-app .job:hover .job-title { opacity: 1; color: var(--fg); }
-/* Not Apply items read as quietly dimmed (no strike) */
-.drawer-not .job-title { color: var(--mut); }
-.drawer-not .job:hover .job-title { color: var(--fg); }
+#sec-app .job:hover .job-title { opacity: 1; color: var(--fg); }
+
+/* whole tile is clickable (opens the posting + "did you apply?") */
+.job { cursor: pointer; }
+.act, .clear-all, .drawer-close { cursor: pointer; }   /* keep buttons obvious */
+.act.icon.del:hover { color: #e5484d; }
+
+/* visa badges */
+.badge.visa-yes { color: #2e9e6b; border-color: #2e9e6b; }
+.badge.visa-no  { color: var(--mut); }
 
 /* animated strike that draws left→right when you click Done (GSAP sets --strike) */
 .job-title.striking {
@@ -406,13 +412,13 @@ main.list .apply { font-size: 12px; }
 }
 .drawer-tab em { font-style: normal; opacity: .7; }
 .drawer-tab:hover { opacity: .88; }
-body[data-drawer]:not([data-drawer=""]) .drawer-tabs { opacity: 0; pointer-events: none; }
+body.trash-open .drawer-tabs { opacity: 0; pointer-events: none; }
 
 .drawer-scrim {
   position: fixed; inset: 0; z-index: 29; background: rgba(0,0,0,.32);
   opacity: 0; pointer-events: none; transition: opacity .35s ease;
 }
-body[data-drawer]:not([data-drawer=""]) .drawer-scrim { opacity: 1; pointer-events: auto; }
+body.trash-open .drawer-scrim { opacity: 1; pointer-events: auto; }
 
 .drawer {
   position: fixed; top: 0; right: 0; z-index: 30;
@@ -422,8 +428,7 @@ body[data-drawer]:not([data-drawer=""]) .drawer-scrim { opacity: 1; pointer-even
   transform: translateX(100%);
   transition: transform .42s cubic-bezier(.22,1,.36,1);
 }
-body[data-drawer="app"] .drawer-app,
-body[data-drawer="notapply"] .drawer-not {
+body.trash-open .drawer-trash {
   transform: translateX(0); box-shadow: -22px 0 50px rgba(0,0,0,.22);
 }
 .drawer-head {

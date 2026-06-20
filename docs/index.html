@@ -102,50 +102,37 @@
     </div>
   </section>
 
-  <!-- ── Three-column board (Applied lives in the right drawer) ────── -->
+  <!-- ── Three-column board: New · Not Applied · Applied ───────────── -->
   <main id="top" class="board">
     <section class="col" id="sec-new">
       <div class="col-head"><h2>New</h2><em data-count="new">0</em><span class="hint">last 24h</span><button class="clear-all" data-clear="new">Clear all</button></div>
       <div class="rows" id="rows-new"></div>
     </section>
-    <section class="col" id="sec-yet">
-      <div class="col-head"><h2>Older than a day</h2><em data-count="yet">0</em><span class="hint">1–7 days</span><button class="clear-all" data-clear="yet">Clear all</button></div>
-      <div class="rows" id="rows-yet"></div>
+    <section class="col" id="sec-notapplied">
+      <div class="col-head"><h2>Not Applied</h2><em data-count="notapplied">0</em><span class="hint">older than 24h</span><button class="clear-all" data-clear="notapplied">Clear all</button></div>
+      <div class="rows" id="rows-notapplied"></div>
     </section>
-    <section class="col" id="sec-week">
-      <div class="col-head"><h2>Older than a week</h2><em data-count="week">0</em><span class="hint">over 7 days</span><button class="clear-all" data-clear="week">Clear all</button></div>
-      <div class="rows" id="rows-week"></div>
+    <section class="col" id="sec-app">
+      <div class="col-head"><h2>Applied</h2><em data-count="app">0</em><button class="clear-all" data-clear="app">Clear all</button></div>
+      <div class="rows" id="rows-app"></div>
     </section>
   </main>
 
-  <!-- ── Apply + Not Apply: collapsible drawers from the right ─────── -->
+  <!-- ── Trash: collapsible drawer of deleted jobs (restorable) ────── -->
   <div class="drawer-tabs">
-    <button class="drawer-tab" id="tabApp" aria-label="Open Apply"><span>Apply</span><em data-count="app">0</em></button>
-    <button class="drawer-tab" id="tabNot" aria-label="Open Not Apply"><span>Not Apply</span><em data-count="notapply">0</em></button>
+    <button class="drawer-tab" id="tabTrash" aria-label="Open Trash"><span>Trash</span><em data-count="trash">0</em></button>
   </div>
   <div class="drawer-scrim" id="drawerScrim"></div>
-
-  <aside class="drawer drawer-app" id="drawerApp" aria-label="Applied jobs">
+  <aside class="drawer drawer-trash" id="drawerTrash" aria-label="Deleted jobs">
     <div class="drawer-head">
-      <h2>Apply <em data-count="app">0</em></h2>
-      <button class="clear-all" data-clear="app">Clear all</button>
+      <h2>Trash <em data-count="trash">0</em></h2>
       <button class="drawer-close" data-close aria-label="Close">✕</button>
     </div>
-    <div class="rows" id="rows-app"></div>
-  </aside>
-
-  <aside class="drawer drawer-not" id="drawerNot" aria-label="Not Apply jobs">
-    <div class="drawer-head">
-      <h2>Not Apply <em data-count="notapply">0</em></h2>
-      <button class="clear-all" data-clear="notapply">Clear all</button>
-      <button class="drawer-close" data-close aria-label="Close">✕</button>
-    </div>
-    <div class="rows" id="rows-notapply"></div>
+    <div class="rows" id="rows-trash"></div>
   </aside>
 
   <footer class="foot">
     <span class="stats"><b id="statOpen">0</b> tabs open · <b id="statDone">0</b> done</span>
-    <button class="restore" id="restoreBtn" hidden></button>
     <span class="tagline">Close the tabs. Get the offer.</span>
   </footer>
 
@@ -157,7 +144,18 @@
       <p class="modal-msg" id="modalMsg"></p>
       <div class="modal-actions">
         <button class="modal-btn no" id="modalNo">No</button>
-        <button class="modal-btn yes" id="modalYes">Yes, clear</button>
+        <button class="modal-btn yes" id="modalYes">Yes, move to Trash</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── "Did you apply?" popup (shown on every tile click) ────────── -->
+  <div class="modal-scrim" id="applyScrim" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="applyMsg">
+      <p class="modal-msg" id="applyMsg"></p>
+      <div class="modal-actions">
+        <button class="modal-btn no" id="applyNo">No, not yet</button>
+        <button class="modal-btn yes" id="applyYes">Yes, applied</button>
       </div>
     </div>
   </div>
