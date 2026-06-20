@@ -1,5 +1,23 @@
 [
   {
+    "id": "ac06aac71a1c0db9ed29c7243ff2a7e5",
+    "title": "UX Designer",
+    "company": "Jobs via Dice",
+    "location": "Seattle, WA",
+    "salary": "Not listed",
+    "url": "https://www.linkedin.com/jobs/view/4430052299",
+    "source": "Linkedin",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "visa": null,
+    "founders": [],
+    "posted_at": "nan",
+    "priority": 3,
+    "first_seen": "2026-06-19T23:21:55.626111-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "caa905e8a0379b2c26afc9fae0fe8104",
     "title": "Product Designer",
     "company": "Anduril Industries",
@@ -176,24 +194,6 @@
     "posted_at": "nan",
     "priority": 4,
     "first_seen": "2026-06-19T23:12:29.571649-07:00",
-    "status": "active",
-    "applied_at": null
-  },
-  {
-    "id": "08bb5be3cea02cc7fb261f5836832894",
-    "title": "Project Engineer",
-    "company": "Power Packer North America Inc",
-    "location": "Urbandale, IA, US",
-    "salary": "Not listed",
-    "url": "https://www.indeed.com/viewjob?jk=e709dfe7880da360",
-    "source": "Indeed",
-    "is_new_grad": false,
-    "is_big_tech": false,
-    "visa": null,
-    "founders": [],
-    "posted_at": "2026-06-19",
-    "priority": 4,
-    "first_seen": "2026-06-19T23:12:27.859600-07:00",
     "status": "active",
     "applied_at": null
   },
