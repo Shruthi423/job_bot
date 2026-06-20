@@ -127,6 +127,7 @@ sup { font-size: .5em; vertical-align: super; }
 .dd-btn .dd-sum {
   color: var(--fg); max-width: 150px; overflow: hidden;
   text-overflow: ellipsis; white-space: nowrap;
+  text-transform: uppercase; letter-spacing: .04em;
 }
 .dd-caret { opacity: .55; transition: transform .2s ease; }
 .dd.open .dd-caret { transform: rotate(180deg); opacity: .9; }
@@ -146,7 +147,8 @@ sup { font-size: .5em; vertical-align: super; }
 .dd-opt {
   display: flex; align-items: center; gap: 10px;
   padding: 8px 10px; border-radius: 8px; cursor: pointer;
-  font-size: 13px; color: var(--fg); white-space: nowrap;
+  font-size: 12px; color: var(--fg); white-space: nowrap;
+  text-transform: uppercase; letter-spacing: .04em;
   transition: background .14s ease;
 }
 .dd-opt:hover { background: var(--field-bg); }
