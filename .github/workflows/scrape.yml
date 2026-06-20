@@ -1,0 +1,63 @@
+name: OpenTabs cloud scrape
+
+# Runs the cloud half of the hybrid: the API / RSS / ATS sources + funding
+# radar (the parts that work fine from a datacenter IP). The laptop keeps
+# scraping LinkedIn/Indeed/Glassdoor/ZipRecruiter/Google locally.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"      # every ~15 min (GitHub may delay under load)
+  workflow_dispatch:            # let you trigger a run by hand from the Actions tab
+
+# Don't let a slow run overlap the next scheduled one.
+concurrency:
+  group: opentabs-cloud
+  cancel-in-progress: false
+
+permissions:
+  contents: write               # needed to commit jobs.cloud.json + state back
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run cloud scrape (one cycle)
+        env:
+          OPENTABS_MODE: cloud
+          RUN_ONCE: "1"
+          PUBLISH_TO_GIT: "false"          # the commit step below handles git
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_FUNDING_BOT_TOKEN: ${{ secrets.TELEGRAM_FUNDING_BOT_TOKEN }}
+          TELEGRAM_FUNDING_CHAT_ID: ${{ secrets.TELEGRAM_FUNDING_CHAT_ID }}
+          ZIPRECRUITER_API_KEY: ${{ secrets.ZIPRECRUITER_API_KEY }}
+        run: python opentabs.py
+
+      - name: Commit dashboard data + cloud state
+        run: |
+          git config user.name  "opentabs-bot"
+          git config user.email "actions@github.com"
+          # cloud data the site reads + the cloud runner's own state files
+          git add docs/jobs.cloud.json docs/funding.json *.cloud.json *.cloud.flag 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing changed this cycle."
+          else
+            git commit -m "🤖 Cloud scrape — update jobs.cloud.json + funding"
+            for i in 1 2 3; do
+              git pull --rebase --autostash && git push && break
+              echo "push race, retrying ($i)…"; sleep 3
+            done
+          fi
