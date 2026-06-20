@@ -63,20 +63,21 @@ def now_pt(): return datetime.now(TZ)
 # ─────────────────────────────────────────────────────────────────
 SEARCH_QUERIES = [
     "product designer",
-    "UX designer",
-    "UI designer",
-    "junior product designer",
-    "junior UX designer",
-    "associate product designer",
-    "entry level UX designer",
-    "new grad designer",
-    "founding designer",
+    "design engineer",
     "founding product designer",
+    "UI designer",
+    "UX designer",
+    "UI/UX designer",
     "UX researcher",
-    "user researcher",
-    "design systems designer",
+    # ── adjacent roles ──
+    "founding designer",
+    "product design engineer",
+    "design technologist",
     "interaction designer",
-    "visual designer",
+    "design systems designer",
+    "brand designer",
+    "user researcher",
+    "new grad designer",
 ]
 
 # US-focused. "United States" pulls nationwide (LinkedIn/Indeed); the
@@ -109,7 +110,8 @@ INCLUDE = [
     "interaction designer", "visual designer", "ux researcher",
     "user researcher", "design researcher", "design systems",
     "design technologist", "service designer", "founding designer",
-    "motion designer", "brand designer",
+    "motion designer", "brand designer", "design engineer",
+    "design engineering", "product design",
 ]
 EXCLUDE = [
     "graphic designer", "fashion", "interior design", "industrial design",
@@ -147,6 +149,28 @@ def _too_senior(text: str) -> bool:
                 continue
             return True
     return False
+
+# ── Visa sponsorship — best-effort from the posting text. Many roles don't
+#    say either way (→ None); we only flag explicit statements. "no" is checked
+#    first because "sponsorship" appears in both the yes and no phrasings. ──
+_VISA_NO_RE = re.compile(
+    r'(no (?:visa )?sponsorship|not able to sponsor|cannot sponsor|unable to sponsor|'
+    r'do(?:es)? not (?:offer |provide )?sponsor|not (?:offer|provide|able to offer) sponsor|'
+    r'without (?:requiring )?(?:visa )?sponsorship|not (?:be )?(?:able|eligible) .{0,20}sponsor|'
+    r'authorized to work .{0,40}without sponsorship|no(?:t)? .{0,20}immigration sponsorship)', re.I)
+_VISA_YES_RE = re.compile(
+    r'(visa sponsorship|will sponsor|we sponsor|sponsor(?:ship)? (?:is )?available|'
+    r'offer(?:s)? (?:visa )?sponsorship|provide(?:s)? (?:visa )?sponsorship|open to sponsor|'
+    r'able to sponsor|can sponsor|\bh-?1b\b|green card sponsor|immigration sponsorship)', re.I)
+
+def extract_visa(text: str):
+    if not text:
+        return None
+    if _VISA_NO_RE.search(text):
+        return "no"
+    if _VISA_YES_RE.search(text):
+        return "yes"
+    return None
 
 def classify(title: str, company: str = "", description: str = "") -> dict:
     text = f"{title} {description}".lower()
@@ -467,6 +491,7 @@ def scrape_jobspy(query: str, location: str, sites=None) -> list:
                 "description": str(row.get("description", ""))[:400],
                 "posted_at": str(row.get("date_posted", "Recently")),
                 "source":   str(row.get("site", "")).title(),
+                "visa":     extract_visa(str(row.get("description", ""))),  # full text
             }
             if job["title"] and job["url"]:
                 jobs.append(job)
@@ -774,6 +799,69 @@ def _ashby_jobs(co: str) -> list:
     except Exception as e:
         log.error(f"Ashby {co}: {e}")
     return out
+
+def _lever_jobs(co: str) -> list:
+    out = []
+    try:
+        r = requests.get(f"https://api.lever.co/v0/postings/{co}?mode=json", headers=H, timeout=15)
+        if r.status_code != 200: return []
+        for j in r.json():
+            cats = j.get("categories") or {}
+            posted = "Recently"
+            if j.get("createdAt"):
+                try: posted = datetime.fromtimestamp(j["createdAt"] / 1000, TZ).isoformat()
+                except Exception: pass
+            out.append({
+                "title":    (j.get("text") or "").strip(),
+                "company":  co.replace("-", " ").title(),
+                "location": (cats.get("location") or "See posting").strip(),
+                "url":      j.get("hostedUrl") or j.get("applyUrl") or "",
+                "salary":   "Not listed",
+                "description": re.sub(r"<[^>]+>", "", (j.get("descriptionPlain") or j.get("description") or ""))[:400],
+                "posted_at": posted, "source": "Lever",
+            })
+    except Exception as e:
+        log.error(f"Lever {co}: {e}")
+    return out
+
+# ── Curated company list (verified ATS slugs) polled directly each cycle.
+#    classify() + is_us() + the 0–4yr filter trim the big boards to junior
+#    design roles. Extend freely; bad slugs just log a non-200 and yield 0. ──
+ATS_COMPANIES = [
+    # (slug, platform, display name)
+    ("figma", "greenhouse", "Figma"),       ("stripe", "greenhouse", "Stripe"),
+    ("airbnb", "greenhouse", "Airbnb"),      ("dropbox", "greenhouse", "Dropbox"),
+    ("coinbase", "greenhouse", "Coinbase"),  ("databricks", "greenhouse", "Databricks"),
+    ("robinhood", "greenhouse", "Robinhood"),("instacart", "greenhouse", "Instacart"),
+    ("reddit", "greenhouse", "Reddit"),      ("discord", "greenhouse", "Discord"),
+    ("gitlab", "greenhouse", "GitLab"),      ("brex", "greenhouse", "Brex"),
+    ("scaleai", "greenhouse", "Scale AI"),   ("anthropic", "greenhouse", "Anthropic"),
+    ("vercel", "greenhouse", "Vercel"),
+    ("plaid", "lever", "Plaid"),             ("netflix", "lever", "Netflix"),
+    ("ramp", "ashby", "Ramp"),               ("notion", "ashby", "Notion"),
+    ("linear", "ashby", "Linear"),           ("openai", "ashby", "OpenAI"),
+    ("runway", "ashby", "Runway"),           ("replit", "ashby", "Replit"),
+    ("cursor", "ashby", "Cursor"),
+]
+
+def scrape_ats() -> list:
+    """Poll the curated company boards (Greenhouse / Lever / Ashby) directly."""
+    if is_cooling("ats"): return []
+    fetchers = {"greenhouse": _greenhouse_jobs, "lever": _lever_jobs, "ashby": _ashby_jobs}
+    jobs = []
+    for slug, platform, name in ATS_COMPANIES:
+        fn = fetchers.get(platform)
+        if not fn: continue
+        try:
+            for j in fn(slug):
+                j["company"] = name
+                j["source"]  = name           # show the company as the source
+                if is_us(j.get("location", "")):
+                    jobs.append(j)
+        except Exception as e:
+            log.error(f"ATS {name}: {e}")
+        time.sleep(0.25)
+    return jobs
 
 def scrape_startups_gallery() -> list:
     r = _http_get("startupsgallery", "https://startups.gallery/jobs", timeout=20)
@@ -1402,6 +1490,7 @@ def run_check():
     all_jobs.extend(scrape_uiuxjobsboard())
     all_jobs.extend(scrape_startups_gallery())
     all_jobs.extend(scrape_substack_uxjobs())
+    all_jobs.extend(scrape_ats())          # curated Greenhouse/Lever/Ashby boards
     # ZipRecruiter official API — no-op unless ZIPRECRUITER_API_KEY is set
     for query in batch:
         all_jobs.extend(scrape_ziprecruiter_api(query, "United States"))
@@ -1420,6 +1509,8 @@ def run_check():
         if not flags["relevant"]:
             continue
         job.update(flags)
+        if not job.get("visa"):
+            job["visa"] = extract_visa(job.get("description", ""))   # best-effort
         rank = location_rank(job.get("location", ""))
         if rank is None:
             continue  # not in the USA — skip
@@ -1440,6 +1531,7 @@ def run_check():
             "source":      job.get("source", ""),
             "is_new_grad": bool(job.get("is_new_grad")),
             "is_big_tech": bool(job.get("is_big_tech")),
+            "visa":        job.get("visa"),          # "yes" | "no" | None
             "posted_at":   job.get("posted_at", "Recently"),
             "priority":    rank,
             "first_seen":  first_seen.isoformat(),
