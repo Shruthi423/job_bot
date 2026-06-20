@@ -1,16 +1,58 @@
 [
   {
     "item": {
-      "company": "Frontier Health",
-      "amount": "$16.0M",
+      "company": "Terraxy",
+      "amount": "$3.0M",
       "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEeExzdWt6dG8zNkk5U0JnaHJRbElyWXZjcjJNZkhLek9TcG9lQTNQc2JEcnVNTWxLemwtYUcxb0xOLS11ZElTd0RCNGZOQURXY1JzOGtINWF0bnJDQzZOejNhNnpWZ2tTN0ZicWhoUEFlekU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVUR4TUpEdml2eTBQcW1BZWZoWjVISTJuUVZRYjd4S2xpOFZZU0lyeDd3QmtjVG1OU1o1RDNLa3YySVFYZmdPWEl1bTgyVU5NN29yRUZ6b0ZkSFR0QnBnUWJnblhpZzNnUFEtdkhkSWRFXzJLaXJzZ3ZYcDBESnJKbjhxVEs4S1Y4VTFQOEhIbGZKdXRnNmsxeVk4UnFpQWoyS05YbnFVUU9XRklOLTlHdk1IS1c5ZFRMMU9PM3NGZzZlZTA?oc=5",
       "priority": 9
     },
-    "remind_at": "2026-06-20T04:43:02.027138-07:00"
+    "remind_at": "2026-06-20T06:30:06.501474-07:00"
+  },
+  {
+    "item": {
+      "company": "Ent",
+      "amount": "$100.0M",
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbGRIWHBrMUZ6dUJSYXMzc1RSRnJIdXBMWkNWR25LSXFscXBWRmtRSzduUzNYS1N4YWVCaXI4X1l4TV9nS05qMDc1cjZ5SDUyYi10YXpJdVVtQmNYb2xFVExFZHM0dXN6N21id1lhRnRzb1ZaUC1IeEtkMWlNbUI2Y1c1cEtIVUJWcVM2VWs1cmZsVVVaekRTOGs1TUpVcWpSRURuWmlZZDNyUjRmOXVfbXU2OXVOczZDUnF1cHlSMzJSS0Qta3UzcA?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-20T06:30:08.681755-07:00"
+  },
+  {
+    "item": {
+      "company": "World Cup tourists discover America",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": "Boston",
+      "founders": [],
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/20/world-cup-tourists",
+      "priority": 3
+    },
+    "remind_at": "2026-06-20T06:30:11.630545-07:00"
+  },
+  {
+    "item": {
+      "company": "that",
+      "amount": "$72.4M",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc3JvVFJrNEs1bTE2TXczUWp1TkQtUmw2WDhyVGg2ZWg5NXpHa1lFQWVaZkszZldhM2xlQnd0NlBoTUM1R2NFa1BPakdTRU41ZG5tV0ZTWlE2SThVZWJ3VFNPdmd0V1BnQ0tMY2NnNmVZU3cwYXVERjJ4R2NVemNNaUt5ZTBMeTdpcHZTMFFfaTNXVjZENGRTZVQ2YWNlYi1fbjN3?oc=5",
+      "priority": 3
+    },
+    "remind_at": "2026-06-20T06:30:13.823950-07:00"
   }
 ]
