@@ -1,30 +1,44 @@
 [
   {
     "item": {
-      "company": "Stripe",
+      "company": "It starts in childhood",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZUlFSjF1V2x3WV9UaWZDRkx3LTdBWHJMdWdpc2l2UzFKVlRJMlRrWDRHSjViQ1JUckZLQV9ybnV0b0RRNzNpTGZKdTdtWHdKc0dNQTlQY0JzRWtBdWtuMm1RYlM2WmZCN2pSanp2QmNkN01XbnVXMnNkNHhocTUzTXpFNGdIaEM1MHh2NkpVYldvZXVtTjJ5QTVYbS1ZRFVRN25zbVlvTWM?oc=5",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/21/male-labor-force-participation-rate-decline-childhood-experience-wages-unemployment/",
       "priority": 3
     },
-    "remind_at": "2026-06-21T13:52:34.085339-07:00"
+    "remind_at": "2026-06-21T15:22:55.632525-07:00"
   },
   {
     "item": {
-      "company": "ElevenLabs",
+      "company": "How the Iran war",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNVpLd2xkU09QeXpyUENaSVhsa21SMzF5X1NvMjlRX2VLRFM1cklhQ2gxTUhyUDFLdElicjhyZG9hYTZTZGs2OWpmRmhJTm8xa09qeFhOMXJUNWg1cGdlTlFWdHZlZ3kwanY5LTBNYk1UMTZoM1dJXzNNeHkxSWVnSEtUVV9IRGk0dlV2Vk9qbVhWQ1dYRFNYbFJncGhvS21ET21EYm1wZURBV3ltTGc?oc=5",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/05/19/us-israel-iran-war-energy-gas-prices-coal-oil/",
       "priority": 3
     },
-    "remind_at": "2026-06-21T13:52:36.332197-07:00"
+    "remind_at": "2026-06-21T15:22:58.852340-07:00"
+  },
+  {
+    "item": {
+      "company": "Inside U.S.-Iran talks in Switzerland",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/21/us-iran-talks-jd-vance-switzerland-lebanon-nuclear",
+      "priority": 3
+    },
+    "remind_at": "2026-06-21T15:23:02.107226-07:00"
   }
 ]

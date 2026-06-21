@@ -6541,5 +6541,50 @@
     ],
     "first_seen": "2026-06-21T13:22:37.332359-07:00",
     "status": "active"
+  },
+  "054e0d0ce006b478a414187ace2b5f2a": {
+    "id": "054e0d0ce006b478a414187ace2b5f2a",
+    "company": "It starts in childhood",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/21/male-labor-force-participation-rate-decline-childhood-experience-wages-unemployment/",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-21T14:52:56.632649-07:00",
+    "status": "active"
+  },
+  "d5764fbda1bcb86d46861aed632931cd": {
+    "id": "d5764fbda1bcb86d46861aed632931cd",
+    "company": "How the Iran war",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/05/19/us-israel-iran-war-energy-gas-prices-coal-oil/",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-21T14:52:59.852514-07:00",
+    "status": "active"
+  },
+  "61e5ed783ccd1f8bfbb588c5383e4a00": {
+    "id": "61e5ed783ccd1f8bfbb588c5383e4a00",
+    "company": "Inside U.S.-Iran talks in Switzerland",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/21/us-iran-talks-jd-vance-switzerland-lebanon-nuclear",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-21T14:53:03.107404-07:00",
+    "status": "active"
   }
 }
