@@ -1,86 +1,74 @@
 [
   {
     "item": {
-      "company": "The GLP-1 boom",
-      "amount": null,
-      "stage": null,
-      "investors": "realize",
-      "location": null,
-      "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/21/glp1-drugs-climate-food-system-emissions-investment/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-21T04:59:42.397273-07:00"
-  },
-  {
-    "item": {
-      "company": "Each team will",
-      "amount": "$871.0M",
-      "stage": null,
+      "company": "Turbo Law",
+      "amount": "$3.8M",
+      "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/21/world-cup-teams-paid-record-871-million-each-team-get-12-5-million-bare-minimum-qualifying-preparation-money/",
-      "priority": 3
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVVZpWDgyUzZpdFh2U01xS2hQSHJZNkJmMHdqZzVrN1A1NW1nRmIxeHVNQ1lEZGZDZG1vQ2NNeHVoMVhaTC1HYUZXc0JJT2J6TXExb2xUZlI4SmV6SXkyMV9nZkVqUWVBWmhnZDNSWTJvc1EyRU51UkVIdmFaTFJPWVgyV0ZJTjdtbmprZFl3ekdtUFlOWkpOWm1lcURJWWhiQnZGVHY1b9IBrAFBVV95cUxQQXEwZ1FSdmIwZnFqenpxMFFwV2hxWGRVSGVSZFpod0ZIZXBmNE1YYk9nUzgxSDAtNzQ1VlZvMW1BaERDM1BCaTh5YldmQmdNMllnbEctcHhSWUNSNTh4NWE0TVlJckl3WmZVaFFIWl90M00zTzRMOER6YlpMdjFBdWF6bDRqcVFScjFRQTVQY2pzbUgxa3lHOU81LWhYNGN2blFSN3FlcXZJbGlo?oc=5",
+      "priority": 9
     },
-    "remind_at": "2026-06-21T04:59:45.661916-07:00"
+    "remind_at": "2026-06-21T06:53:16.788558-07:00"
   },
   {
     "item": {
-      "company": "Nobel Laureate Daron Acemoglu",
+      "company": "Your \u2018proteinmaxxing\u2019",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
-      "founders": [],
+      "founders": [
+        "Peter Rahal"
+      ],
       "source": "Fortune",
-      "url": "https://fortune.com/2026/06/21/nobel-laureate-daron-acemoglu-ai-productivity-capitalism-democracy/",
+      "url": "https://fortune.com/2026/06/21/proteinmaxxing-whey-shortage-cost-increase-snack-companies-changing-recipes/",
       "priority": 3
     },
-    "remind_at": "2026-06-21T04:59:48.898620-07:00"
+    "remind_at": "2026-06-21T06:53:19.755859-07:00"
   },
   {
     "item": {
-      "company": "in Malaysia",
+      "company": "U.S. and Iran",
+      "amount": "$6.0B",
+      "stage": null,
+      "investors": null,
+      "location": "Washington",
+      "founders": [],
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/20/vance-iran-talks-switzerland",
+      "priority": 3
+    },
+    "remind_at": "2026-06-21T06:53:22.686954-07:00"
+  },
+  {
+    "item": {
+      "company": "Welcome",
       "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": "Atlanta",
+      "founders": [],
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/21/world-cup-service-fees-tipping-culture",
+      "priority": 3
+    },
+    "remind_at": "2026-06-21T06:53:24.939548-07:00"
+  },
+  {
+    "item": {
+      "company": "funding",
+      "amount": "$403.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMkI5RFQ3NHJKMnl5TkpGZzRweWxleEY3VTc4cGwwZ1BTcVdJTWItMlRiQkFVUGZ6c2IwdVZ4cTdtZXRIVnBXWmFsUXVvcDJuSzEyVkdSU1Q4OU5vSE05cThJUU1OVWZ2UlBwSE1qT25SMk5SUFJXb1VlTnlsemRGTW1LUHRib3BGamlGcGlvY1c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPN2hTdlZYakE4RHowODE5ZGZRM3ZmYXF6SmE3YmxfVUxkMUItUXBPOHlBRndLeWJsOTZPamRyVld6S2l2Yjh3dm9PZGtKYXE5U2R4dERpbUcxaXZNQkxKTDhLcDFidmw3bjdNdXdOdk9KVzdWVFNneFVocjc4b0drNkx2WFZPb3BtRmlQQTBkcGRIVmNrY3paeUs0ajlEN3JRd1owRElUR3cwUnlmaHVsb2dUekh3SGkxSDBXcjBvTDF0U1E0akhBbFFIS2c5UUp1eWlrYTZEdXZnZEdpdmh2cnBxdENQT1FlM2RUc1o3aTl6ajlqbVl0R0FTbGNmZ9IB_gFBVV95cUxPN2hTdlZYakE4RHowODE5ZGZRM3ZmYXF6SmE3YmxfVUxkMUItUXBPOHlBRndLeWJsOTZPamRyVld6S2l2Yjh3dm9PZGtKYXE5U2R4dERpbUcxaXZNQkxKTDhLcDFidmw3bjdNdXdOdk9KVzdWVFNneFVocjc4b0drNkx2WFZPb3BtRmlQQTBkcGRIVmNrY3paeUs0ajlEN3JRd1owRElUR3cwUnlmaHVsb2dUekh3SGkxSDBXcjBvTDF0U1E0akhBbFFIS2c5UUp1eWlrYTZEdXZnZEdpdmh2cnBxdENQT1FlM2RUc1o3aTl6ajlqbVl0R0FTbGNmZw?oc=5",
       "priority": 3
     },
-    "remind_at": "2026-06-21T04:59:52.135921-07:00"
-  },
-  {
-    "item": {
-      "company": "Respond.io",
-      "amount": "$62.5M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZGp0OWRhX2tnR1hNZDE4elktNDJpQ0JIbzBVR3lzNnRDcWtPeE5QS05kZW52WGhpZGxKeUtYNTVQUERiQTl4Q01DT1RnTGtBLTFvQUtVbjdHNlI3S3I2dkYxSlJobThJRzgzRWVobXNDTmNEcWVicjZXdHR1NTJ5LWxpNWNtcTIwMWdPRHh2QnRJZUpfWmNlRg?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-21T04:59:54.574361-07:00"
-  },
-  {
-    "item": {
-      "company": "Festina",
-      "amount": "$25.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObU5TekNxS29mZWpFdUszaklGRWdHY2pnZzl2OF9NMm0zbi1BV2dZNFE5elk5UUc4cVRWUm1VWktRd1I3VWxUalhYTnBrV1RxX0JlUGtBM01lc2lkRmt6LWN4Um1oTWxaOENBcndjczdtV29aNnptdHlyZVJuaXFTVXVMV2NGeGtrSTlTQkgzZVRsNXEta0FySnVDVmZtSTg?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-21T04:59:57.007079-07:00"
+    "remind_at": "2026-06-21T06:53:27.143526-07:00"
   }
 ]
