@@ -1,91 +1,105 @@
 [
   {
     "item": {
-      "company": "Upscale AI",
-      "amount": "$190.0M",
+      "company": "AethexAI",
+      "amount": "$3.0M",
+      "stage": "Pre-Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSFdaY3BCVEs1SjBQbHVlRllXSHFyazlZWUFYbEt0d20wZW9sdkh2X1lhNHA5eDFiZlNnWmxpRGo2ejBYcGg1cG1GSzR2UmVwWDFqVkNlYlJOaVg5cnM3UEIwcU1QVDBIdlU3eGYtS2tDZ2V2ME9DTzF3R0gyNEFZNXlWMWxPcFl6QTRHSU9Ta1kyMndCWkE?oc=5",
+      "priority": 10
+    },
+    "remind_at": "2026-06-22T13:17:27.440301-07:00"
+  },
+  {
+    "item": {
+      "company": "Ovum",
+      "amount": "$4.0M",
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnRucjFjTDlDNG9Mb0hwYl96R2tDdE1QcXo1MGhUczUteWszVGxRRmFSVDB5NVFmYXdJR3NmTk9CMVR0bzgtWExDSUg2WUVkMk5NTF9vSU5WbUx1WUdOUlI1aGJGb3BtbGYzbUxsMlF0cG9lVktrejNqUDdLZlZEMTUwWE5raEZxbXIzcEdPWTVDM20ta1I2RTV0WEVKX3RXODRxOHhWOA?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-22T13:17:29.698154-07:00"
+  },
+  {
+    "item": {
+      "company": "Rentify",
+      "amount": null,
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUVRoLXdCZ3NRU3FvRGFXNXZNVnpkdzRNdVEwUFJjVUhUNDhOU0x5aTdMSm1tR01kZE9HTURsNmE2RGtoYzFtQ2NMbWlhQ1g0aUJfUWlHVTdXQVZ4dXBGcGtzWlNUWUhTOUl4UDZpcks1YUFEVlotMFEzRVJqZ29KMHljWG1QWFA0RlQ5eFpHUk84V3ZMNFVmUQ?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-22T13:17:31.906021-07:00"
+  },
+  {
+    "item": {
+      "company": "Prosper AI",
+      "amount": null,
       "stage": "Series A",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPWGxjWVd0U2JJUlRXSHpodDlOSUVtTjVSc21ocnZQQUhTZjdiUENTZWxEWmlUYzRPUTZGdVpMQ2VlRDhoVnFaTUZVSlBGTlVHNU9feXBPWXpGb1pxU19XYWtSUmpqdnBpU1hfZnRhQWZ2RXRoQmtQQ3Z3bw?oc=5",
+      "source": "a16z (news)",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPX3VoSGFuck9wYXZwRmhaVmZfZk5WTWYtRVRnVnFMUlBLMTEyaHFLNjhyRVlaQmN3ZG9MXzN2UlBmN2NUNmFvTFVhTVFfNEhxTlN6WF9JTDl3RUZ1NGlsMUdUcDlZTHF1TlFBOC1xRnZyNnBrSXdtR1FTTTQ5QUlfRkNVQnNpMkNVVm9WaU9hWm1EMVJQaDEzZXVvMTZYaGVFcjNZX0RyaWloWHpJdjY3ZEowQzVleG5KeUVDam9yR04xVC1Oa3RwTVNhMVJGTjQwUnlyYWlNcW1TUFBJcU9qaE9B0gHiAUFVX3lxTE9fdWhIYW5yT3BhdnBGaFpWZl9mTlZNZi1FVGdWcUxSUEsxMTJocUs2OHJFWVpCY3dkb0xfM3ZSUGY3Y1Q2YW9MVWFNUV80SHFOU3pYX0lMOXdFRnU0aWwxR1RwOVlMcXVOUUE4LXFGdnI2cGtJd21HUVNNNDlBSV9GQ1VCc2kyQ1VWb1ZpT2FabUQxUlBoMTNldW8xNlhoZUVyM1lfRHJpaWhYekl2NjdkSjBDNWV4bkp5RUNqb3JHTjFULU5rdHBNU2ExUkZONDBSeXJhaU1xbVNQUElxT2poT0E?oc=5",
       "priority": 8
     },
-    "remind_at": "2026-06-22T09:41:23.899585-07:00"
+    "remind_at": "2026-06-22T13:17:34.145995-07:00"
   },
   {
     "item": {
-      "company": "ElevationSpace",
-      "amount": "$40.0M",
-      "stage": "Series B",
+      "company": "AppsFlyer Reportedly",
+      "amount": "$1.0B",
+      "stage": "Series E",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jbHdkT2d0YXl6TGVsdkNueHVQNFJPNjVMWEE0TmJGek9McWtvUWh3RGZyWmEycldFdkxlbFpxNHNubUZOb3RKSmdwT0hMNV9POWRoeWZQYktGcmdldGNaUkdLQ0RCN19Qa2Q0Yg?oc=5",
-      "priority": 7
-    },
-    "remind_at": "2026-06-22T09:41:26.177511-07:00"
-  },
-  {
-    "item": {
-      "company": "Seedcamp",
-      "amount": "$320.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "TechCrunch Venture",
-      "url": "https://techcrunch.com/2026/06/22/seedcamp-raises-320m-for-its-new-fund-to-expand-its-us-footprint/",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/marketing-digital-ad-tracker-appsflyer-lands-1b/",
       "priority": 3
     },
-    "remind_at": "2026-06-22T09:41:28.495428-07:00"
+    "remind_at": "2026-06-22T13:17:37.157587-07:00"
   },
   {
     "item": {
-      "company": "BT\u2019s CEO",
+      "company": "Bobby Pulido headlined school benefit",
       "amount": null,
       "stage": null,
       "investors": null,
-      "location": null,
+      "location": "New York",
       "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/04/bt-ceo-allison-kirkby-uk-telecommunications-uefa/",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/22/bobby-pulido-congress-texas",
       "priority": 3
     },
-    "remind_at": "2026-06-22T09:41:31.506753-07:00"
+    "remind_at": "2026-06-22T13:17:40.125231-07:00"
   },
   {
     "item": {
-      "company": "Iran",
-      "amount": null,
+      "company": "Democrats",
+      "amount": "$5.2M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Axios",
-      "url": "https://www.axios.com/2026/06/22/iran-un-inspectors-vance",
+      "url": "https://www.axios.com/2026/06/22/democrats-maine-dunlap-platner-2026-elections",
       "priority": 3
     },
-    "remind_at": "2026-06-22T09:41:33.800742-07:00"
+    "remind_at": "2026-06-22T13:17:42.366459-07:00"
   },
   {
     "item": {
-      "company": "SpaceX",
-      "amount": "$6.3B",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "TechStartups",
-      "url": "https://techstartups.com/2026/06/22/spacex-lands-6-3-billion-ai-compute-deal-with-reflection-ai-to-power-open-source-models/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-22T09:41:36.240735-07:00"
-  },
-  {
-    "item": {
-      "company": "Salesforce at 3.1x ARR",
+      "company": "Salesforce at 2.8x ARR",
       "amount": "$285.0B",
       "stage": null,
       "investors": null,
@@ -95,34 +109,20 @@
       "url": "https://www.saastr.com/salesforce-at-3-1x-arr-hubspot-down-56-adobe-at-11x-earnings-are-they-just-too-oversold-now/",
       "priority": 3
     },
-    "remind_at": "2026-06-22T09:41:39.245532-07:00"
+    "remind_at": "2026-06-22T13:17:45.336146-07:00"
   },
   {
     "item": {
-      "company": "Trading app Fomo",
-      "amount": "$75.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OR2cyMmdJbnlIVWxyMGdHS3RQZWVKMVJ6bVNURkpXM0pmNENpVVNrTkhUTnVSdkl5SUJYWVhPdmE5WTFxMl9KNkZxQlFBTTRtbS1rOExkYmt4Vno3bl91Ulg0WVJEUQ?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-22T09:41:42.311344-07:00"
-  },
-  {
-    "item": {
-      "company": "Upscale AI wants",
-      "amount": "$190.0M",
+      "company": "UAE Proptech Rentify",
+      "amount": "$2.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbFpRNm56ejBZc0hIREFDbWRfeHllbWVtY25Vb0V6SlhFRVN2RFQzVGpBU241Ti1vWG0wMnM1RlFRNElzYWFaeWV3OFlrdHlNd1Q5Z0E4WlZWbjZnR2NOSWlsOVhsSkh0UzVuM0U4UXMtMnVUYlk5ek01RWhCLU8tU3ctem11cktVajdueU5qNzczUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOajJkSVhaODBYSFRTb0MwS3lVaWhnWDZoVWl4UnNHMm1naDQ3OTgxQ2tfU1JjZXhPaFVqRjlzYjIwMjl3TlVzMTlpWjljd0VOOTNrb1ZFUjJ4WnR1dFFIX0Zrd1RJQWR3X3hvYkV1STdTXzNhZTgzaVJTcjlrejdlZmxIVGl2cE5xbUFqU0lkNHFqRERhYUx1UndhTlc1ZUk?oc=5",
       "priority": 3
     },
-    "remind_at": "2026-06-22T09:41:45.290694-07:00"
+    "remind_at": "2026-06-22T13:17:48.319622-07:00"
   }
 ]
