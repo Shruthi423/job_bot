@@ -4015,5 +4015,23 @@
     "first_seen": "2026-06-22T04:22:23.694327-07:00",
     "status": "active",
     "applied_at": null
+  },
+  "e92973eeac689873bac531b54017388d": {
+    "id": "e92973eeac689873bac531b54017388d",
+    "title": "Brand Designer (Americas)",
+    "company": "Infisical (W23)",
+    "location": "San Francisco, CA, US / Remote (US; BR; AR; CA; MX)",
+    "salary": "$100K - $180K",
+    "url": "https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D88824&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=27664",
+    "source": "Y Combinator",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "visa": null,
+    "founders": [],
+    "posted_at": "Recently",
+    "priority": 1,
+    "first_seen": "2026-06-22T09:11:01.240361-07:00",
+    "status": "active",
+    "applied_at": null
   }
 }

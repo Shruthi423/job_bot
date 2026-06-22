@@ -1,282 +1,128 @@
 [
   {
     "item": {
-      "company": "Acodyne",
-      "amount": null,
-      "stage": "Pre-Seed",
-      "investors": null,
-      "location": "Copenhagen",
-      "founders": [],
-      "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/acodyne-2-5m-pre-seed-jet-speed-cargo-drones/",
-      "priority": 10
-    },
-    "remind_at": "2026-06-22T04:52:46.238500-07:00"
-  },
-  {
-    "item": {
-      "company": "And",
-      "amount": "$320.0M",
-      "stage": "Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/europe-seed-investor-seedcamp-closes-two-funds/",
-      "priority": 9
-    },
-    "remind_at": "2026-06-22T04:52:48.684186-07:00"
-  },
-  {
-    "item": {
-      "company": "Rentify",
-      "amount": "$2.0M",
-      "stage": "Seed",
-      "investors": null,
-      "location": "Seed UAE",
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/rentify-raises-2m-seed/",
-      "priority": 9
-    },
-    "remind_at": "2026-06-22T04:52:51.255275-07:00"
-  },
-  {
-    "item": {
-      "company": "ChemT",
-      "amount": "$4.0M",
-      "stage": "Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/chemt-raises-4m-seed/",
-      "priority": 9
-    },
-    "remind_at": "2026-06-22T04:52:53.813893-07:00"
-  },
-  {
-    "item": {
-      "company": "GoVeda",
-      "amount": null,
-      "stage": "Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/goveda-announces-seed-funding-to-turn-ip-into-a-revenue-engine-for-future-innovators/",
-      "priority": 9
-    },
-    "remind_at": "2026-06-22T04:52:56.786012-07:00"
-  },
-  {
-    "item": {
-      "company": "UAE-based Rentify",
-      "amount": "$2.0M",
-      "stage": "Seed",
-      "investors": null,
-      "location": "UAE",
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeU9tUXJieVVBNUVyTHk5c3hDZm5QQ3laWnZVOFVuVmlPU3ZLY0lRcnhzNXBvclhGSkc1ekF6d1QzQ3h0aTJsa191bTZnWVdfR295eXVjM2RaUUhsVW81b0l4M0ZFb1VZeXl2WkVZMk9LY0lyaWlrUFBtVVpWd0syazZxQ2p4a1RRMEwwV0xoNUZSVmF0d1pDSExOSQ?oc=5",
-      "priority": 9
-    },
-    "remind_at": "2026-06-22T04:53:00.243830-07:00"
-  },
-  {
-    "item": {
-      "company": "UAE\u2019s Rentify",
-      "amount": "$2.0M",
-      "stage": "Seed",
+      "company": "Upscale AI",
+      "amount": "$190.0M",
+      "stage": "Series A",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOHN4a25RbWtwRjFrVmRnTG85QTN1S2YtaXNHSUJFRFpocHhOYjlSTHZkMnRkaDVnb2hrbi1BZlh0RUZ5UXp5WnoxU0tYdEUwMEc2eXBCdU54ZGloV0lINVhsTk8tX3hmMXZpeVhBZ3ktRkVqczdGT3VCbGtZNE5wZm9BWWZPODlWU1czRzZ2SkRuZTdsQ0IxZjdaZFdpaWFnVE94WDlYcjcydS1rcXZ0enZNdHZQLXpfeF9sQkhEbWtuZmhQRlJB?oc=5",
-      "priority": 9
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPWGxjWVd0U2JJUlRXSHpodDlOSUVtTjVSc21ocnZQQUhTZjdiUENTZWxEWmlUYzRPUTZGdVpMQ2VlRDhoVnFaTUZVSlBGTlVHNU9feXBPWXpGb1pxU19XYWtSUmpqdnBpU1hfZnRhQWZ2RXRoQmtQQ3Z3bw?oc=5",
+      "priority": 8
     },
-    "remind_at": "2026-06-22T04:53:03.546318-07:00"
+    "remind_at": "2026-06-22T09:41:23.899585-07:00"
   },
   {
     "item": {
-      "company": "Isometric",
+      "company": "ElevationSpace",
       "amount": "$40.0M",
-      "stage": "Series A",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/isometric-secures-40-million-in-series-a/",
-      "priority": 8
-    },
-    "remind_at": "2026-06-22T04:53:06.039816-07:00"
-  },
-  {
-    "item": {
-      "company": "Wellbees",
-      "amount": "$3.6M",
-      "stage": "Series A",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/wellbees-raises-3-6m-series-a/",
-      "priority": 8
-    },
-    "remind_at": "2026-06-22T04:53:08.608575-07:00"
-  },
-  {
-    "item": {
-      "company": "Sea12",
-      "amount": "$25.0M",
-      "stage": "Series A",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/sea12-raises-25m-series-a/",
-      "priority": 8
-    },
-    "remind_at": "2026-06-22T04:53:11.220489-07:00"
-  },
-  {
-    "item": {
-      "company": "QUAD",
-      "amount": null,
-      "stage": "Series A",
+      "stage": "Series B",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KdDN4aXc1ZGVWMkJSWHd4Z3htZ1RPRXN6czZnaTlPMmNDQjFsV09QcWVhdkRRNGUtMXZUb0p2TmJPcDAxWFEwSkluSkFUcGxXVjN3?oc=5",
-      "priority": 8
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jbHdkT2d0YXl6TGVsdkNueHVQNFJPNjVMWEE0TmJGek9McWtvUWh3RGZyWmEycldFdkxlbFpxNHNubUZOb3RKSmdwT0hMNV9POWRoeWZQYktGcmdldGNaUkdLQ0RCN19Qa2Q0Yg?oc=5",
+      "priority": 7
     },
-    "remind_at": "2026-06-22T04:53:13.789627-07:00"
+    "remind_at": "2026-06-22T09:41:26.177511-07:00"
   },
   {
     "item": {
-      "company": "Nasdaq Private Market",
-      "amount": "$37.6M",
-      "stage": "Series C",
-      "investors": "Cerity Partners to scale its private market liquidity and investment platform",
+      "company": "Seedcamp",
+      "amount": "$320.0M",
+      "stage": null,
+      "investors": null,
       "location": null,
       "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/nasdaq-private-market-raises-37-6m-series-c/",
-      "priority": 6
+      "source": "TechCrunch Venture",
+      "url": "https://techcrunch.com/2026/06/22/seedcamp-raises-320m-for-its-new-fund-to-expand-its-us-footprint/",
+      "priority": 3
     },
-    "remind_at": "2026-06-22T04:53:17.089818-07:00"
+    "remind_at": "2026-06-22T09:41:28.495428-07:00"
   },
   {
     "item": {
-      "company": "Mach Industries",
-      "amount": "$300.0M",
-      "stage": "Series C",
+      "company": "BT\u2019s CEO",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/04/bt-ceo-allison-kirkby-uk-telecommunications-uefa/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-22T09:41:31.506753-07:00"
+  },
+  {
+    "item": {
+      "company": "Iran",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/22/iran-un-inspectors-vance",
+      "priority": 3
+    },
+    "remind_at": "2026-06-22T09:41:33.800742-07:00"
+  },
+  {
+    "item": {
+      "company": "SpaceX",
+      "amount": "$6.3B",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "TechStartups",
+      "url": "https://techstartups.com/2026/06/22/spacex-lands-6-3-billion-ai-compute-deal-with-reflection-ai-to-power-open-source-models/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-22T09:41:36.240735-07:00"
+  },
+  {
+    "item": {
+      "company": "Salesforce at 3.1x ARR",
+      "amount": "$285.0B",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/salesforce-at-3-1x-arr-hubspot-down-56-adobe-at-11x-earnings-are-they-just-too-oversold-now/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-22T09:41:39.245532-07:00"
+  },
+  {
+    "item": {
+      "company": "Trading app Fomo",
+      "amount": "$75.0M",
+      "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05VWZPaE1WWWkyVzZCQVpMdDNEQ01EN2d3M040cmt2Y0J2MG1Zek80NnZ1bVF4RHFId2FKamxmaDZ2STY5b3BaTkxEdGFza2M0c2FQQnNEcks2S1ZaTENHN2VRT01HU0dzaDN1TWdUZzM1NHM?oc=5",
-      "priority": 6
-    },
-    "remind_at": "2026-06-22T04:53:20.590457-07:00"
-  },
-  {
-    "item": {
-      "company": "Nearfield Instruments",
-      "amount": "$380.0M",
-      "stage": "Series D",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/22/semiconductor-manufacturing-process-control-startup-nearfield-instruments-raises-380m-accelerate-ai-chipmaking/",
-      "priority": 5
-    },
-    "remind_at": "2026-06-22T04:53:23.924614-07:00"
-  },
-  {
-    "item": {
-      "company": "As public sentiment sours",
-      "amount": "$13.0B",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/22/indonesia-awaits-msci-verdict-13-billion-capital-outflow/",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OR2cyMmdJbnlIVWxyMGdHS3RQZWVKMVJ6bVNURkpXM0pmNENpVVNrTkhUTnVSdkl5SUJYWVhPdmE5WTFxMl9KNkZxQlFBTTRtbS1rOExkYmt4Vno3bl91Ulg0WVJEUQ?oc=5",
       "priority": 3
     },
-    "remind_at": "2026-06-22T04:53:27.234410-07:00"
+    "remind_at": "2026-06-22T09:41:42.311344-07:00"
   },
   {
     "item": {
-      "company": "A pet emergency can cost $8",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/22/how-much-do-pet-parents-pay-for-emergency-vet-care-rover-report/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-22T04:53:30.497539-07:00"
-  },
-  {
-    "item": {
-      "company": "Seedcamp\u2019s Fund III returned 13x cash",
-      "amount": "$320.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/seedcamp-320m-fund-vii-fund-iii-13x-cash-return-global-bet/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-22T04:53:33.759651-07:00"
-  },
-  {
-    "item": {
-      "company": "Efham.ai",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": "Foras.AI Egypt",
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/efham-ai-secures-investment-from-foras-ai/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-22T04:53:36.325730-07:00"
-  },
-  {
-    "item": {
-      "company": "India\u2019s Sarvam",
-      "amount": null,
+      "company": "Upscale AI wants",
+      "amount": "$190.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE01WHgzTU1JWUd1OFpJa3o5X1lmUVNMaEF5b0RHak5JTGNlOWdWWm9nSjBTNzhDWE9MeThCWndGZTY0RUVQNkJqMzlsT0xPWk5JaV9nYkdiRDlBY2Y0UHk3ZTVISzhwNWw3TDFkdW5PQUJ3UQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbFpRNm56ejBZc0hIREFDbWRfeHllbWVtY25Vb0V6SlhFRVN2RFQzVGpBU241Ti1vWG0wMnM1RlFRNElzYWFaeWV3OFlrdHlNd1Q5Z0E4WlZWbjZnR2NOSWlsOVhsSkh0UzVuM0U4UXMtMnVUYlk5ek01RWhCLU8tU3ctem11cktVajdueU5qNzczUQ?oc=5",
       "priority": 3
     },
-    "remind_at": "2026-06-22T04:53:39.710768-07:00"
-  },
-  {
-    "item": {
-      "company": "Omni Fetches $14.5M in Funding",
-      "amount": "$14.5M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMmNUWFFlVWpORVFGWVY5VWd0YW5CVHVjZk9CbEZETmJWVmg5SXRHR3B2N0Z4bDVRdm5XMEVfZndQdmFYaGd6RFlPb0VPRFFSb1J3NzBQdnZwSFMwTWxQN0ZXdW5YbEVQRHpZbG5NZDdxOTF0dnZSZ1Zka25YZndOTVpPQ1RMSkRxaW5PYkpsOUV4TTQ?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-22T04:53:42.991519-07:00"
+    "remind_at": "2026-06-22T09:41:45.290694-07:00"
   }
 ]
