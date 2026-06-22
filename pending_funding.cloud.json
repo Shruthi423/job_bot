@@ -1,128 +1,86 @@
 [
   {
     "item": {
-      "company": "AethexAI",
-      "amount": "$3.0M",
-      "stage": "Pre-Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSFdaY3BCVEs1SjBQbHVlRllXSHFyazlZWUFYbEt0d20wZW9sdkh2X1lhNHA5eDFiZlNnWmxpRGo2ejBYcGg1cG1GSzR2UmVwWDFqVkNlYlJOaVg5cnM3UEIwcU1QVDBIdlU3eGYtS2tDZ2V2ME9DTzF3R0gyNEFZNXlWMWxPcFl6QTRHSU9Ta1kyMndCWkE?oc=5",
-      "priority": 10
-    },
-    "remind_at": "2026-06-22T13:17:27.440301-07:00"
-  },
-  {
-    "item": {
-      "company": "Ovum",
-      "amount": "$4.0M",
-      "stage": "Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnRucjFjTDlDNG9Mb0hwYl96R2tDdE1QcXo1MGhUczUteWszVGxRRmFSVDB5NVFmYXdJR3NmTk9CMVR0bzgtWExDSUg2WUVkMk5NTF9vSU5WbUx1WUdOUlI1aGJGb3BtbGYzbUxsMlF0cG9lVktrejNqUDdLZlZEMTUwWE5raEZxbXIzcEdPWTVDM20ta1I2RTV0WEVKX3RXODRxOHhWOA?oc=5",
-      "priority": 9
-    },
-    "remind_at": "2026-06-22T13:17:29.698154-07:00"
-  },
-  {
-    "item": {
-      "company": "Rentify",
-      "amount": null,
-      "stage": "Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUVRoLXdCZ3NRU3FvRGFXNXZNVnpkdzRNdVEwUFJjVUhUNDhOU0x5aTdMSm1tR01kZE9HTURsNmE2RGtoYzFtQ2NMbWlhQ1g0aUJfUWlHVTdXQVZ4dXBGcGtzWlNUWUhTOUl4UDZpcks1YUFEVlotMFEzRVJqZ29KMHljWG1QWFA0RlQ5eFpHUk84V3ZMNFVmUQ?oc=5",
-      "priority": 9
-    },
-    "remind_at": "2026-06-22T13:17:31.906021-07:00"
-  },
-  {
-    "item": {
-      "company": "Prosper AI",
-      "amount": null,
+      "company": "Stitch",
+      "amount": "$25.0M",
       "stage": "Series A",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "a16z (news)",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPX3VoSGFuck9wYXZwRmhaVmZfZk5WTWYtRVRnVnFMUlBLMTEyaHFLNjhyRVlaQmN3ZG9MXzN2UlBmN2NUNmFvTFVhTVFfNEhxTlN6WF9JTDl3RUZ1NGlsMUdUcDlZTHF1TlFBOC1xRnZyNnBrSXdtR1FTTTQ5QUlfRkNVQnNpMkNVVm9WaU9hWm1EMVJQaDEzZXVvMTZYaGVFcjNZX0RyaWloWHpJdjY3ZEowQzVleG5KeUVDam9yR04xVC1Oa3RwTVNhMVJGTjQwUnlyYWlNcW1TUFBJcU9qaE9B0gHiAUFVX3lxTE9fdWhIYW5yT3BhdnBGaFpWZl9mTlZNZi1FVGdWcUxSUEsxMTJocUs2OHJFWVpCY3dkb0xfM3ZSUGY3Y1Q2YW9MVWFNUV80SHFOU3pYX0lMOXdFRnU0aWwxR1RwOVlMcXVOUUE4LXFGdnI2cGtJd21HUVNNNDlBSV9GQ1VCc2kyQ1VWb1ZpT2FabUQxUlBoMTNldW8xNlhoZUVyM1lfRHJpaWhYekl2NjdkSjBDNWV4bkp5RUNqb3JHTjFULU5rdHBNU2ExUkZONDBSeXJhaU1xbVNQUElxT2poT0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbzJPY082dFhoNFRCN2U5bG5hYU14TmpMMEI4Y3RKY0dQa2NUQ3Nuc3F4R1I5N0JLcTNTRGlpTEx2NFg0WnBWMWVPeEk2bTV6Ry1VRFNQRlVNZVJaTGJXTmo0MDBsTXJRWndCUHhtZ2RicDdLRHlzZjI2QWhSaFBLWlg0aw?oc=5",
       "priority": 8
     },
-    "remind_at": "2026-06-22T13:17:34.145995-07:00"
+    "remind_at": "2026-06-22T15:29:46.978939-07:00"
   },
   {
     "item": {
-      "company": "AppsFlyer Reportedly",
-      "amount": "$1.0B",
-      "stage": "Series E",
+      "company": "AI chipmaker Groq confirms $650M",
+      "amount": "$650.0M",
+      "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/marketing-digital-ad-tracker-appsflyer-lands-1b/",
+      "source": "TechCrunch Startups",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
       "priority": 3
     },
-    "remind_at": "2026-06-22T13:17:37.157587-07:00"
+    "remind_at": "2026-06-22T15:29:50.259812-07:00"
   },
   {
     "item": {
-      "company": "Bobby Pulido headlined school benefit",
+      "company": "The Fed",
       "amount": null,
       "stage": null,
       "investors": null,
-      "location": "New York",
+      "location": null,
       "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/22/bobby-pulido-congress-texas",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/22/fed-rate-hikes-outlook-sticky-inflation-kevin-warsh-job-growth-oil-prices/",
       "priority": 3
     },
-    "remind_at": "2026-06-22T13:17:40.125231-07:00"
+    "remind_at": "2026-06-22T15:29:53.646813-07:00"
   },
   {
     "item": {
-      "company": "Democrats",
-      "amount": "$5.2M",
+      "company": "Steve Jobs became a billionaire thanks",
+      "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/22/democrats-maine-dunlap-platner-2026-elections",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/22/toy-story-5-opening-weekend-pixar-steve-jobs-billionaire-apple/",
       "priority": 3
     },
-    "remind_at": "2026-06-22T13:17:42.366459-07:00"
+    "remind_at": "2026-06-22T15:29:56.946330-07:00"
   },
   {
     "item": {
-      "company": "Salesforce at 2.8x ARR",
-      "amount": "$285.0B",
+      "company": "Groq",
+      "amount": "$650.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "SaaStr",
-      "url": "https://www.saastr.com/salesforce-at-3-1x-arr-hubspot-down-56-adobe-at-11x-earnings-are-they-just-too-oversold-now/",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/22/inference-chip-startup-groq-raises-650m-grow-cloud-platform/",
       "priority": 3
     },
-    "remind_at": "2026-06-22T13:17:45.336146-07:00"
+    "remind_at": "2026-06-22T15:29:59.381459-07:00"
   },
   {
     "item": {
-      "company": "UAE Proptech Rentify",
-      "amount": "$2.0M",
+      "company": "Anthropic",
+      "amount": "$65.0B",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOajJkSVhaODBYSFRTb0MwS3lVaWhnWDZoVWl4UnNHMm1naDQ3OTgxQ2tfU1JjZXhPaFVqRjlzYjIwMjl3TlVzMTlpWjljd0VOOTNrb1ZFUjJ4WnR1dFFIX0Zrd1RJQWR3X3hvYkV1STdTXzNhZTgzaVJTcjlrejdlZmxIVGl2cE5xbUFqU0lkNHFqRERhYUx1UndhTlc1ZUk?oc=5",
+      "source": "Sequoia (news)",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdUdycE45NUpiLWkxejd5QWJNd0Ftd0FKTGJfcGdQS2U4c1pZcklKWm9mWUpGY3RkRWpaUnBCc0pUMEc4X0VYY3gxMXF3QS1VbFd4ekh6M2dYRjhMTzA3NmVIdEpQN3FDeENDd2thUzI0cTNYbW1jaUUycl9CbkxRVjFVSnh6MGNxUThHeFlwandjbmt3V00wdTh4bFpsTG5Oc2FYc2NxNDlDVl9oYjk1Qg?oc=5",
       "priority": 3
     },
-    "remind_at": "2026-06-22T13:17:48.319622-07:00"
+    "remind_at": "2026-06-22T15:30:01.880697-07:00"
   }
 ]
