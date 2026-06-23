@@ -1,44 +1,170 @@
 [
   {
     "item": {
-      "company": "Elon Musk will",
-      "amount": null,
-      "stage": null,
+      "company": "Smart Bricks",
+      "amount": "$5.0M",
+      "stage": "Pre-Seed",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/22/elon-musk-billion-shares-spacex-settle-million-humans-mars-colony/",
-      "priority": 3
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/smart-bricks-raises-5m-pre-seed/",
+      "priority": 10
     },
-    "remind_at": "2026-06-22T19:00:22.501452-07:00"
+    "remind_at": "2026-06-22T23:15:23.747680-07:00"
   },
   {
     "item": {
-      "company": "Trump signs two executive orders",
-      "amount": null,
-      "stage": null,
+      "company": "Orthogonal",
+      "amount": "$4.3M",
+      "stage": "Seed",
+      "investors": "Pantera Capital to scale its AI agent orchestration and payments infrastructure",
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/orthogonal-raises-4-3m-seed/",
+      "priority": 9
+    },
+    "remind_at": "2026-06-22T23:15:26.333660-07:00"
+  },
+  {
+    "item": {
+      "company": "Exaba",
+      "amount": "$12.0M",
+      "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/22/trump-signs-two-executive-orders-try-accelerate-arrival-powerful-quantum-computers/",
-      "priority": 3
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/exaba-raises-12m-seed/",
+      "priority": 9
     },
-    "remind_at": "2026-06-22T19:00:25.450793-07:00"
+    "remind_at": "2026-06-22T23:15:28.934313-07:00"
   },
   {
     "item": {
-      "company": "Google forms research partnership",
+      "company": "TurboFlow",
+      "amount": "$6.0M",
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/turboflow-raises-6m-seed/",
+      "priority": 9
+    },
+    "remind_at": "2026-06-22T23:15:31.530280-07:00"
+  },
+  {
+    "item": {
+      "company": "Fomo",
       "amount": "$75.0M",
+      "stage": "Series B",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/fomo-raises-75m-series-b/",
+      "priority": 7
+    },
+    "remind_at": "2026-06-22T23:15:34.088181-07:00"
+  },
+  {
+    "item": {
+      "company": "Mitigata",
+      "amount": null,
+      "stage": "Series B",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd1IwNzRTc0R1VnFBX0tVRU5nenN2ZGp4SG52bFdIWWhKYmJ0YkpXb2dzNXVIZEdwU096NUZZZzFzbjVXZlpqaE1FRXVmZHNSZVZfSVRBLXFtd21fZWpZQkdOWjd3bUN3RlFZZ0UtU2xmUVVqWFB4UmhXOFNPNUIycFdtcnlsRWVhc2pjWlFmUDFBVHRzcV9fNDBHQnlvc19SVzdiMk9RYkRIR2lVOF8ybGI2M1hhZ9IBtgFBVV95cUxQd1IwNzRTc0R1VnFBX0tVRU5nenN2ZGp4SG52bFdIWWhKYmJ0YkpXb2dzNXVIZEdwU096NUZZZzFzbjVXZlpqaE1FRXVmZHNSZVZfSVRBLXFtd21fZWpZQkdOWjd3bUN3RlFZZ0UtU2xmUVVqWFB4UmhXOFNPNUIycFdtcnlsRWVhc2pjWlFmUDFBVHRzcV9fNDBHQnlvc19SVzdiMk9RYkRIR2lVOF8ybGI2M1hhZw?oc=5",
+      "priority": 7
+    },
+    "remind_at": "2026-06-22T23:15:36.663763-07:00"
+  },
+  {
+    "item": {
+      "company": "Mitigata",
+      "amount": "$15.0M",
+      "stage": "Series B",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWld5eWR6NHF2U2hNM2Y2WFhYQ3JDakh3WVZ6ZzBWUFFfUWVIRnE3dFF2ejd1dnAxdm1rMGxaeEtIZnM4cWxiMS1jaEh3MURTS2UxUkczT2FPRmZXS3dJMGtSQlhiSDdnWU5YTFRzSm1ZQXNMX3JQLWJvTlloYzlvRUJ2LUlhMktINEhId09NMGgwZ0pUZi03MkI3YXIyU1l3cUU0Rk94eEFzRFY0SEpWeU5tN3dhb0lmUk42bWt5QWpkeE5VSDU0NVFpRWM1U3lTeEYyQXJXTmtNQdIB3wFBVV95cUxQcDNYZVY5OHhlenBrcWdubnFGOU5jQ1NaUl9XVTFTSE04c1d5VnNjR3JOT0N4VUp1SjlXYUVYWnNrRjlCOXN4TWxQWFFNUU96OGxWTXVKWkxCYk5GQ0hRai1OVW5Qa294MFZtaTlEUWtXMXd1Uzl6MTBRNE1yai1neVVuZXh3QmpPYTFvY21aNWNWSS1fZG9VOFVRd1ZsUEFjZzBFYWEzZ3RDNFU0MDJHWFlucXFrVzhENlFmYmF1RUVQQTIweTRlWTZFOExUZEhrWkVIQjdPOFZiZjV1UDVF?oc=5",
+      "priority": 7
+    },
+    "remind_at": "2026-06-22T23:15:39.026176-07:00"
+  },
+  {
+    "item": {
+      "company": "Alan",
+      "amount": null,
+      "stage": null,
+      "investors": "Index Ventures to expand its digital health and insurance platform internationally",
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/alan-raises-100m-growth-capital/",
+      "priority": 6
+    },
+    "remind_at": "2026-06-22T23:15:43.898634-07:00"
+  },
+  {
+    "item": {
+      "company": "Tucker Carlson",
+      "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/22/google-forms-research-partnership-a24-films-thats-focused-ai-filmmaking-tools/",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/22/tucker-carlson-quits-republicans-maga-fractures",
       "priority": 3
     },
-    "remind_at": "2026-06-22T19:00:28.496743-07:00"
+    "remind_at": "2026-06-22T23:15:47.127514-07:00"
+  },
+  {
+    "item": {
+      "company": "Linc",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/exclusive-linc-raises-e8-5m-with-100-angels-to-crack-the-worlds-most-complex-payroll-market/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-22T23:15:49.556167-07:00"
+  },
+  {
+    "item": {
+      "company": "Flease",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/flease-raises-13m-france-corporate-fleet-market/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-22T23:15:51.989583-07:00"
+  },
+  {
+    "item": {
+      "company": "Doctor-turned-founder behind Ovum",
+      "amount": "$4.0M",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa3p2UTdfalU1Q3E0V3lqTEM2U1dQdXN4VVg2clpZNWMyeGEydnlVOHZHdldRYjZOWFM0OFdfSzNyeTVYYTZCVF9FX3U0NFRNNnM4VWwzaWk3SS1GT0tnWVB3Zk1Ta3lnODNkMGoxQ1U0azVwa0tqb3lJRlF5X1VzX0R3NnllUnFKQk9aRXpyOTB2TjFjZkt6V29UMVNOUmFPeG5wZnQzdHNCbTJBSUpiTnhkVFBKNHVkRUF0eU93?oc=5",
+      "priority": 3
+    },
+    "remind_at": "2026-06-22T23:15:55.224806-07:00"
   }
 ]

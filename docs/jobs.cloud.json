@@ -1,5 +1,24 @@
 [
   {
+    "id": "8882f85624acfbcd7cfea8333c8915c8",
+    "title": "Product Designer",
+    "company": "Alan",
+    "location": "Remote",
+    "salary": "Not listed",
+    "url": "https://jobs.ashbyhq.com/alan/4cfa1d2f-c930-4ae5-90c6-96eb1c8ada7f",
+    "source": "\ud83d\udcb0 Alan (just raised)",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "is_funded": true,
+    "funding_note": "Alan raised a round",
+    "founders": [],
+    "posted_at": "Recently",
+    "priority": 5,
+    "first_seen": "2026-06-22T22:45:41.391660-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "007471620cdcc9c9e51dd31d6b34b45a",
     "title": "UX Designer Engineer",
     "company": "See posting",
