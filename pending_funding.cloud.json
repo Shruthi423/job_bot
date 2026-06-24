@@ -1,44 +1,128 @@
 [
   {
     "item": {
-      "company": "Upbound open-sources Modelplane",
-      "amount": "$69.0M",
-      "stage": null,
+      "company": "BharatTender",
+      "amount": null,
+      "stage": "Pre-Seed",
       "investors": null,
-      "location": "San Francisco",
+      "location": null,
       "founders": [],
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/23/upbound-open-sources-modelplane-optimize-inference-clusters/",
-      "priority": 3
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/bharattender-raises-1-25cr-pre-seed/",
+      "priority": 10
     },
-    "remind_at": "2026-06-23T19:02:15.842043-07:00"
+    "remind_at": "2026-06-23T23:20:23.364258-07:00"
   },
   {
     "item": {
-      "company": "Republicans brace",
+      "company": "Concord",
+      "amount": "$3.0M",
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/concord-raises-3m-seed-2/",
+      "priority": 9
+    },
+    "remind_at": "2026-06-23T23:20:25.903689-07:00"
+  },
+  {
+    "item": {
+      "company": "Acumino",
+      "amount": "$11.7M",
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQakpTSVBuRVRhRGFKVEx4SVFCUGZDTXhIVEFiZ0VtZFg1T2hqWXJYRXM0NENhb0hRLVA5T3ZtYk5HWUUtN29nNWRMY3dFTnFqYXhOSjg5M1NXQTZYMFVHcFI0SDlseHB2bXlpWDB4MWRhZ3hTWmpqN0ZvNW5vS1NJcnJib0JkZjhHVzZQSFN0c1lobmRTdWs4QmU2UF8?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-23T23:20:28.486668-07:00"
+  },
+  {
+    "item": {
+      "company": "QOSMIC",
+      "amount": null,
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1StIBsAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1Sg?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-23T23:20:31.052350-07:00"
+  },
+  {
+    "item": {
+      "company": "JustAI",
+      "amount": "$17.0M",
+      "stage": "Series A",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/justai-raises-17m-series-a/",
+      "priority": 8
+    },
+    "remind_at": "2026-06-23T23:20:33.577208-07:00"
+  },
+  {
+    "item": {
+      "company": "JustAI",
+      "amount": null,
+      "stage": "Series A",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUnpULXJ1RkxLbmpaSHlHWVBFNmdLOWJiUUwxamxWZTZ6YktXeG5YWUhtYnF3eFFTM3NjbjJLRk9fbE9RbFhYYWM0eEVENUNPcHphY25CdlhGbHhfT2FOYWExLWRxeHE5NUpGbWVnbFdqcThJemZkTm9MdmNIend1OC16NEY4TVU0YXFna1R3RlNlZC1ZbkZkODNtMENrMzBEejdmeVJPcmHSAagBQVVfeXFMUFJ6VC1ydUZMS25qWkh5R1lQRTZnSzliYlFMMWpsVmU2emJLV3huWFlIbWJxd3hRUzNzY24yS0ZPX2xPUWxYWGFjNHhFRDVDT3B6YWNuQnZYRmx4X09hTmFhMS1kcXhxOTVKRm1lZ2xXanE4SXpmZE5vTHZjSHp3dTgtejRGOE1VNGFxZ2tUd0ZTZWQtWW5GZDgzbTBDazMwRHo3ZnlST3Jh?oc=5",
+      "priority": 8
+    },
+    "remind_at": "2026-06-23T23:20:36.047045-07:00"
+  },
+  {
+    "item": {
+      "company": "Attention",
+      "amount": "$30.0M",
+      "stage": "Series B",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/attention-raises-30m-series-b/",
+      "priority": 7
+    },
+    "remind_at": "2026-06-23T23:20:38.527222-07:00"
+  },
+  {
+    "item": {
+      "company": "Democrats left reeling",
+      "amount": null,
+      "stage": null,
+      "investors": "more than 30 percentage points as of late Tuesday night",
+      "location": "New York",
+      "founders": [],
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/24/mamdani-lander-valdez-chevalier-espaillat-goldman",
+      "priority": 3
+    },
+    "remind_at": "2026-06-23T23:20:41.897866-07:00"
+  },
+  {
+    "item": {
+      "company": "Two quantum computing researchers just",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/23/trump-senate-republicans-save-act-thune",
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/ora-computing-3-5m-seed-ai-model-compression/",
       "priority": 3
     },
-    "remind_at": "2026-06-23T19:02:18.834377-07:00"
-  },
-  {
-    "item": {
-      "company": "Jeffries downplays clash",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": "New York",
-      "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/23/jeffries-mamdani-new-york-primaries-congress",
-      "priority": 3
-    },
-    "remind_at": "2026-06-23T19:02:21.899166-07:00"
+    "remind_at": "2026-06-23T23:20:45.173407-07:00"
   }
 ]
