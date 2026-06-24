@@ -1,86 +1,58 @@
 [
   {
     "item": {
-      "company": "Seltz",
-      "amount": "$12.5M",
+      "company": "Hang Ten Systems",
+      "amount": null,
       "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42Z2FmVWs2ZVdzUlRMU3ctdUJJR0FwSUxpOGRpQWtldDZuUlUwQTV5djBpTG9rNG9DdnlWaVZhTU9sN3lWSHROMzFuamZjNmRwZ1Z4NVNDb2Rhc0hYZnU5S2M0Q2NRVWMyUmlzdVVRcXdPMTYtUGUwRWFn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV3JKT1ZZdXNMUWxzbm5qMHVrYUJhb1g2N1NoZi1qLWJUYnEwbmhJWjhBTS1QVS0zVEpkN0d4SmNHMmM5bnY3dHk5T19UUnU0Rmx2bWJKS0dXVE1Hck42ajVGWlhRMjNVZURtRExpeTNXUVhEOEpSTllSWHlmY1FuQkdWSkxZdXpkUW5IZ2NYV3I1VkJBNUVsbUdwNmtEMnNoNm9fdXREbkJSM0FVU2NoWEplWWdOUkk?oc=5",
       "priority": 9
     },
-    "remind_at": "2026-06-24T10:05:45.770006-07:00"
+    "remind_at": "2026-06-24T11:53:51.219313-07:00"
   },
   {
     "item": {
-      "company": "Hockey might be coming",
-      "amount": "$1.75B",
+      "company": "Trovy",
+      "amount": "$15.0M",
+      "stage": "Series A",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "TechStartups",
+      "url": "https://techstartups.com/2026/06/24/trovy-raises-15-million-series-a-to-replace-high-interest-debt-with-home-equity-financing/",
+      "priority": 8
+    },
+    "remind_at": "2026-06-24T11:53:53.619582-07:00"
+  },
+  {
+    "item": {
+      "company": "Now worth $200 million",
+      "amount": "$200.0M",
       "stage": null,
       "investors": null,
-      "location": "Austin",
+      "location": null,
       "founders": [],
       "source": "Fortune",
-      "url": "https://fortune.com/2026/06/24/nhl-friedkin-billionaire-texas-expansion-houston-austin/",
+      "url": "https://fortune.com/2026/06/24/sarah-jessica-parker-grew-up-poor-work-ethic-success-net-worth-200-million/",
       "priority": 3
     },
-    "remind_at": "2026-06-24T10:05:49.808755-07:00"
+    "remind_at": "2026-06-24T11:53:56.752959-07:00"
   },
   {
     "item": {
-      "company": "Why Wall Street",
-      "amount": "$7.8B",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/24/beyond-7-8b-deals-wall-street-suddenly-watching-argentum-ai/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-24T10:05:53.148608-07:00"
-  },
-  {
-    "item": {
-      "company": "Stark whose drones failed",
+      "company": "Treasury Secretary Bessent",
       "amount": null,
       "stage": null,
-      "investors": null,
-      "location": "Berlin",
+      "investors": "betting on a return to the old globalization playbook may be waiting a long time",
+      "location": "New York",
       "founders": [],
-      "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/sequoia-and-founders-fund-just-backed-a-drone-startup-whose-drones-failed-report/",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/24/bessent-trump-economic-globalization",
       "priority": 3
     },
-    "remind_at": "2026-06-24T10:05:56.516033-07:00"
-  },
-  {
-    "item": {
-      "company": "Ornn",
-      "amount": "$33.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "a16z (news)",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOXzY4RDNyR0NEd2xHNXNCOXR0Sm5oX3hUNkQtbDlmUm5lNGZPcVpFN2RkYzV3WDFjSGpoeVRqYVVxLTVuRkVZZDVTNGdpZk5ZVWk0RU94cHdfRW9ZQkE5ZWdNMzJ1Ny1DWHNTT2hSaXVqQXI2Wk4zZ2EzNzYtTEpSVW84OGNrS1h0MXVNdDVoSEFpbW94Qlp1a0VMU3NKUkF5bEpncUFKM0NMeG9lcERuNENWUXk?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-24T10:05:59.101765-07:00"
-  },
-  {
-    "item": {
-      "company": "Runpod",
-      "amount": "$100.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTlkQjRaaHFzT0c2czJsakRfUHNfS0dFbU91NXVjQ1J2QzVDMEtlZjBSbU9zb0ZjMHJ6TU5YSlk5UXM4dDBsTlBXSE93ZHhaUnRkUjFvQUFrTnUyamJqQ0xhLTRzU0MxaTJjR3Y0S2FveHJKV0J0OGNDSHk1Z0pScGNnQURPb2t4R0MtT0VqWm1oSVRWenVFZU40ZmppSkJXVW95dG11T0FzNWlCOEFTX1U0M3prUnZCb1E?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-24T10:06:01.821110-07:00"
+    "remind_at": "2026-06-24T11:53:59.776812-07:00"
   }
 ]
