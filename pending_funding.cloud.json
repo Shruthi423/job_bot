@@ -1,18 +1,1 @@
-[
-  {
-    "item": {
-      "company": "Mistral",
-      "amount": "$4.4B",
-      "stage": "Series C",
-      "investors": null,
-      "location": "London",
-      "founders": [
-        "Arthur Mensch"
-      ],
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play",
-      "priority": 6
-    },
-    "remind_at": "2026-06-24T15:23:59.073636-07:00"
-  }
-]
+[]
