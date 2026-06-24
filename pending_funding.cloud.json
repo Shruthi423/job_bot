@@ -1,30 +1,44 @@
 [
   {
     "item": {
-      "company": "Orderful",
-      "amount": "$35.0M",
-      "stage": "Series C",
-      "investors": "Koch Disruptive Technologies with participation from NewRoad Capital",
-      "location": null,
+      "company": "Upbound open-sources Modelplane",
+      "amount": "$69.0M",
+      "stage": null,
+      "investors": null,
+      "location": "San Francisco",
       "founders": [],
       "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/23/orderful-nabs-35m-streamline-supply-chain-data-management/",
-      "priority": 6
+      "url": "https://siliconangle.com/2026/06/23/upbound-open-sources-modelplane-optimize-inference-clusters/",
+      "priority": 3
     },
-    "remind_at": "2026-06-23T17:11:27.902817-07:00"
+    "remind_at": "2026-06-23T19:02:15.842043-07:00"
   },
   {
     "item": {
-      "company": "Congress passes big housing bill",
+      "company": "Republicans brace",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Axios",
-      "url": "https://www.axios.com/2026/06/23/housing-affordability-senate-trump",
+      "url": "https://www.axios.com/2026/06/23/trump-senate-republicans-save-act-thune",
       "priority": 3
     },
-    "remind_at": "2026-06-23T17:11:31.421048-07:00"
+    "remind_at": "2026-06-23T19:02:18.834377-07:00"
+  },
+  {
+    "item": {
+      "company": "Jeffries downplays clash",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": "New York",
+      "founders": [],
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/23/jeffries-mamdani-new-york-primaries-congress",
+      "priority": 3
+    },
+    "remind_at": "2026-06-23T19:02:21.899166-07:00"
   }
 ]

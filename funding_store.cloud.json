@@ -8320,5 +8320,50 @@
     "roles": [],
     "first_seen": "2026-06-23T16:41:32.421194-07:00",
     "status": "active"
+  },
+  "0aa5e197bba88888610419140912615e": {
+    "id": "0aa5e197bba88888610419140912615e",
+    "company": "Upbound open-sources Modelplane",
+    "amount": "$69.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "SiliconANGLE",
+    "url": "https://siliconangle.com/2026/06/23/upbound-open-sources-modelplane-optimize-inference-clusters/",
+    "priority": 3,
+    "founders": [],
+    "location": "San Francisco",
+    "roles": [],
+    "first_seen": "2026-06-23T18:32:16.842213-07:00",
+    "status": "active"
+  },
+  "cf50cfbee85b49bd32cad06956b8ae38": {
+    "id": "cf50cfbee85b49bd32cad06956b8ae38",
+    "company": "Republicans brace",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/23/trump-senate-republicans-save-act-thune",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-23T18:32:19.834571-07:00",
+    "status": "active"
+  },
+  "4cbf97d4d70bbc5d2ccea549e346d018": {
+    "id": "4cbf97d4d70bbc5d2ccea549e346d018",
+    "company": "Jeffries downplays clash",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/23/jeffries-mamdani-new-york-primaries-congress",
+    "priority": 3,
+    "founders": [],
+    "location": "New York",
+    "roles": [],
+    "first_seen": "2026-06-23T18:32:22.899327-07:00",
+    "status": "active"
   }
 }
