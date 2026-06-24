@@ -1,102 +1,86 @@
 [
   {
     "item": {
-      "company": "Jarvie AI",
-      "amount": "$8.3M",
-      "stage": "Seed",
-      "investors": "Andreessen Horowitz, Base10 Partners, and Lightspeed",
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/jarvie-ai-raises-8-3m-in-seed-funding/",
-      "priority": 12
-    },
-    "remind_at": "2026-06-24T05:16:59.286158-07:00"
-  },
-  {
-    "item": {
-      "company": "Lumenai",
-      "amount": null,
-      "stage": "Pre-Seed",
-      "investors": null,
-      "location": "Oxford",
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/oxford-university-incubated-lumenai-secures-pre-seed-backing-from-corpora-ai/",
-      "priority": 10
-    },
-    "remind_at": "2026-06-24T05:17:01.523052-07:00"
-  },
-  {
-    "item": {
-      "company": "Revora",
-      "amount": "$2.0M",
-      "stage": "Seed",
+      "company": "XCures",
+      "amount": "$46.0M",
+      "stage": "Series B",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEVLQkU2V2tNc1VZQ0lMaUstTElYMUpreXFaZVZKeFd5MERGbllIQTVJaTZ6R3BoNUIwYmJ2Vkd5cTU1Q25hREV0eUx0WW1SMnVjOEZjd1VUTDNiblM3aUVyUDV3U0dFa2xUbng3WnM5WmpDTFcxS0ZSZnl6dnFLbHd3N0daMW4xZUdHdkRma2VXTExjczRvMm1vek1zSGZRZkpuQWxRTlZvQ3V5MVFlRQ?oc=5",
-      "priority": 9
-    },
-    "remind_at": "2026-06-24T05:17:03.927821-07:00"
-  },
-  {
-    "item": {
-      "company": "Andreessen Horowitz leads $30M Series A",
-      "amount": "$30.0M",
-      "stage": "Series A",
-      "investors": null,
-      "location": "New York",
-      "founders": [],
-      "source": "a16z (news)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeEQ5eXFySGFoNnZIa2cyZEdXeEhuS2gxZlZsQ1NSaFRlaDZpMnYxTERMS1FFQ1NWTjlWUjZxc0VjZ3F0X2tpMF9TN0dCQ0g2cVlNLVREM3hoekVCOWZVVVlqams2NTdkcG5uWHpyWWREakZmcWE5RVZJYkp2SDdpbmpoR3RzbDA?oc=5",
-      "priority": 8
-    },
-    "remind_at": "2026-06-24T05:17:06.987162-07:00"
-  },
-  {
-    "item": {
-      "company": "\u2018Infrastructure",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [
-        "Mike Schroepfer"
-      ],
       "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/hard-tech-infrastructure-moat-schroepfer-gigascale/",
-      "priority": 3
+      "url": "https://news.crunchbase.com/venture/xcures-lands-seriesb-medical-records-ai/",
+      "priority": 7
     },
-    "remind_at": "2026-06-24T05:17:09.250147-07:00"
+    "remind_at": "2026-06-24T07:45:52.857671-07:00"
   },
   {
     "item": {
-      "company": "why LPs committed \u20ac5.25B",
-      "amount": null,
+      "company": "Taktile",
+      "amount": "$110.0M",
+      "stage": "Series C",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/24/exclusive-taktile-goldman-sachs-ai-bank-insurance-funding/",
+      "priority": 6
+    },
+    "remind_at": "2026-06-24T07:45:55.306767-07:00"
+  },
+  {
+    "item": {
+      "company": "Assort Health",
+      "amount": "$120.0M",
+      "stage": "Series C",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "First Round (news)",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbkF0c3lNZHdnal9aX0ZWbGJXbzhnTTR1dGZMWmxyV2w3endfd0FuMkwtUmJHdkxCMjl0VmU4eWxpdjE1NDdLdWF4U1hGNTRJeURJOW5UWFlicHp3NDF1ZTBIbG54NjNQNkZwYi1rSXdpWGc3cHY5VWpYMk03Vkxod0lZdlBOMkRpaUE?oc=5",
+      "priority": 6
+    },
+    "remind_at": "2026-06-24T07:45:58.589678-07:00"
+  },
+  {
+    "item": {
+      "company": "Valor Equity Partners looks",
+      "amount": "$2.5B",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/main-capital-partners-5-25b-enterprise-software-funds/",
+      "source": "TechCrunch Venture",
+      "url": "https://techcrunch.com/2026/06/24/valor-equity-partners-looks-to-raise-a-2-5b-fund-vii-per-bloomberg/",
       "priority": 3
     },
-    "remind_at": "2026-06-24T05:17:12.238342-07:00"
+    "remind_at": "2026-06-24T07:46:01.820520-07:00"
   },
   {
     "item": {
-      "company": "EAIGLE",
-      "amount": null,
+      "company": "Coval",
+      "amount": "$28.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/eaigle-bags-funding-from-noro-moseley-partners-for-ai-tech-powered-gate-and-yard/",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/24/coval-raises-28m-enterprises-push-voice-agents-production/",
       "priority": 3
     },
-    "remind_at": "2026-06-24T05:17:14.488922-07:00"
+    "remind_at": "2026-06-24T07:46:04.262210-07:00"
+  },
+  {
+    "item": {
+      "company": "Titan Banking AI",
+      "amount": "$3.0M",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "AlleyWatch",
+      "url": "https://www.alleywatch.com/2026/06/titan-banking-native-ai-compliance-regulated-platform-arjun-sirrah/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-24T07:46:07.669435-07:00"
   }
 ]
