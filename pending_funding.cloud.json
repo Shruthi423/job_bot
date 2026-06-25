@@ -1,58 +1,240 @@
 [
   {
     "item": {
-      "company": "Valence AI",
-      "amount": "$5.0M",
-      "stage": "Seed",
-      "investors": "Differential Ventures to expand its emotional intelligence infrastructure platform for voice AI",
+      "company": "Daya",
+      "amount": "$2.4M",
+      "stage": "Pre-Seed",
+      "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/valence-ai-raises-5m-seed/",
+      "url": "https://www.thesaasnews.com/news/daya-raises-2-4m-pre-seed/",
+      "priority": 10
+    },
+    "remind_at": "2026-06-25T01:35:43.652209-07:00"
+  },
+  {
+    "item": {
+      "company": "Overworld",
+      "amount": "$4.5M",
+      "stage": "Pre-Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/overworld-raises-4-5m-pre-seed/",
+      "priority": 10
+    },
+    "remind_at": "2026-06-25T01:35:45.966442-07:00"
+  },
+  {
+    "item": {
+      "company": "CentSight",
+      "amount": "$1.5M",
+      "stage": "Pre-Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/centsight-raises-1-5m-pre-seed/",
+      "priority": 10
+    },
+    "remind_at": "2026-06-25T01:35:48.167999-07:00"
+  },
+  {
+    "item": {
+      "company": "Nudge",
+      "amount": "$1.1M",
+      "stage": "Pre-Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/nudge-raises-1-1m-pre-seed/",
+      "priority": 10
+    },
+    "remind_at": "2026-06-25T01:35:50.430437-07:00"
+  },
+  {
+    "item": {
+      "company": "Magnitude",
+      "amount": "$10.0M",
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/magnitude-raises-10m-seed/",
       "priority": 9
     },
-    "remind_at": "2026-06-24T22:13:49.938984-07:00"
+    "remind_at": "2026-06-25T01:35:52.842587-07:00"
   },
   {
     "item": {
-      "company": "Peregrine Technologies",
-      "amount": "$250.0M",
-      "stage": "Series D",
+      "company": "Kotoba Technologies",
+      "amount": "$10.0M",
+      "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa0M3cWJHNGlMZEloRFUyaWdLYzVhc1VxUmhSWE5xZXJTZHJ4OHVycEkwWThGckhoZDU3NmF0WVNwZFktb0VOcEJhTWo2Tlp1UGtaQ2REZThfcUxBVHlHRUtyTk14bGotYS1qUU1SMGlnbVhoU3pJMVZ5My0tdmRGNVJtS0tjZkIxZE1pSkFRbmlKYl9hbXRtdF80VTg1Qm9ma19xUXRKbXNETFlIUG03dlJDMjduaXBCRG5oQjRHU19ZZVQxY2NpRlZWWQ?oc=5",
-      "priority": 5
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/kotoba-technologies-raises-10m-seed/",
+      "priority": 9
     },
-    "remind_at": "2026-06-24T22:13:52.478935-07:00"
+    "remind_at": "2026-06-25T01:35:55.159862-07:00"
   },
   {
     "item": {
-      "company": "Memory maker SK hynix files",
-      "amount": "$29.0B",
-      "stage": null,
+      "company": "SELLIT9",
+      "amount": "$4.1M",
+      "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/24/memory-maker-sk-hynix-files-29b-us-ipo-amid-ai-demand/",
-      "priority": 3
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/sellit9-raises-4-1m-seed/",
+      "priority": 9
     },
-    "remind_at": "2026-06-24T22:13:55.758403-07:00"
+    "remind_at": "2026-06-25T01:35:57.433088-07:00"
   },
   {
     "item": {
-      "company": "America's child population",
+      "company": "Hang Ten Systems",
+      "amount": "$32.0M",
+      "stage": "Seed",
+      "investors": "Mayfield to expand its enterprise AI services and software development platform",
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/hang-ten-systems-raises-32m-seed/",
+      "priority": 9
+    },
+    "remind_at": "2026-06-25T01:36:00.417099-07:00"
+  },
+  {
+    "item": {
+      "company": "Ora Computing",
+      "amount": null,
+      "stage": "Seed",
+      "investors": "Constructor Capital and Greencode Ventures to scale its AI model compression software",
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/ora-computing-raises-3-5m-seed/",
+      "priority": 9
+    },
+    "remind_at": "2026-06-25T01:36:03.391368-07:00"
+  },
+  {
+    "item": {
+      "company": "Onyx Odds",
+      "amount": "$20.0M",
+      "stage": "Series A",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/onyx-odds-raises-20m-series-a/",
+      "priority": 8
+    },
+    "remind_at": "2026-06-25T01:36:06.388729-07:00"
+  },
+  {
+    "item": {
+      "company": "Caplight",
+      "amount": "$16.0M",
+      "stage": "Series A",
+      "investors": "BlackRock and Fin Capital to expand its private market data and transaction infrastructure platform",
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/caplight-raises-16m-series-a/",
+      "priority": 8
+    },
+    "remind_at": "2026-06-25T01:36:08.836108-07:00"
+  },
+  {
+    "item": {
+      "company": "Redo",
+      "amount": "$81.0M",
+      "stage": "Series B",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/redo-raises-81m-series-b/",
+      "priority": 7
+    },
+    "remind_at": "2026-06-25T01:36:11.130527-07:00"
+  },
+  {
+    "item": {
+      "company": "H2SITE",
+      "amount": null,
+      "stage": "Series B",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQWdPcFNhazFERHlEcURLY1NDRXNHYS1rQWZzWU1HbVNuX0h2eVZhZ3pBUnFCLVQySzZodmNuSEdod2VkMThOdEpHU195SWM1OFRyTGxUT1MtdW5HRTFIbGJUbzlZUUMxZnBUZDMtdVozbDVEZmZHNU81amc0aEFkM2dUeUJCRzNfb21vdmRleWFoNjh4M2E4RDdnN3FvaFZzYjF2VXNnckhGbEk?oc=5",
+      "priority": 7
+    },
+    "remind_at": "2026-06-25T01:36:13.352508-07:00"
+  },
+  {
+    "item": {
+      "company": "Bill Ackman",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/25/south-child-population-census",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/25/amazon-bill-ackman-david-tepper-sanders/",
       "priority": 3
     },
-    "remind_at": "2026-06-24T22:13:59.129216-07:00"
+    "remind_at": "2026-06-25T01:36:16.226347-07:00"
+  },
+  {
+    "item": {
+      "company": "MacKenzie Scott alone accounted",
+      "amount": "$19.2B",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/25/mackenzie-scott-largest-megadonor-2025-7-billion-donations-giving-usa-iu-report/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-25T01:36:19.268719-07:00"
+  },
+  {
+    "item": {
+      "company": "Gen Z graduates",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/25/gen-z-graduates-unemployment-ai-economic-factors/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-25T01:36:22.146810-07:00"
+  },
+  {
+    "item": {
+      "company": "Backed by Spotify",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/almetra-16-3m-series-a-factory-intelligence/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-25T01:36:25.020473-07:00"
   }
 ]
