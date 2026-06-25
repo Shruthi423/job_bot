@@ -1,19 +1,53 @@
 [
   {
     "job": {
-      "title": "Junior UX UI Designer",
-      "company": "Unknown",
-      "location": "Remote",
-      "url": "https://remoteOK.com/remote-jobs/remote-junior-ux-ui-designer-work-force-nexus-1134022",
-      "salary": "See posting",
-      "description": "Posted 1:12:40 PM. Location: RemoteEmployment Type: Full-TimeExperience: 0\u20131 YearAbout The RoleWe are looking for a\u2026See this and similar jobs on LinkedIn.",
+      "title": "Brand/Visual Designer",
+      "company": "Dualentry",
+      "location": "New York City",
+      "url": "https://jobs.ashbyhq.com/dualentry/53197eb5-f8c7-46f8-8552-145a5a559576",
+      "salary": "Not listed",
+      "description": "ABOUT DUALENTRY\n\nFounded in 2024, DualEntry is one of the world\u2019s fastest-growing AI startups.\n\n\u00a0\n\nAt DualEntry, the future of finance is being written today. ERP is one of the largest fintech markets in the world ($220,000,000,000+). Yet, tens of thousands of companies are still using on-premise sy",
       "posted_at": "Recently",
-      "source": "RemoteOK",
+      "source": "Startups.Gallery",
       "relevant": true,
-      "is_new_grad": true,
+      "is_new_grad": false,
       "is_big_tech": false,
       "visa": null
     },
-    "remind_at": "2026-06-25T09:30:47.853169-07:00"
+    "remind_at": "2026-06-25T11:49:21.994992-07:00"
+  },
+  {
+    "job": {
+      "title": "Product Designer",
+      "company": "Hanover Park",
+      "location": "New York City",
+      "url": "https://jobs.ashbyhq.com/hanover-park/e87a68bf-d1fd-4db7-b415-971e9f757871",
+      "salary": "Not listed",
+      "description": "ABOUT HANOVER PARK\n\nWe're building the AI-native ERP that will define private markets infrastructure. This isn't an AI wrapper slapped onto legacy software - we built a proprietary general ledger accounting system from the ground up, designed specifically for complex investment firms. As the system ",
+      "posted_at": "Recently",
+      "source": "Startups.Gallery",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-06-25T11:49:23.676522-07:00"
+  },
+  {
+    "job": {
+      "title": "Product Designer",
+      "company": "1Password",
+      "location": "Remote",
+      "url": "https://jobs.ashbyhq.com/1password/92ec0d71-2abd-40a9-b541-1fe2524b385c",
+      "salary": "Not listed",
+      "description": "1Password is growing. We\u2019ve surpassed $400M in ARR and we\u2019re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing.\n\n\n\nAbout 1Password\n\nAt 1Password, we\u2019re building the foundation for a safe, productiv",
+      "posted_at": "Recently",
+      "source": "Startups.Gallery",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-06-25T11:49:25.408051-07:00"
   }
 ]

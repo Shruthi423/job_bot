@@ -1,128 +1,86 @@
 [
   {
     "item": {
-      "company": "DRC-Born Yamify",
+      "company": "Storika",
       "amount": null,
-      "stage": "Pre-Seed",
+      "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVU5adXYwWjI2NWUzTHkxRUFrMTlWMlFaN2hrUnJkNDgyMHhNZUtVd0FGR0FnNzdhRjk3b0VoQkFudERDai1MM2tOMVc1cFVXT3lRb2N4UFBLNmdGZ1IzZkh0cmFldjkxUWhQajhvbkFFcnZ5cVktb3gwdFJPcnRSMFZyTU1YUVZGeE41cWZ0cEN4QzNTOHFmR2dpOWhMQzNfR3R1NF9PVkdYaW5xaDlnM1JxOA?oc=5",
-      "priority": 10
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5Q3h5d1JULWxkQ0hOZmgwZ3RqYnhreVlUWVR2cE9kZkF4MV9mZU5iQXZuM0szSlBEbXJ6S0JBSXhSVFRMdHVhUHpicnRjaE5WSWxn?oc=5",
+      "priority": 9
     },
-    "remind_at": "2026-06-25T09:31:11.015469-07:00"
+    "remind_at": "2026-06-25T11:49:48.262493-07:00"
   },
   {
     "item": {
-      "company": "Netris",
-      "amount": "$15.0M",
-      "stage": "Series A",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "a16z (news)",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcUFOUVdfcHl3Q2VXNkIyb2plc0lONmp5N2tMY1BZeTFLLU84a1NjWU5aMGtwa0RoVENfc2FKNUZhVUxnQm9oeEo3dkFXY3Nyb2hUR3FQQnhpZ1FJTzE2Z2FSQm5BcTlEaFlSZzk2NWtEeENxOC01NzVTNjBIS0ViWE8zS2t0X0VWUzJZUWJlSWZVUGQyempmdGV4dFJUOUFnZy0wSzdnOExoLUJCQVU5aEZGcU1sRExQOHpHNnQtQXFvRkNrMkhDVDdmcVpxMTFnenRKXzRIVQ?oc=5",
-      "priority": 8
-    },
-    "remind_at": "2026-06-25T09:31:13.473713-07:00"
-  },
-  {
-    "item": {
-      "company": "Bosch and Siemens Energy partner Almetra",
-      "amount": null,
-      "stage": "Series A",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZm1Zck5sTjZzMS1CNnVmdDJFdGVZSTRZSXB0WWVHRU94d1ZVVFQyVjZQbDlVZ3ZyWk5JWkhVMGs5QTZBaHdGNnlIMm90SXFsbjhPNTYyVGlOclNFNzcwM3BVcmR3cWlveWhRS094RHEydE9IdmRCUHVUNlZDUklTMklZV0Z0a2RvQWtUVnFabmkzVjczZlV1OWh3ZHY2by0wNUtRVVA2WlVzSi1EeUlwbkozVkF2NHlZaEg2Zk54SnJjbktvUndJOXNvRXo3U1RCcTZIbHVMNmFtaU9aQXc?oc=5",
-      "priority": 8
-    },
-    "remind_at": "2026-06-25T09:31:16.835001-07:00"
-  },
-  {
-    "item": {
-      "company": "\u2018He who strikes first wins\u2019",
-      "amount": "$19.0B",
+      "company": "Larry Ellison quietly gave $45 million",
+      "amount": "$45.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Fortune",
-      "url": "https://fortune.com/2026/06/25/softbank-ceo-masayoshi-son-dismisses-elon-musk-orbital-data-centers/",
+      "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/",
       "priority": 3
     },
-    "remind_at": "2026-06-25T09:31:26.959241-07:00"
+    "remind_at": "2026-06-25T11:49:51.253401-07:00"
   },
   {
     "item": {
-      "company": "House Democrats look",
-      "amount": "$1.8B",
+      "company": "Capital One Software makes the case",
+      "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/25/weaponization-fund-trump-blanche-raskin-jan-6",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/25/ai-tokenization-data-security-innovation-aitrustcyberresilience/",
       "priority": 3
     },
-    "remind_at": "2026-06-25T09:31:30.179596-07:00"
+    "remind_at": "2026-06-25T11:49:54.287564-07:00"
   },
   {
     "item": {
-      "company": "IBM",
-      "amount": null,
+      "company": "Upside",
+      "amount": "$20.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "TechStartups",
-      "url": "https://techstartups.com/2026/06/25/ibm-unveils-worlds-first-sub-1nm-chip-with-100-billion-transistors-cuts-power-use-by-70/",
+      "url": "https://techstartups.com/2026/06/25/upside-raises-20m-to-tackle-housing-instability-before-it-becomes-a-healthcare-crisis/",
       "priority": 3
     },
-    "remind_at": "2026-06-25T09:31:32.671153-07:00"
+    "remind_at": "2026-06-25T11:49:56.499803-07:00"
   },
   {
     "item": {
-      "company": "$100B in 10 Years",
-      "amount": "$100.0B",
+      "company": "GRAIL",
+      "amount": "$110.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "SaaStr",
-      "url": "https://www.saastr.com/what-vcs-are-hunting-today-100b-in-10-years/",
+      "source": "TechStartups",
+      "url": "https://techstartups.com/2026/06/25/grail-secures-110-million-in-equity-from-samsung-to-expand-galleri-cancer-detection-test-globally/",
       "priority": 3
     },
-    "remind_at": "2026-06-25T09:31:37.546324-07:00"
+    "remind_at": "2026-06-25T11:49:58.738072-07:00"
   },
   {
     "item": {
-      "company": "Roblox",
+      "company": "Unloq",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "First Round (news)",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUDdpRUpnM0kxRG5RSWozNlRndF9SdU03WWpJZEhrRm04YXluR0xkeXc5ZDRwQk1VQlZQX2VaSGdwbnowdkxfeVlQbDJITXVmZjJsUUFsVXo1Rk9mZHRvMXB6dzhJVnBsZVU4RGlYRFRtc09IaW5OVjVQZlpqd28tMmVkZ0duamxvWDlmYkc5MlRfb245YVFzN21wcFZmWUZOWnd4NzRuWmk?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-25T09:31:39.942338-07:00"
-  },
-  {
-    "item": {
-      "company": "Alliance-backed fintech Daya",
-      "amount": "$2.4M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMUJIY093dDR4QjBjRkg5VG1rZm1VNlR0bTc2dDJyM3pHTkx3VEx6ZHF1dzhqanhGSmhtV1BHUHk2dEdqaTlDRVphRTlLdlNWMHE4MG40RmUwdmFFeldFRGRocw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5YWnhJdkZhWW5xZzNkNHJ1am5CY3hLdUtRc1NzZGo4T095LXdIWVdGNU1JTGlfVVR2bkp1NmNCMkw0Z0ktZWpwSUdsVzJXNzJHWjk3Rk1XalU5MlMtX0haN3Y3OE0xZw?oc=5",
       "priority": 3
     },
-    "remind_at": "2026-06-25T09:31:43.170264-07:00"
+    "remind_at": "2026-06-25T11:50:00.959887-07:00"
   }
 ]
