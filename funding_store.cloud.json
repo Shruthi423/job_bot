@@ -9875,5 +9875,35 @@
     "roles": [],
     "first_seen": "2026-06-25T11:20:01.960064-07:00",
     "status": "active"
+  },
+  "a0013196bb5566c444ad93557e8b43d7": {
+    "id": "a0013196bb5566c444ad93557e8b43d7",
+    "company": "Unconventional AI",
+    "amount": "$475.0M",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYjJndUlhTEJSMUxMQUFnUzRQam5wd1hCclBGQWQ3anVrdVFyNjZUUHFkRnJQcTEtZnd5NjdvUUp6bWNrNHNsekE1bEVQVkhwcV84YlVWYlpnVXI2WUR3Tnllc3lCdTctbUthU1JwOUJhcG9UTHViVUdVSDBfM0ozZmVSZG5xa294UEhsMnFQMTVvR0ZuQ05HeHgxTVVTYlhBaElyWXpUcGhMTGVyS0lNa19vZHZhMFM2R0NISGlIYm9BZVNVaUg2T1Zjd1J6OThveTlR?oc=5",
+    "priority": 9,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-25T13:31:18.583963-07:00",
+    "status": "active"
+  },
+  "41197aad4998ec00d1880a41c3b6667c": {
+    "id": "41197aad4998ec00d1880a41c3b6667c",
+    "company": "a16z-backed Base Power",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "TechCrunch Startups",
+    "url": "https://techcrunch.com/2026/06/25/a16z-backed-base-power-is-offering-cheaper-electricity-to-the-power-grid-that-needs-it-most/",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-25T13:31:21.870608-07:00",
+    "status": "active"
   }
 }

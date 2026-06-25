@@ -1,86 +1,30 @@
 [
   {
     "item": {
-      "company": "Storika",
-      "amount": null,
+      "company": "Unconventional AI",
+      "amount": "$475.0M",
       "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5Q3h5d1JULWxkQ0hOZmgwZ3RqYnhreVlUWVR2cE9kZkF4MV9mZU5iQXZuM0szSlBEbXJ6S0JBSXhSVFRMdHVhUHpicnRjaE5WSWxn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYjJndUlhTEJSMUxMQUFnUzRQam5wd1hCclBGQWQ3anVrdVFyNjZUUHFkRnJQcTEtZnd5NjdvUUp6bWNrNHNsekE1bEVQVkhwcV84YlVWYlpnVXI2WUR3Tnllc3lCdTctbUthU1JwOUJhcG9UTHViVUdVSDBfM0ozZmVSZG5xa294UEhsMnFQMTVvR0ZuQ05HeHgxTVVTYlhBaElyWXpUcGhMTGVyS0lNa19vZHZhMFM2R0NISGlIYm9BZVNVaUg2T1Zjd1J6OThveTlR?oc=5",
       "priority": 9
     },
-    "remind_at": "2026-06-25T11:49:48.262493-07:00"
+    "remind_at": "2026-06-25T14:01:17.583767-07:00"
   },
   {
     "item": {
-      "company": "Larry Ellison quietly gave $45 million",
-      "amount": "$45.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/25/larry-ellison-donald-trump-45-million-donation-stargate-tiktok-paramount/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-25T11:49:51.253401-07:00"
-  },
-  {
-    "item": {
-      "company": "Capital One Software makes the case",
+      "company": "a16z-backed Base Power",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/25/ai-tokenization-data-security-innovation-aitrustcyberresilience/",
+      "source": "TechCrunch Startups",
+      "url": "https://techcrunch.com/2026/06/25/a16z-backed-base-power-is-offering-cheaper-electricity-to-the-power-grid-that-needs-it-most/",
       "priority": 3
     },
-    "remind_at": "2026-06-25T11:49:54.287564-07:00"
-  },
-  {
-    "item": {
-      "company": "Upside",
-      "amount": "$20.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "TechStartups",
-      "url": "https://techstartups.com/2026/06/25/upside-raises-20m-to-tackle-housing-instability-before-it-becomes-a-healthcare-crisis/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-25T11:49:56.499803-07:00"
-  },
-  {
-    "item": {
-      "company": "GRAIL",
-      "amount": "$110.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "TechStartups",
-      "url": "https://techstartups.com/2026/06/25/grail-secures-110-million-in-equity-from-samsung-to-expand-galleri-cancer-detection-test-globally/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-25T11:49:58.738072-07:00"
-  },
-  {
-    "item": {
-      "company": "Unloq",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5YWnhJdkZhWW5xZzNkNHJ1am5CY3hLdUtRc1NzZGo4T095LXdIWVdGNU1JTGlfVVR2bkp1NmNCMkw0Z0ktZWpwSUdsVzJXNzJHWjk3Rk1XalU5MlMtX0haN3Y3OE0xZw?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-25T11:50:00.959887-07:00"
+    "remind_at": "2026-06-25T14:01:20.870447-07:00"
   }
 ]

@@ -1,53 +1,138 @@
 [
   {
     "job": {
-      "title": "Brand/Visual Designer",
-      "company": "Dualentry",
-      "location": "New York City",
-      "url": "https://jobs.ashbyhq.com/dualentry/53197eb5-f8c7-46f8-8552-145a5a559576",
+      "title": "UI/UX Designer | Onsite",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/ui-ux-designer-onsite/9916463",
       "salary": "Not listed",
-      "description": "ABOUT DUALENTRY\n\nFounded in 2024, DualEntry is one of the world\u2019s fastest-growing AI startups.\n\n\u00a0\n\nAt DualEntry, the future of finance is being written today. ERP is one of the largest fintech markets in the world ($220,000,000,000+). Yet, tens of thousands of companies are still using on-premise sy",
+      "description": "Design intuitive, accessible UI and UX across products: conduct user research and testing, create wireframes, prototypes, and high-fidelity designs, collaborate with product and engineering, iterate based on feedback, and maintain the design system and brand consistency.",
       "posted_at": "Recently",
-      "source": "Startups.Gallery",
+      "source": "BuiltIn SF",
       "relevant": true,
       "is_new_grad": false,
       "is_big_tech": false,
       "visa": null
     },
-    "remind_at": "2026-06-25T11:49:21.994992-07:00"
+    "remind_at": "2026-06-25T14:00:25.357026-07:00"
   },
   {
     "job": {
-      "title": "Product Designer",
-      "company": "Hanover Park",
-      "location": "New York City",
-      "url": "https://jobs.ashbyhq.com/hanover-park/e87a68bf-d1fd-4db7-b415-971e9f757871",
+      "title": "UX Designer (Site Optimization Specilaist) - CA, USA",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/ux-designer-site-optimization-specilaist-ca-usa/9915731",
       "salary": "Not listed",
-      "description": "ABOUT HANOVER PARK\n\nWe're building the AI-native ERP that will define private markets infrastructure. This isn't an AI wrapper slapped onto legacy software - we built a proprietary general ledger accounting system from the ground up, designed specifically for complex investment firms. As the system ",
+      "description": "Optimize e-commerce site components using data-driven A/B testing, usability testing, and human factors principles. Run experiments, analyze metrics, iterate designs, collaborate with product, marketing, and engineering, conduct heuristic evaluations, present recommendations to senior leadership, an",
       "posted_at": "Recently",
-      "source": "Startups.Gallery",
+      "source": "BuiltIn SF",
       "relevant": true,
       "is_new_grad": false,
       "is_big_tech": false,
       "visa": null
     },
-    "remind_at": "2026-06-25T11:49:23.676522-07:00"
+    "remind_at": "2026-06-25T14:00:27.428259-07:00"
   },
   {
     "job": {
-      "title": "Product Designer",
-      "company": "1Password",
-      "location": "Remote",
-      "url": "https://jobs.ashbyhq.com/1password/92ec0d71-2abd-40a9-b541-1fe2524b385c",
+      "title": "UX Designer - Dallas, TX",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/ux-designer-dallas-tx/9915788",
       "salary": "Not listed",
-      "description": "1Password is growing. We\u2019ve surpassed $400M in ARR and we\u2019re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing.\n\n\n\nAbout 1Password\n\nAt 1Password, we\u2019re building the foundation for a safe, productiv",
+      "description": "Lead end-to-end conversational and AI-infused UX for vehicle-finance self-service. Architect dialog flows and multimodal UIs, own a conversational design system (WCAG 2.1 AA), run user research and A/B tests, embed generative-AI features with data teams, ensure regulatory compliance, and mentor cros",
       "posted_at": "Recently",
-      "source": "Startups.Gallery",
+      "source": "BuiltIn SF",
       "relevant": true,
       "is_new_grad": false,
       "is_big_tech": false,
       "visa": null
     },
-    "remind_at": "2026-06-25T11:49:25.408051-07:00"
+    "remind_at": "2026-06-25T14:00:29.519354-07:00"
+  },
+  {
+    "job": {
+      "title": "UX Designer  - Irving",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/ux-designer-irving/9915506",
+      "salary": "Not listed",
+      "description": "Senior UX Designer responsible for visual and UX design across web and mobile in an enterprise environment. Creates high-fidelity designs, UX architecture, research-informed solutions, and collaborates with cross-functional teams and developers to ensure technical feasibility and handoff of delivera",
+      "posted_at": "Recently",
+      "source": "BuiltIn SF",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-06-25T14:00:32.020278-07:00"
+  },
+  {
+    "job": {
+      "title": "UI/UX Designer | Onsite |",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/ui-ux-designer-onsite/9915125",
+      "salary": "Not listed",
+      "description": "Create user flows, wireframes, mockups, and interactive prototypes. Design accessible, visually appealing UI elements. Conduct user research and usability testing. Collaborate with product managers and developers. Maintain design systems and style guides. Gather user feedback to improve product usab",
+      "posted_at": "Recently",
+      "source": "BuiltIn SF",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-06-25T14:00:34.080850-07:00"
+  },
+  {
+    "job": {
+      "title": "Sr UI/UX Designer | Onsite",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/sr-ui-ux-designer-onsite/9914987",
+      "salary": "Not listed",
+      "description": "Senior UI/UX Designer responsible for translating product requirements into wireframes, mockups, and prototypes; conducting user research and usability testing; maintaining design systems; collaborating with product and engineering; mentoring junior designers; and delivering consistent responsive we",
+      "posted_at": "Recently",
+      "source": "BuiltIn SF",
+      "relevant": true,
+      "is_new_grad": true,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-06-25T14:00:36.600026-07:00"
+  },
+  {
+    "job": {
+      "title": "UI UX Designer | Onsite| Virginia",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/ui-ux-designer-onsite-virginia/9914775",
+      "salary": "Not listed",
+      "description": "Design end-to-end web user experiences including flows, wireframes, UI mockups, and prototypes. Conduct user research and usability testing, use analytics/heatmaps/A-B testing to iterate, collaborate with product and engineering in Agile, maintain design systems, and deliver design specs for pixel-p",
+      "posted_at": "Recently",
+      "source": "BuiltIn SF",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-06-25T14:00:39.119721-07:00"
+  },
+  {
+    "job": {
+      "title": "UX Designer | Onsite",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/ux-designer-onsite/9914856",
+      "salary": "Not listed",
+      "description": "Lead UX discovery and implementation for a multi-site AEM platform: conduct research, create wireframes/prototypes, define a modular design system, collaborate with AEM architects and developers, validate through usability testing, and document UX guidelines for consistent regional experiences.",
+      "posted_at": "Recently",
+      "source": "BuiltIn SF",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-06-25T14:00:41.272920-07:00"
   }
 ]
