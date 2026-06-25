@@ -1,5 +1,20 @@
 [
   {
+    "id": "4b2623690d1a12220b1d2294dc7b2c52",
+    "company": "Trase",
+    "amount": "$107.0M",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQem0zRThCaXFBN01nSUY1UXZ4cXZucFp3Vk5HeVVNT25fcVdmeEREblc0MTRuTXVBZTdFUGczS1MwZGVfZUlkQkJXanlNOVhVM0JldEZTa1hObTRxb0FwYkxQQjZJWnhIOHJwYjdQNWZOa2pvWnMzWVFOdXgwQ1dxdzFEMWl3SWc1UmF2NHBOVmowX2JDRl9pWXU5WnZQV05WUlZDWU1TZTk?oc=5",
+    "priority": 9,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-24T17:22:45.025493-07:00",
+    "status": "active"
+  },
+  {
     "id": "191d8cd8314a77faeb9a2e7f2f470e15",
     "company": "Mistral",
     "amount": "$4.4B",

@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "item": {
+      "company": "Trase",
+      "amount": "$107.0M",
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQem0zRThCaXFBN01nSUY1UXZ4cXZucFp3Vk5HeVVNT25fcVdmeEREblc0MTRuTXVBZTdFUGczS1MwZGVfZUlkQkJXanlNOVhVM0JldEZTa1hObTRxb0FwYkxQQjZJWnhIOHJwYjdQNWZOa2pvWnMzWVFOdXgwQ1dxdzFEMWl3SWc1UmF2NHBOVmowX2JDRl9pWXU5WnZQV05WUlZDWU1TZTk?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-24T17:52:44.025324-07:00"
+  }
+]
