@@ -1,240 +1,128 @@
 [
   {
     "item": {
-      "company": "Daya",
-      "amount": "$2.4M",
+      "company": "Ground",
+      "amount": "$3.6M",
       "stage": "Pre-Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/daya-raises-2-4m-pre-seed/",
+      "url": "https://www.thesaasnews.com/news/ground-raises-3-6m-pre-seed/",
       "priority": 10
     },
-    "remind_at": "2026-06-25T01:35:43.652209-07:00"
+    "remind_at": "2026-06-25T04:38:23.107017-07:00"
   },
   {
     "item": {
-      "company": "Overworld",
-      "amount": "$4.5M",
-      "stage": "Pre-Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/overworld-raises-4-5m-pre-seed/",
-      "priority": 10
-    },
-    "remind_at": "2026-06-25T01:35:45.966442-07:00"
-  },
-  {
-    "item": {
-      "company": "CentSight",
-      "amount": "$1.5M",
-      "stage": "Pre-Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/centsight-raises-1-5m-pre-seed/",
-      "priority": 10
-    },
-    "remind_at": "2026-06-25T01:35:48.167999-07:00"
-  },
-  {
-    "item": {
-      "company": "Nudge",
-      "amount": "$1.1M",
-      "stage": "Pre-Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/nudge-raises-1-1m-pre-seed/",
-      "priority": 10
-    },
-    "remind_at": "2026-06-25T01:35:50.430437-07:00"
-  },
-  {
-    "item": {
-      "company": "Magnitude",
-      "amount": "$10.0M",
-      "stage": "Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/magnitude-raises-10m-seed/",
-      "priority": 9
-    },
-    "remind_at": "2026-06-25T01:35:52.842587-07:00"
-  },
-  {
-    "item": {
-      "company": "Kotoba Technologies",
-      "amount": "$10.0M",
-      "stage": "Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/kotoba-technologies-raises-10m-seed/",
-      "priority": 9
-    },
-    "remind_at": "2026-06-25T01:35:55.159862-07:00"
-  },
-  {
-    "item": {
-      "company": "SELLIT9",
-      "amount": "$4.1M",
-      "stage": "Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/sellit9-raises-4-1m-seed/",
-      "priority": 9
-    },
-    "remind_at": "2026-06-25T01:35:57.433088-07:00"
-  },
-  {
-    "item": {
-      "company": "Hang Ten Systems",
-      "amount": "$32.0M",
-      "stage": "Seed",
-      "investors": "Mayfield to expand its enterprise AI services and software development platform",
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/hang-ten-systems-raises-32m-seed/",
-      "priority": 9
-    },
-    "remind_at": "2026-06-25T01:36:00.417099-07:00"
-  },
-  {
-    "item": {
-      "company": "Ora Computing",
+      "company": "Talentir",
       "amount": null,
       "stage": "Seed",
-      "investors": "Constructor Capital and Greencode Ventures to scale its AI model compression software",
+      "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/ora-computing-raises-3-5m-seed/",
+      "url": "https://www.thesaasnews.com/news/talentir-raises-4m-seed/",
       "priority": 9
     },
-    "remind_at": "2026-06-25T01:36:03.391368-07:00"
+    "remind_at": "2026-06-25T04:38:25.378254-07:00"
   },
   {
     "item": {
-      "company": "Onyx Odds",
-      "amount": "$20.0M",
+      "company": "Cambrian",
+      "amount": "$6.0M",
+      "stage": "Seed",
+      "investors": "Franklin Templeton and Polychain Capital to expand its blockchain data oracle network for AI and institutions",
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/cambrian-raises-6m-seed/",
+      "priority": 9
+    },
+    "remind_at": "2026-06-25T04:38:27.677878-07:00"
+  },
+  {
+    "item": {
+      "company": "Almetra",
+      "amount": null,
       "stage": "Series A",
       "investors": null,
-      "location": null,
+      "location": "Berlin",
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/onyx-odds-raises-20m-series-a/",
+      "url": "https://www.thesaasnews.com/news/almetra-raises-16-3m-series-a/",
       "priority": 8
     },
-    "remind_at": "2026-06-25T01:36:06.388729-07:00"
+    "remind_at": "2026-06-25T04:38:29.844382-07:00"
   },
   {
     "item": {
-      "company": "Caplight",
-      "amount": "$16.0M",
-      "stage": "Series A",
-      "investors": "BlackRock and Fin Capital to expand its private market data and transaction infrastructure platform",
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/caplight-raises-16m-series-a/",
-      "priority": 8
-    },
-    "remind_at": "2026-06-25T01:36:08.836108-07:00"
-  },
-  {
-    "item": {
-      "company": "Redo",
-      "amount": "$81.0M",
-      "stage": "Series B",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/redo-raises-81m-series-b/",
-      "priority": 7
-    },
-    "remind_at": "2026-06-25T01:36:11.130527-07:00"
-  },
-  {
-    "item": {
-      "company": "H2SITE",
-      "amount": null,
-      "stage": "Series B",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQWdPcFNhazFERHlEcURLY1NDRXNHYS1rQWZzWU1HbVNuX0h2eVZhZ3pBUnFCLVQySzZodmNuSEdod2VkMThOdEpHU195SWM1OFRyTGxUT1MtdW5HRTFIbGJUbzlZUUMxZnBUZDMtdVozbDVEZmZHNU81amc0aEFkM2dUeUJCRzNfb21vdmRleWFoNjh4M2E4RDdnN3FvaFZzYjF2VXNnckhGbEk?oc=5",
-      "priority": 7
-    },
-    "remind_at": "2026-06-25T01:36:13.352508-07:00"
-  },
-  {
-    "item": {
-      "company": "Bill Ackman",
-      "amount": null,
+      "company": "M&A Year",
+      "amount": "$60.0B",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/25/amazon-bill-ackman-david-tepper-sanders/",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/ma/2026-mergers-acquisitions-record-cursor-spcx/",
       "priority": 3
     },
-    "remind_at": "2026-06-25T01:36:16.226347-07:00"
+    "remind_at": "2026-06-25T04:38:32.815128-07:00"
   },
   {
     "item": {
-      "company": "MacKenzie Scott alone accounted",
-      "amount": "$19.2B",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/25/mackenzie-scott-largest-megadonor-2025-7-billion-donations-giving-usa-iu-report/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-25T01:36:19.268719-07:00"
-  },
-  {
-    "item": {
-      "company": "Gen Z graduates",
+      "company": "America's great political implosion",
       "amount": null,
       "stage": null,
       "investors": null,
-      "location": null,
+      "location": "New York",
       "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/25/gen-z-graduates-unemployment-ai-economic-factors/",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/25/trump-america-politics-maga-socialism-israel",
       "priority": 3
     },
-    "remind_at": "2026-06-25T01:36:22.146810-07:00"
+    "remind_at": "2026-06-25T04:38:35.945090-07:00"
   },
   {
     "item": {
-      "company": "Backed by Spotify",
+      "company": "Codex agents",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": "San Francisco",
+      "founders": [],
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/25/codex-agents-growth-openai",
+      "priority": 3
+    },
+    "remind_at": "2026-06-25T04:38:40.295799-07:00"
+  },
+  {
+    "item": {
+      "company": "European VC has beaten US funds",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/almetra-16-3m-series-a-factory-intelligence/",
+      "url": "https://techfundingnews.com/european-vc-outperforms-us-invest-europe-2025-data/",
       "priority": 3
     },
-    "remind_at": "2026-06-25T01:36:25.020473-07:00"
+    "remind_at": "2026-06-25T04:38:43.341255-07:00"
+  },
+  {
+    "item": {
+      "company": "Sazabi",
+      "amount": "$8.0M",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTlZKTFBiR0sySTliMDJ4eGNXbUh2dVlOTWt6RXRGY0hhRkppdjZMdHF5dzdmRXBxSkM5OGlwZzM1cWVwZUdoRGktaGpIY2xkY1VpOXJIcnM3ZEt0OTc3Z0Y5bUxockVmR01jVFR1WGFpR1lSaE9NR2xjZ3F2N3hWU29pUDFTeWMzZmpBbVBsQngtN0hWSnVLLVlnMA?oc=5",
+      "priority": 3
+    },
+    "remind_at": "2026-06-25T04:38:45.480815-07:00"
   }
 ]

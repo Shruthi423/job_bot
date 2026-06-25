@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "job": {
+      "title": "UX Designer",
+      "company": "Wizards of the Coast",
+      "location": "Renton, WA",
+      "url": "https://uiuxjobsboard.com/job/1509126-ux-designer-renton-wa-united-states",
+      "salary": "$89,700 - $149,400",
+      "description": "",
+      "posted_at": "4h",
+      "source": "UIUXJobsBoard",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-06-25T04:38:03.625131-07:00"
+  }
+]

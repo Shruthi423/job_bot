@@ -1,5 +1,23 @@
 [
   {
+    "id": "44a6d5dcb0a0a89fdd33f2b15b093aa4",
+    "title": "UX Designer",
+    "company": "Wizards of the Coast",
+    "location": "Renton, WA",
+    "salary": "$89,700 - $149,400",
+    "url": "https://uiuxjobsboard.com/job/1509126-ux-designer-renton-wa-united-states",
+    "source": "UIUXJobsBoard",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "visa": null,
+    "founders": [],
+    "posted_at": "4h",
+    "priority": 4,
+    "first_seen": "2026-06-25T04:08:03.161511-07:00",
+    "status": "active",
+    "applied_at": null
+  },
+  {
     "id": "8adb07498dd60a698e498fcf722ce472",
     "title": "Brand Designer at Supabase",
     "company": "Supabase",
