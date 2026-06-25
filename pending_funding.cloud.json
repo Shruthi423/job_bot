@@ -1,58 +1,44 @@
 [
   {
     "item": {
-      "company": "Mirendil",
-      "amount": "$200.0M",
+      "company": "Biomechanical Engineer Yinka Ogunbiyi",
+      "amount": "$7.0M",
       "stage": "Seed",
-      "investors": "Andreessen Horowitz",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdktOTWJIdjRVRG5tanNEaHpZTTE4ZXRnS2JPOTAxX3NxNEtLeDVQNnJNR2JUSEFpMGl4VFRON0RrdUxIY1U2RVRTUFNPX29CRUU3QXpSWDdHQndtdkdueTRPSDliTXFsczZrSDRvMDdub3pucXdqU3U1ZmJhYXNZdHNIdDdHQVk?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-25T17:14:52.231492-07:00"
+  },
+  {
+    "item": {
+      "company": "Scaled Cognition",
+      "amount": "$100.0M",
+      "stage": "Series A",
+      "investors": null,
       "location": null,
       "founders": [],
       "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/25/mirendil-raises-200m-speed-scientific-research-ai/",
-      "priority": 12
+      "url": "https://siliconangle.com/2026/06/25/scaled-cognition-nabs-100m-automate-high-stakes-customer-interactions/",
+      "priority": 8
     },
-    "remind_at": "2026-06-25T15:36:50.887377-07:00"
+    "remind_at": "2026-06-25T17:14:55.308901-07:00"
   },
   {
     "item": {
-      "company": "Scientists tickled monkeys",
-      "amount": null,
+      "company": "Nebulock",
+      "amount": "$25.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/25/scientists-tickled-monkeys-to-find-if-they-have-the-same-giggles-as-humans-and-they-do/",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/25/nebulock-raises-25m-expand-hunt-first-security-platform/",
       "priority": 3
     },
-    "remind_at": "2026-06-25T15:36:53.802432-07:00"
-  },
-  {
-    "item": {
-      "company": "Cybersecurity threats",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": "Paris",
-      "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/25/vivatech-ai-hype-security-sovereignty-value-openai-amazon/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-25T15:36:56.967224-07:00"
-  },
-  {
-    "item": {
-      "company": "Trump turns",
-      "amount": "$100.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/25/trump-accuses-big-oil-of-price-gouging/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-25T15:36:59.871666-07:00"
+    "remind_at": "2026-06-25T17:14:57.669921-07:00"
   }
 ]

@@ -9965,5 +9965,50 @@
     "roles": [],
     "first_seen": "2026-06-25T15:07:00.871827-07:00",
     "status": "active"
+  },
+  "879e0c375debfce0fba76f44afda58f4": {
+    "id": "879e0c375debfce0fba76f44afda58f4",
+    "company": "Biomechanical Engineer Yinka Ogunbiyi",
+    "amount": "$7.0M",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdktOTWJIdjRVRG5tanNEaHpZTTE4ZXRnS2JPOTAxX3NxNEtLeDVQNnJNR2JUSEFpMGl4VFRON0RrdUxIY1U2RVRTUFNPX29CRUU3QXpSWDdHQndtdkdueTRPSDliTXFsczZrSDRvMDdub3pucXdqU3U1ZmJhYXNZdHNIdDdHQVk?oc=5",
+    "priority": 9,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-25T16:44:53.231648-07:00",
+    "status": "active"
+  },
+  "d71cccc89d8e9291186f85b58474b7db": {
+    "id": "d71cccc89d8e9291186f85b58474b7db",
+    "company": "Scaled Cognition",
+    "amount": "$100.0M",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "SiliconANGLE",
+    "url": "https://siliconangle.com/2026/06/25/scaled-cognition-nabs-100m-automate-high-stakes-customer-interactions/",
+    "priority": 8,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-25T16:44:56.309118-07:00",
+    "status": "active"
+  },
+  "256a379c0b8c7edc40f3f70a5d61f9e1": {
+    "id": "256a379c0b8c7edc40f3f70a5d61f9e1",
+    "company": "Nebulock",
+    "amount": "$25.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "SiliconANGLE",
+    "url": "https://siliconangle.com/2026/06/25/nebulock-raises-25m-expand-hunt-first-security-platform/",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-25T16:44:58.670074-07:00",
+    "status": "active"
   }
 }
