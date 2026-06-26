@@ -1,72 +1,58 @@
 [
   {
     "item": {
-      "company": "wants",
-      "amount": "$10.0M",
+      "company": "Mamdani lives up",
+      "amount": null,
       "stage": null,
       "investors": null,
-      "location": null,
+      "location": "New York",
       "founders": [],
-      "source": "TechCrunch Startups",
-      "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/26/what-does-zohran-mamdani-rent-freeze-mean-new-york-city/",
       "priority": 3
     },
-    "remind_at": "2026-06-26T08:17:12.251822-07:00"
+    "remind_at": "2026-06-26T10:28:23.185676-07:00"
   },
   {
     "item": {
-      "company": "climate tech works. Getting it",
-      "amount": "$10.0B",
+      "company": "Newsom calls",
+      "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Fortune",
-      "url": "https://fortune.com/2026/06/26/climate-tech-scale-distribution-finance-jonathan-berman-shell-foundation/",
+      "url": "https://fortune.com/2026/06/26/newsom-wealth-tax-federal-california-2028-presidential/",
       "priority": 3
     },
-    "remind_at": "2026-06-26T08:17:15.623602-07:00"
+    "remind_at": "2026-06-26T10:28:26.161794-07:00"
   },
   {
     "item": {
-      "company": "German spinout",
+      "company": "Nobody's sure where the Federal Reserve",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/intu-diagnostics-1-1m-lab-free-hpv-testing/",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/26/kevin-warsh-fed-rates-guidance",
       "priority": 3
     },
-    "remind_at": "2026-06-26T08:17:18.978132-07:00"
+    "remind_at": "2026-06-26T10:28:29.177254-07:00"
   },
   {
     "item": {
-      "company": "The Fastest-Growing Content",
+      "company": "Three finalists",
       "amount": null,
       "stage": null,
       "investors": null,
-      "location": null,
+      "location": "New York",
       "founders": [],
-      "source": "SaaStr",
-      "url": "https://www.saastr.com/we-crossed-200000-youtube-subscribers-the-fastest-growing-content-is-us-running-ai-agents-in-public/",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/06/26/fda-finalists-white-house-trump-makary",
       "priority": 3
     },
-    "remind_at": "2026-06-26T08:17:22.300931-07:00"
-  },
-  {
-    "item": {
-      "company": "AllHome",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNC1ucTJHUVFrV0JOZjl2X0NDSjJ2X2pLV2tnWEwyNTE1Q3I2M3FrbDBVQ3hKOFEzNDRFZEZ1UXB5NUxvV0w1eWhHZ0JjVFRxd3pGc24ta3VSQlgxQ1Vob2VhZEFtRTg4VW00QjhJcjk0QjVHYVI0WVZwb2VHREl6ODRwTXlreFhYYjlNVXBfY3B4RDZpcHZlUXkwZzNVR1NEd1NGWmRUN09XTUx6cW1RN2VWUGLSAbQBQVVfeXFMTTQtbnEyR1FRa1dCTmY5dl9DQ0oydl9qS1drZ1hMMjUxNUNyNjNxa2wwVUN4SjhRMzQ0RWRGdVFweTVMb1dMNXloR2dCY1RUcXd6RnNuLWt1UkJYMUNVaG9lYWRBbUU4OFVtNEI4SXI5NEI1R2FSNFlWcG9lR0RJejg0cE15a3hYWGI5TVVwX2NweEQ2aXB2ZVF5MGczVUdTRHdTRlpkVDdPV01MenFtUTdlVlBi?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-26T08:17:24.732877-07:00"
+    "remind_at": "2026-06-26T10:28:32.050704-07:00"
   }
 ]
