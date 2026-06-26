@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "job": {
+      "title": "Product Designer, AI Hardware & User Interface",
+      "company": "Pocket (W26)",
+      "location": "San Francisco, CA, US",
+      "url": "https://account.ycombinator.com/authenticate?continue=https%3A%2F%2Fwww.workatastartup.com%2Fapplication%3Fsignup_job_id%3D97382&defaults%5BsignUpActive%5D=true&defaults%5Bwaas_company%5D=31214",
+      "salary": "$130K - $165K",
+      "description": "Take Notes in the Real World",
+      "posted_at": "Recently",
+      "source": "Y Combinator",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-06-26T15:23:48.685787-07:00"
+  }
+]

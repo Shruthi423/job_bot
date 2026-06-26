@@ -1,44 +1,46 @@
 [
   {
     "item": {
-      "company": "Cori Bush won't commit",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": "New York",
-      "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/26/cori-bush-hakeem-jeffries-speaker-2027-vote",
-      "priority": 3
-    },
-    "remind_at": "2026-06-26T14:14:07.217359-07:00"
-  },
-  {
-    "item": {
-      "company": "The Week\u2019s 10 Biggest Funding Rounds",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdGlTWTBvSFZWSVhzR1FtNGVXOG5NZlFlcE5TUk1kREk4clBPMGpaYnBrSFU2X3RKMEdGTHUxQ1NRQTdMbkIyc1V5TnFZZWc0ZjdfaTkzbUhMdGF5YURIMlF4VWsyRmJ6Ql8xSklLeksyT0Y1aHluZnE2dGVYdGItLUlhTjN2Y1AzaWMyUTFEdjFLMVE?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-26T14:14:10.081429-07:00"
-  },
-  {
-    "item": {
-      "company": "Alienkind",
-      "amount": "$3.2M",
-      "stage": null,
+      "company": "Coral UAE",
+      "amount": "$3.0M",
+      "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZld4T28tRGVRendMSjBnZFo1T3hDUi1zM3poVUNPa1B5X2dCSGYtbnlnTmY3ZEZWN3h0QVV1czkySVZ1a0JfVEI3V1BPQVZDWEJPWEFEQmNUWmdqR2RiQ1hDNXphU2ZRNVp4TUxFWnRwV280eVgwUkVNd0NoR3Q0dEppVUtvVjJObXB4Y19LZ0Z2M0JTX3R2dGhpa0ZvS0FrbG1xTlNydUxtbDNsTEw1VVNNa296WE4xR0lNOA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE10ZlYwSzRwNndiRWtxN3dKQlF2YldYOHFyYjF2dFFsd2FfUVZWLUFnbS1zLUhSQXBzVUt1b3BxTQ?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-26T15:24:11.071725-07:00"
+  },
+  {
+    "item": {
+      "company": "Red Lobster lost millions",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/26/red-lobster-endless-shrimp-thai-union-lawsuit-squeeze-profits-bankruptcy/",
       "priority": 3
     },
-    "remind_at": "2026-06-26T14:14:12.253854-07:00"
+    "remind_at": "2026-06-26T15:24:15.936931-07:00"
+  },
+  {
+    "item": {
+      "company": "Unconventional AI",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [
+        "Naveen Rao"
+      ],
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/26/unconventional-ai-debuts-oscillator-based-un-0-model-series/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-26T15:24:18.393897-07:00"
   }
 ]
