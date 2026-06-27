@@ -10871,5 +10871,20 @@
     "roles": [],
     "first_seen": "2026-06-27T08:49:11.969177-07:00",
     "status": "active"
+  },
+  "c29c374e495b5fcc997a57c936b67651": {
+    "id": "c29c374e495b5fcc997a57c936b67651",
+    "company": "QSR and beverage brand Alienkind",
+    "amount": "Undisclosed",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYUpRUmx5YThfaWZCV3hkbGExbDRxYXdXek9KR09WX0QzRnNCM0pubUhCWnU2eFNkNEMtdFk0MHZfTWlFZGVGN3dIWnhfOS1yOGhqVmFNZFNNZWczQ3dWR3J3THFPem01NkdabHE4MHJYLVdyeWNSM001UldXdzlJaTYwRExLMlpxbm5CRlpjUWxWYkRTaXlqTXB2aEo1amlGZFpCNEZnVjRaUdIBqgFBVV95cUxPYUpRUmx5YThfaWZCV3hkbGExbDRxYXdXek9KR09WX0QzRnNCM0pubUhCWnU2eFNkNEMtdFk0MHZfTWlFZGVGN3dIWnhfOS1yOGhqVmFNZFNNZWczQ3dWR3J3THFPem01NkdabHE4MHJYLVdyeWNSM001UldXdzlJaTYwRExLMlpxbm5CRlpjUWxWYkRTaXlqTXB2aEo1amlGZFpCNEZnVjRaUQ?oc=5",
+    "priority": 8,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-27T10:04:54.670512-07:00",
+    "status": "active"
   }
 }
