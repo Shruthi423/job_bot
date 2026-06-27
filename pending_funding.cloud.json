@@ -1,16 +1,44 @@
 [
   {
     "item": {
-      "company": "We Booked 614 Meetings",
+      "company": "plants flag in Seattle area",
+      "amount": "$107.0M",
+      "stage": "Seed",
+      "investors": null,
+      "location": "Seattle",
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVGdxSEQtU1lzSE55OXd0b0F1VlpjWWdBektJRXd3QUo3TkJQMXJSd0hEdFU2enpBRDRuX21fS3dCNEI3aURYSklweFY5Y0gybDZYNElCd0ZiNU8zc196V1Q5MkdIVmpsMjRJSENGYnZsQkFaUk1IQVo4UXBkaEdWbDh3ejVuMFlsUzNYcncwMmM1TjBrSGpsYWwybWNHZV9Ha3F6djJFS3FIS05zYV9fUkxHSmlwMDRKbXZucXpHRzRxc2c?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-27T09:19:05.715045-07:00"
+  },
+  {
+    "item": {
+      "company": "hunts",
+      "amount": "$107.0M",
+      "stage": "Seed",
+      "investors": null,
+      "location": "Seattle",
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdURHWHJndE1jVmE2M2hfanFqa1dHb2FWT2NSTWpIMjA4ekozUDJGRFBDcUNYS2VxWUlQVVpwM2dlSE81enMwSWxHYVBNY2ZleDZWNDZmWXpKcUV4SGZHMEdSYmxCaXRfcXlTSmlYVDNoOXRfSGd2YmQwdTNUc2xOejNxSlFDeDBfZU10Qk9jVnM1cVd3SWo5a1JVTkNyY1U4Y3VGQzBqRlg?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-06-27T09:19:07.969936-07:00"
+  },
+  {
+    "item": {
+      "company": "the Panini sticker album\u2019s last ride",
       "amount": null,
       "stage": null,
       "investors": null,
-      "location": null,
+      "location": "Madrid",
       "founders": [],
-      "source": "SaaStr",
-      "url": "https://www.saastr.com/we-booked-614-meetings-with-one-inbound-agent-your-contact-us-form-is-costing-you-deals/",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/27/panini-world-cup-stickers-sold-out-fanatics-end-era/",
       "priority": 3
     },
-    "remind_at": "2026-06-27T07:56:00.988632-07:00"
+    "remind_at": "2026-06-27T09:19:10.969012-07:00"
   }
 ]
