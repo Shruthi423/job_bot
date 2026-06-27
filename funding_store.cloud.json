@@ -10766,5 +10766,35 @@
     "roles": [],
     "first_seen": "2026-06-27T02:51:10.846783-07:00",
     "status": "active"
+  },
+  "a0f7af4bcbebec2bd3bf1f3883d05ecf": {
+    "id": "a0f7af4bcbebec2bd3bf1f3883d05ecf",
+    "company": "Nigerian stablecoin fintech Daya",
+    "amount": "$2.4M",
+    "stage": "Pre-Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMUJIY093dDR4QjBjRkg5VG1rZm1VNlR0bTc2dDJyM3pHTkx3VEx6ZHF1dzhqanhGSmhtV1BHUHk2dEdqaTlDRVphRTlLdlNWMHE4MG40RmUwdmFFeldFRGRocw?oc=5",
+    "priority": 10,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-27T04:25:02.314913-07:00",
+    "status": "active"
+  },
+  "f7b61414f7953a90c6bd15999b14aa37": {
+    "id": "f7b61414f7953a90c6bd15999b14aa37",
+    "company": "Ukraine's drones take the war",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/27/ukraine-drone-strikes-russia-refineries",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-27T04:25:05.665101-07:00",
+    "status": "active"
   }
 }
