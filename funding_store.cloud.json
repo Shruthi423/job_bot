@@ -11113,5 +11113,20 @@
     "roles": [],
     "first_seen": "2026-06-28T09:49:10.060885-07:00",
     "status": "active"
+  },
+  "09b331d23b05ce5308b2f88be03b9b27": {
+    "id": "09b331d23b05ce5308b2f88be03b9b27",
+    "company": "Republicans couldn\u2019t repeal it",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/27/obamacare-health-coverage-affordable-care-act-insurance-republicans-federal-subsidies/",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-28T11:02:19.022629-07:00",
+    "status": "active"
   }
 }
