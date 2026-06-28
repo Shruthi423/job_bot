@@ -11128,5 +11128,20 @@
     "roles": [],
     "first_seen": "2026-06-28T11:02:19.022629-07:00",
     "status": "active"
+  },
+  "7a1874f567146bf4a76c985c36468e69": {
+    "id": "7a1874f567146bf4a76c985c36468e69",
+    "company": "Karta",
+    "amount": "$140.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVVZUVlpNRm1oaDRUMXBHck9telVlY0w2V2VhUWpqa1d3T19LeTFaZFBNRnFnUFdLVkRENE1WV0ZJSDdIU0V3dDBxaFNUc0x2aUtfLXdTTkxlNVZyTC1DeE1nWXJXV3hmay1TSXpMRWxFaEhyc0pPbHE5QlF1RzlzdXRZOVg2U1RObWlfeEZkZ2pJLVRKelVaaE9WYWlYUVZGU3FJb0dnWFk3UQ?oc=5",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-28T13:46:48.366376-07:00",
+    "status": "active"
   }
 }
