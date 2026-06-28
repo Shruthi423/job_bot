@@ -1,18 +1,30 @@
 [
   {
     "item": {
-      "company": "Ex-Google engineer",
-      "amount": "$7.2B",
+      "company": "Immuneel Therapeutics",
+      "amount": null,
+      "stage": "Series B",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTG03ZlEzVlg0UW91SlhxNTc1N0g3cHJaNHNPLVJwY1Fab0tSU0VteUtPZk50VWtVNFg0WmRodmVTQmdScV91WDM4cE9fXzNlckNSb3lfeFlqdWJGNVJYcDMwVDJNcmZCdVVlbmtFMW1rS3o2Q2doLWxDUzVpclNOS3FRMUUzdGRRLVlGNTFjbGdTWFlmOE41UFI4LU0?oc=5",
+      "priority": 7
+    },
+    "remind_at": "2026-06-28T07:45:53.221457-07:00"
+  },
+  {
+    "item": {
+      "company": "He went from begging",
+      "amount": "$400.0M",
       "stage": null,
       "investors": null,
       "location": null,
-      "founders": [
-        "Arvind Jain"
-      ],
+      "founders": [],
       "source": "Fortune",
-      "url": "https://fortune.com/2026/06/28/google-sundar-pichai-larry-page-sergey-brin-crazy-trait-ai-ceo-success-trait-career-advice/",
+      "url": "https://fortune.com/article/cristiano-ronaldo-billionaire-athlete-soccer-player-rags-to-riches-portugal-poverty-to-global-superstar/",
       "priority": 3
     },
-    "remind_at": "2026-06-28T05:39:36.189381-07:00"
+    "remind_at": "2026-06-28T07:45:56.253512-07:00"
   }
 ]

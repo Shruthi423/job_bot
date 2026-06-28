@@ -1,5 +1,35 @@
 [
   {
+    "id": "92ece7f00a42da4775495ac134b78a17",
+    "company": "He went from begging",
+    "amount": "$400.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/article/cristiano-ronaldo-billionaire-athlete-soccer-player-rags-to-riches-portugal-poverty-to-global-superstar/",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-28T07:15:57.253670-07:00",
+    "status": "active"
+  },
+  {
+    "id": "283abaee12586aca9bdef2052c56df64",
+    "company": "Immuneel Therapeutics",
+    "amount": "Undisclosed",
+    "stage": "Series B",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTG03ZlEzVlg0UW91SlhxNTc1N0g3cHJaNHNPLVJwY1Fab0tSU0VteUtPZk50VWtVNFg0WmRodmVTQmdScV91WDM4cE9fXzNlckNSb3lfeFlqdWJGNVJYcDMwVDJNcmZCdVVlbmtFMW1rS3o2Q2doLWxDUzVpclNOS3FRMUUzdGRRLVlGNTFjbGdTWFlmOE41UFI4LU0?oc=5",
+    "priority": 7,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-28T07:15:54.221599-07:00",
+    "status": "active"
+  },
+  {
     "id": "98839cdd0f803823a0f979fb3d3e7200",
     "company": "Ex-Google engineer",
     "amount": "$7.2B",
