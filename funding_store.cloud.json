@@ -10901,5 +10901,20 @@
     "roles": [],
     "first_seen": "2026-06-27T16:08:43.281541-07:00",
     "status": "active"
+  },
+  "37934ddee5031a773bc622fdf6641f05": {
+    "id": "37934ddee5031a773bc622fdf6641f05",
+    "company": "Alienkind",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdXVKeTBWU3NnV3VDa0xBS3lyNWhtY1dLSlg4RWVyR3g2M1NiZ1hQNy1iWkF5aGRZOGlIa09UemZ6TXdtellTVEdNWmdpc2h2Y0NYQXVKZFdWbWlWekRUb3oxcVQ0R0tSMFVHMW1xTFZMZmdaRDBrRk9SRXZvck15MV9ycTJMOFJTTk85QnZzbmM5a21jWGRJNUx6Y0RCM3JsN05BT0hwSXFZazROelVhSWYyeEdIRXo4NG5wbHMtaHR2YTJTV1VXb1VtNWphdExFNHhPVVF3?oc=5",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-27T17:15:09.087938-07:00",
+    "status": "active"
   }
 }
