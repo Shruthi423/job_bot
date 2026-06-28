@@ -11173,5 +11173,20 @@
     "roles": [],
     "first_seen": "2026-06-28T14:59:34.750868-07:00",
     "status": "active"
+  },
+  "7834ffd7b67fe026cb2cc4b29a6c4bfc": {
+    "id": "7834ffd7b67fe026cb2cc4b29a6c4bfc",
+    "company": "Big-budget \u2018Supergirl\u2019",
+    "amount": "$70.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/28/supergirl-opening-weekend-box-office-ticket-sales-dc-studios-worst-flops-toy-story-5/",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-28T16:07:13.069084-07:00",
+    "status": "active"
   }
 }

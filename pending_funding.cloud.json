@@ -1,30 +1,16 @@
 [
   {
     "item": {
-      "company": "Tension",
-      "amount": null,
-      "stage": "Bridge",
-      "investors": null,
-      "location": "Washington",
-      "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/28/maryland-wes-moore-union-problems-2028",
-      "priority": 6
-    },
-    "remind_at": "2026-06-28T15:29:30.800657-07:00"
-  },
-  {
-    "item": {
-      "company": "Trump sets Sept. 1 start",
-      "amount": null,
+      "company": "Big-budget \u2018Supergirl\u2019",
+      "amount": "$70.0M",
       "stage": null,
       "investors": null,
-      "location": "Washington",
+      "location": null,
       "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/28/trump-dc-golf-course-renovation-east-potomac-links",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/28/supergirl-opening-weekend-box-office-ticket-sales-dc-studios-worst-flops-toy-story-5/",
       "priority": 3
     },
-    "remind_at": "2026-06-28T15:29:33.750715-07:00"
+    "remind_at": "2026-06-28T16:37:12.068920-07:00"
   }
 ]
