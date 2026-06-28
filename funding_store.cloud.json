@@ -11068,5 +11068,35 @@
     "roles": [],
     "first_seen": "2026-06-28T07:15:57.253670-07:00",
     "status": "active"
+  },
+  "b97dbbfc8632fb79ddc32d00b5b4ff0c": {
+    "id": "b97dbbfc8632fb79ddc32d00b5b4ff0c",
+    "company": "NE Origins",
+    "amount": "$2.0M",
+    "stage": "Pre-Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUHFxaEFoVWxRZE4wWEQ5QlVSNzN4WmEzZFhoTGFVano1ODVUTWExbm96VUFMSlFEbktOWF92X3RUd0xsOXJqOHVPRHFycDlDaUpfV0VOZTJpNXlqSkMwdjVGRDE2MUlXNUtIVjNjZ2NzTTJaSzJqU1dfa2FwUFVRUjJLNE1mNnRCSnZHQXFLVXpFdklT?oc=5",
+    "priority": 10,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-28T08:42:38.053992-07:00",
+    "status": "active"
+  },
+  "c0996675e14be5edd155a96abf5ae88c": {
+    "id": "c0996675e14be5edd155a96abf5ae88c",
+    "company": "How Paris",
+    "amount": "Undisclosed",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/28/paris-seine-river-water-district-cooling-network-pipes-france-heat-wave/",
+    "priority": 3,
+    "founders": [],
+    "location": "Paris",
+    "roles": [],
+    "first_seen": "2026-06-28T08:42:40.981561-07:00",
+    "status": "active"
   }
 }
