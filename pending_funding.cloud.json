@@ -1,58 +1,44 @@
 [
   {
     "item": {
-      "company": "Southern",
-      "amount": "$25.0M",
+      "company": "Chamath Palihapitiya",
+      "amount": "$135.0M",
       "stage": "Series A",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNREdnSlNFN3BNMlAteHlaeUFscndiSk5KQUJWaXFEenZzT1JFZ2ZBaDVIRUtWOVV5OWJPd2VDa01Ka3dMcnk3R2FRdTFuYWdMblRiMGVfeU1EaUQ0OUR3MUtBelR0MVpNM1ZYYXVCWGdMT01pbFh6RTB4bVU3d2ZGWE5QVE5RbTRwUkFudjN4R0pVZ2Vqa2pDN1kxYkllWE9jdWloTWNXdkMyRW0taEF6M09pc25RMmc3SVZmN1g1TG1TWl8xVGpnMnJ3Zw?oc=5",
+      "source": "TechCrunch Startups",
+      "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
       "priority": 8
     },
-    "remind_at": "2026-06-29T12:46:46.469642-07:00"
+    "remind_at": "2026-06-29T14:38:08.098432-07:00"
   },
   {
     "item": {
-      "company": "\u2018Sadly",
-      "amount": "$26.0B",
+      "company": "South Korea",
+      "amount": "$584.0B",
+      "stage": null,
+      "investors": "Samsung Electronics Co",
+      "location": null,
+      "founders": [],
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/29/south-korea-launches-584b-chip-manufacturing-initiative-samsung-sk-hynix/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-29T14:38:11.409920-07:00"
+  },
+  {
+    "item": {
+      "company": "MAKO",
+      "amount": "$28.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/29/mackenzie-scott-vs-elon-musk-philanthropy-donations/",
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeC1hZGpEbFRWVVR1Q2FXOVB6RXRsem10Rnp5UDU1RzluUEN6RV9EZF9pbkZqVnFQV2k5cUhDUHZVLUtHLV9GQnRYWTZBUFctVXVDRlQ0Q21XdUdrRWJNUDN2QzNYMlp1TkRqenBhUkl6V1hjVGJyZmFoZ2VLdFB5MjdiT2U1bFY5Wllxb3JKRU13dG5NMk5vcUlYcE1nd1k?oc=5",
       "priority": 3
     },
-    "remind_at": "2026-06-29T12:46:48.665550-07:00"
-  },
-  {
-    "item": {
-      "company": "Trump",
-      "amount": "$5.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/29/trump-carroll-supreme-court",
-      "priority": 3
-    },
-    "remind_at": "2026-06-29T12:46:51.159798-07:00"
-  },
-  {
-    "item": {
-      "company": "Indian Challenger Jupiter",
-      "amount": "$45.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS01DSldfaEFiVHhoNDR1OGpIbzNkamRBQTdPQW12VFlTNENfdG1XeUZOd3dkYVgydjhra1hOdS1FNmZhZUVBVmpRRmdFeUlWTTgyNGRvei13OC13VkJwbGtsbGhORXJPaGhRVDY3NTE2STFJSG9JcGtaNk9udlA1bWp5RG1FMGRxYlBCcDNUWXpYc2wwclBaQmNGZ2lwV0c5V2NkVmY3cw?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-29T12:46:54.153612-07:00"
+    "remind_at": "2026-06-29T14:38:13.612039-07:00"
   }
 ]
