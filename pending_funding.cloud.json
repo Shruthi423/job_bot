@@ -1,44 +1,16 @@
 [
   {
     "item": {
-      "company": "Proception",
-      "amount": "$11.0M",
-      "stage": "Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "First Round (news)",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMk85SWNhTWNkTjM4aGV2bXBMNE5xc2I0eF84N08weE5TY2ZjOU1ETXlvQ3BoN3I3b182MnVPV2Y4dEJob3pCakl3dTd4ZlZNMEgwZHhSZXdLMnZIcU5TNFgxX01UbHoyN2stTnRySmF6NERYV21naTVERWhJV1Y2ZHh1TjlHUzlRT3NVLTJ1Vk1iZGg1NHN1TlM5QWE4anExdHM2SHA4cEt6X0hiR3c?oc=5",
-      "priority": 9
-    },
-    "remind_at": "2026-06-29T15:51:04.679493-07:00"
-  },
-  {
-    "item": {
-      "company": "U.S. official",
-      "amount": "$6.0B",
+      "company": "Mirendil",
+      "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/06/29/frozen-iranian-assets-release-us-ceasefire-talks-oman-hormuz-service-fees/",
+      "source": "a16z (news)",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcGtPbVFpSGpDSlJlMy1UdWRYTHEtNjFEaFRwRVBtOUczWi05YnpJQ0pTd01Qc2RwR1VtQ0RybFBDOUhKWXlqX0dWMTRTcUtpanRURDNFOUJwT2JZNGNSMjN0RGx3ZVlYajA1M3VfbDhkQlJLeVdzd2hlblBoT0ZHUDNhWFZwWVNhMllEY01VTDUwdmVybnE2YXp5LWNHUUQ2a0E?oc=5",
       "priority": 3
     },
-    "remind_at": "2026-06-29T15:51:07.734235-07:00"
-  },
-  {
-    "item": {
-      "company": "Democrats fear another loss",
-      "amount": "$1.5M",
-      "stage": null,
-      "investors": "Sen",
-      "location": "Denver",
-      "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/29/colorado-degette-melat-kiros-democrats-election",
-      "priority": 3
-    },
-    "remind_at": "2026-06-29T15:51:10.737310-07:00"
+    "remind_at": "2026-06-29T17:04:03.557837-07:00"
   }
 ]
