@@ -1,5 +1,35 @@
 [
   {
+    "id": "3333552924272ecb56774048da43b72d",
+    "company": "GOP",
+    "amount": "$125.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Axios",
+    "url": "https://www.axios.com/2026/06/30/senate-gop-nrsc-ad-spending-scotus-midterms-2026",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-30T16:07:35.661962-07:00",
+    "status": "active"
+  },
+  {
+    "id": "4c61466432d2438d3dd845bf81fd557a",
+    "company": "Etched",
+    "amount": "$800.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "SiliconANGLE",
+    "url": "https://siliconangle.com/2026/06/30/inference-chip-startup-etched-launches-800m-funding/",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-30T16:07:33.453467-07:00",
+    "status": "active"
+  },
+  {
     "id": "8892957b2d53871ddbac1e991e712bce",
     "company": "Taxwire",
     "amount": "$25.0M",
