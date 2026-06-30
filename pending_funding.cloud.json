@@ -1,106 +1,92 @@
 [
   {
     "item": {
-      "company": "BrainsMingle",
-      "amount": null,
-      "stage": "Pre-Seed",
-      "investors": null,
+      "company": "Build",
+      "amount": "$8.5M",
+      "stage": "Seed",
+      "investors": "Index Ventures",
       "location": null,
       "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01X1N3c2tvWjMwM2o5QjREckxBOGlBVUxyYlZvREpkRVBEQTBwV2JIZDhpRkhmRmh2eDJrcDNpTnMyeTJkYjhuM0N3Z0l5aFM3WmZqa0ZxMzYtTVlIaEJrUmRoNUx4OUhrbGxhR1lYSmpCMUNvQWNBdVcxTQ?oc=5",
-      "priority": 10
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/30/build-raises-8-5m-accelerate-industrial-infrastructure-development-project-work/",
+      "priority": 12
     },
-    "remind_at": "2026-06-30T05:28:43.913883-07:00"
+    "remind_at": "2026-06-30T07:50:13.887305-07:00"
   },
   {
     "item": {
-      "company": "Six Robotics",
+      "company": "Omnea Will Give Employees $250K",
       "amount": null,
       "stage": "Seed",
       "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EZkVzU21OZ0REckhVNFdVRXppOU9JdldQWFU4OVhUc3g0cWpQUEdSQzNFRzFiRXNSTGg2aGpwRnZOQTY0SHFlODAwMlAyUDRjY0dRa09SdGdXdXVfeXNLTUd4NW0xN0lsSi0zQmtGR1AtcEZE?oc=5",
-      "priority": 9
-    },
-    "remind_at": "2026-06-30T05:28:47.116345-07:00"
-  },
-  {
-    "item": {
-      "company": "Hiway",
-      "amount": null,
-      "stage": "Series A",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/hiway-raises-y-300m-in-series-a-funding/",
-      "priority": 8
-    },
-    "remind_at": "2026-06-30T05:28:49.435039-07:00"
-  },
-  {
-    "item": {
-      "company": "Final Aim",
-      "amount": null,
-      "stage": "Series A",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/final-aim-raises-pre-series-a-funding/",
-      "priority": 8
-    },
-    "remind_at": "2026-06-30T05:28:52.751509-07:00"
-  },
-  {
-    "item": {
-      "company": "ALGO ARTIS",
-      "amount": null,
-      "stage": "Series B",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/algo-artis-secures-y-1-538b-series-b/",
-      "priority": 7
-    },
-    "remind_at": "2026-06-30T05:28:56.010201-07:00"
-  },
-  {
-    "item": {
-      "company": "We Need",
-      "amount": null,
-      "stage": null,
-      "investors": "identify overlooked startups, and make investment decisions both faster and more accurate",
-      "location": null,
+      "location": "London",
       "founders": [],
       "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/data-funding-solutions-ai-landgren-gilion/",
-      "priority": 3
+      "url": "https://news.crunchbase.com/startups/omnea-funding-employees-future-founders-freeman/",
+      "priority": 9
     },
-    "remind_at": "2026-06-30T05:28:59.287373-07:00"
+    "remind_at": "2026-06-30T07:50:21.874544-07:00"
   },
   {
     "item": {
-      "company": "Trump takes his inflation battle",
+      "company": "Lightspeed backs Pie\u2019s $23.7M",
+      "amount": "$23.7M",
+      "stage": "Series A",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/lightspeed-pie-23-7m-ai-search-small-business/",
+      "priority": 8
+    },
+    "remind_at": "2026-06-30T07:50:24.930268-07:00"
+  },
+  {
+    "item": {
+      "company": "Premier League Lacrosse adds Rob Mac",
+      "amount": "$100.0M",
+      "stage": null,
+      "investors": "Ares funds and New York Liberty owner Joe Tsai, also included a minority equity investment from ESPN",
+      "location": "New York",
+      "founders": [],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/30/premier-league-lacrosse-rob-mac-glen-powell-joe-tsai-ares-espn/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-30T07:50:27.825195-07:00"
+  },
+  {
+    "item": {
+      "company": "America\u2019s getting a heat dome",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Fortune",
-      "url": "https://fortune.com/2026/06/30/trump-inflation-battle-gas-retailers-target-gallon-price/",
+      "url": "https://fortune.com/2026/06/30/heat-dome-eastern-us-july-fourth-climate-explainer/",
       "priority": 3
     },
-    "remind_at": "2026-06-30T05:29:02.476516-07:00"
+    "remind_at": "2026-06-30T07:50:30.702640-07:00"
+  },
+  {
+    "item": {
+      "company": "Pie",
+      "amount": "$19.5M",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/30/pie-launches-19-5m-bring-ai-marketing-small-businesses/",
+      "priority": 3
+    },
+    "remind_at": "2026-06-30T07:50:32.854212-07:00"
   },
   {
     "item": {
       "company": "Ex-Special Forces founder\u2019s Six Robotics",
-      "amount": "$18.0B",
+      "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
@@ -109,20 +95,20 @@
       "url": "https://techfundingnews.com/six-robotics-raises-12m-drone-swarm-software/",
       "priority": 3
     },
-    "remind_at": "2026-06-30T05:29:05.659877-07:00"
+    "remind_at": "2026-06-30T07:50:35.812664-07:00"
   },
   {
     "item": {
-      "company": "Inside Rocket Lab\u2019s $8B plan",
-      "amount": "$8.0B",
+      "company": "China\u2019s open-source AI models",
+      "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/rocket-lab-builds-a-spacex-style-business-with-an-8b-iridium-acquisition/",
+      "source": "TechStartups",
+      "url": "https://techstartups.com/2026/06/30/chinas-open-source-ai-models-gain-ground-as-u-s-frontier-ai-faces-new-rollout-restrictions/",
       "priority": 3
     },
-    "remind_at": "2026-06-30T05:29:08.911124-07:00"
+    "remind_at": "2026-06-30T07:50:38.713197-07:00"
   }
 ]
