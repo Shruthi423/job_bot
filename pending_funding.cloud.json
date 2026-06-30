@@ -1,128 +1,44 @@
 [
   {
     "item": {
-      "company": "Norwegian Six Robotics",
+      "company": "AMPLY",
       "amount": null,
       "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZWlJFd3FveDJZXzd6dTJacGJnYjRBLWV1SkNWRDkxSy1iVnB0X0JxakxYM2JEX3BmTG1JMFlvSTVwbFhPbjY1ZHlHcFhabno5RWF1WThTUEwtNFVqSDhibm5HYkhTMXpzaVp5cURZWDbSAXBBVV95cUxNWVpSRXdxb3gyWV83enUyWnBiZ2I0QS1ldUpDVkQ5MUstYlZwdF9CcWpMWDNiRF9wZkxtSTBZb0k1cGxYT242NWR5R3BYWm56OUVhdVk4U1BMLTRVakg4Ym5uR2JIUzF6c2laeXFEWVg2?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40MnpIR251X2JYeE84NjRLeWMwNXN0MGJ0amw3VDJ0b05RdXZXOWZCeWdVOXhyRDNCWG1MOHh3aXZfbGEtM2tfTFUtMDkyYVJ3ZVpF?oc=5",
       "priority": 9
     },
-    "remind_at": "2026-06-30T10:06:10.798794-07:00"
+    "remind_at": "2026-06-30T11:54:59.953503-07:00"
   },
   {
     "item": {
-      "company": "America added more than 1",
-      "amount": null,
+      "company": "AI",
+      "amount": "$1.0B",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Fortune",
-      "url": "https://fortune.com/2026/06/30/everyday-millionaire-how-much-to-feel-rich-ubs-wealth-report/",
+      "url": "https://fortune.com/2026/06/30/ai-is-minting-billion-dollar-companies-faster-than-ever/",
       "priority": 3
     },
-    "remind_at": "2026-06-30T10:06:13.831140-07:00"
+    "remind_at": "2026-06-30T11:55:02.282505-07:00"
   },
   {
     "item": {
-      "company": "AWS",
-      "amount": "$1.0B",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/30/aws-launches-forward-deployed-engineering-team-speed-enterprise-agentic-ai-adoption/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-30T10:06:16.047134-07:00"
-  },
-  {
-    "item": {
-      "company": "LeapXpert",
-      "amount": "$180.0M",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/30/leapxpert-lands-180m-extract-intelligence-governed-enterprise-communications/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-30T10:06:18.253861-07:00"
-  },
-  {
-    "item": {
-      "company": "SCOTUS punts Fed independence question",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/30/trump-cook-fed-supreme-court",
-      "priority": 3
-    },
-    "remind_at": "2026-06-30T10:06:21.163761-07:00"
-  },
-  {
-    "item": {
-      "company": "Google's AI boom sends emissions",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/06/30/google-ai-boom-emissions-power-use",
-      "priority": 3
-    },
-    "remind_at": "2026-06-30T10:06:24.138195-07:00"
-  },
-  {
-    "item": {
-      "company": "Amazon",
-      "amount": "$1.0B",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "TechStartups",
-      "url": "https://techstartups.com/2026/06/30/amazon-launches-1b-ai-engineering-unit-to-help-customers-build-agentic-ai-faster/",
-      "priority": 3
-    },
-    "remind_at": "2026-06-30T10:06:26.366948-07:00"
-  },
-  {
-    "item": {
-      "company": "Stark",
-      "amount": null,
+      "company": "Kalshi",
+      "amount": "$40.0B",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZDY1eHJubGgzMkRtalhxMVdhZkk2YWltNnJNN0lhbEZnLXRPUEJxYWJNTW1zZnlYYzF4Y2VpNU9DMlgzVUxfSk9DYWpWR0tWOTRyUFN0ejV5c09pMjgxREQya0NEZDhRYmR1bnN2czlUVnJxaFVBdWx3czhvT2JQdjRFSk96aUhVQmNZRGVQVmxLenFWRUNLZA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbXFUZnk1ZmNqc19IeW9USFI2ZlhNbDFSSHNhOElBWGNkRldpMF9XNnFzNWFtWVpPdGM1Rzg3Q2NjamYzU2xsOURoT3ZtMkpxUWN4d1JKYlFXSGd2N0pZdEo4ajJ5T1o3ZFhCUFlQNkM1NTc4VUFuMmdfYW1FNng5SUVRWV9JVkhqZ19HaDlCdTZQc3dSd3FoQWp4RU0?oc=5",
       "priority": 3
     },
-    "remind_at": "2026-06-30T10:06:28.555005-07:00"
-  },
-  {
-    "item": {
-      "company": "Parag Agrawal\u2019s Quiet AI Comeback",
-      "amount": "$2.0B",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFczdm5tS3lfYW5TZlgwa0gxMU50b2Jwd2EwQ194bmdQdXJXanQ3R1lMYlV3ekxPTzRscUFaYmR3Q25UZWpsbVJaOGE2cGNtbk94LVNfdnI1V2ZuVzlKY3QxRGM5ZmJDVFRoMC0yamdwLUJkeEhZd2t4SjlUZFdLVUdic1dsTmhOVGRMSDlURVhuR3A3RzZUOXNSb2R0SDhBWm9pVEh5SWgxVllzYlQ4RXFR?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-06-30T10:06:31.467175-07:00"
+    "remind_at": "2026-06-30T11:55:20.920851-07:00"
   }
 ]

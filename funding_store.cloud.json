@@ -12669,5 +12669,71 @@
     "roles": [],
     "first_seen": "2026-06-30T09:36:32.467354-07:00",
     "status": "active"
+  },
+  "5ef16cc782f1c8ee3683b719a60c665e": {
+    "id": "5ef16cc782f1c8ee3683b719a60c665e",
+    "company": "AMPLY",
+    "amount": "Undisclosed",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40MnpIR251X2JYeE84NjRLeWMwNXN0MGJ0amw3VDJ0b05RdXZXOWZCeWdVOXhyRDNCWG1MOHh3aXZfbGEtM2tfTFUtMDkyYVJ3ZVpF?oc=5",
+    "priority": 9,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-30T11:25:00.953665-07:00",
+    "status": "active"
+  },
+  "b340ccb2277d792b3fff1f9acba218d3": {
+    "id": "b340ccb2277d792b3fff1f9acba218d3",
+    "company": "AI",
+    "amount": "$1.0B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/06/30/ai-is-minting-billion-dollar-companies-faster-than-ever/",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-06-30T11:25:03.282665-07:00",
+    "status": "active"
+  },
+  "1d0dd4951e21985d8e74ccc93efe606b": {
+    "id": "1d0dd4951e21985d8e74ccc93efe606b",
+    "company": "Kalshi",
+    "amount": "$40.0B",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Sequoia (news)",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbXFUZnk1ZmNqc19IeW9USFI2ZlhNbDFSSHNhOElBWGNkRldpMF9XNnFzNWFtWVpPdGM1Rzg3Q2NjamYzU2xsOURoT3ZtMkpxUWN4d1JKYlFXSGd2N0pZdEo4ajJ5T1o3ZFhCUFlQNkM1NTc4VUFuMmdfYW1FNng5SUVRWV9JVkhqZ19HaDlCdTZQc3dSd3FoQWp4RU0?oc=5",
+    "priority": 3,
+    "founders": [],
+    "location": "New York, New York, United States",
+    "roles": [
+      {
+        "title": "Product Designer",
+        "url": "https://job-boards.greenhouse.io/kalshi/jobs/6334301003",
+        "location": "New York, New York, United States"
+      },
+      {
+        "title": "Product Designer",
+        "url": "https://jobs.ashbyhq.com/kalshi/25718664-54b7-454b-9a2c-bde0b1deb76c",
+        "location": "New York Office"
+      },
+      {
+        "title": "Motion Designer",
+        "url": "https://jobs.ashbyhq.com/kalshi/5f980066-258e-41cd-8735-475e987d00cb",
+        "location": "New York Office"
+      },
+      {
+        "title": "UX Researcher",
+        "url": "https://jobs.ashbyhq.com/kalshi/9a802eca-14bc-4577-b5f4-8e49e61bd7f5",
+        "location": "New York Office"
+      }
+    ],
+    "first_seen": "2026-06-30T11:25:21.921017-07:00",
+    "status": "active"
   }
 }
