@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "job": {
+      "title": "UX Designer/ Research - New York",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/ux-designer-research-new-york/10034366",
+      "salary": "Not listed",
+      "description": "Lead end-to-end UX for finance applications: plan and conduct qualitative research and discovery, facilitate workshops, run usability tests, and translate insights into user journeys, wireframes, and high-fidelity Figma prototypes. Collaborate with engineering and business stakeholders in a large ma",
+      "posted_at": "Recently",
+      "source": "BuiltIn SF",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-07-01T19:22:05.738763-07:00"
+  },
+  {
+    "job": {
+      "title": "UX Designer I / II",
+      "company": "See posting",
+      "location": "San Francisco Bay Area, CA",
+      "url": "https://www.builtinsf.com/job/ux-designer-i-ii/9637720",
+      "salary": "Not listed",
+      "description": "Remote full-time UX Designer I/II role contributing to cross-platform (desktop, mobile, web) product design. Responsibilities include user research, wireframing, prototyping, usability testing, collaborating with PMs and developers, maintaining design systems, mentoring (II), and iterating designs b",
+      "posted_at": "Recently",
+      "source": "BuiltIn SF",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-07-01T19:22:07.594550-07:00"
+  }
+]

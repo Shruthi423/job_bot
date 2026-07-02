@@ -1,5 +1,71 @@
 [
   {
+    "id": "402a0519eaed3e15192b95d3fd3adfcd",
+    "company": "bagged BHP",
+    "amount": "$25.0M",
+    "stage": "?",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSGJfUTV6QjQtUmI1Sm9taGdRTHlBdjhMY2l6U09LczdEeTVXSnNMTjloWU5MQ3R2eS03SG5qdjNyanFfZFRGWHhyUy01aDBtd1B2RUdXR1Y5Q2gzTXdFRXlsV2MxMGQ4bjIwZTMybFY1cnR1ekpWRHN2b01ienVxUnlZNnkwWkRnaURSd3NMb1dhaVZzUTdIZHFFR1lPd19UZjkxNTNSWEVDbXRITkVHUmZVTTdCZnN1bEN4aExDdUd6STJtWVhjcnV4TDlMSlZxaVFGaHFwWmFUbXpMZXZXZGVSQQ?oc=5",
+    "priority": 3,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-07-01T18:52:39.303703-07:00",
+    "status": "active"
+  },
+  {
+    "id": "401102a1f0a61ee671b6fbb64e5958fa",
+    "company": "Higharc",
+    "amount": "$90.0M",
+    "stage": "Series C",
+    "investors": "Undisclosed",
+    "source": "SiliconANGLE",
+    "url": "https://siliconangle.com/2026/07/01/homebuilding-ai-startup-higharc-bags-90m-series-c-funding/",
+    "priority": 6,
+    "founders": [],
+    "location": "Remote",
+    "roles": [
+      {
+        "title": "UX Designer",
+        "url": "https://jobs.ashbyhq.com/higharc/928baed0-d7e1-4440-930e-ea189b1596c7",
+        "location": "Remote"
+      }
+    ],
+    "first_seen": "2026-07-01T18:52:36.089278-07:00",
+    "status": "active"
+  },
+  {
+    "id": "16038a8179e428263029cf105bca12c9",
+    "company": "EquiLibre",
+    "amount": "$500.0M",
+    "stage": "Series A",
+    "investors": "Undisclosed",
+    "source": "SiliconANGLE",
+    "url": "https://siliconangle.com/2026/07/01/ai-stock-trading-startup-equilibre-raises-funding-500m-valuation/",
+    "priority": 8,
+    "founders": [],
+    "location": "Prague",
+    "roles": [],
+    "first_seen": "2026-07-01T18:52:33.649246-07:00",
+    "status": "active"
+  },
+  {
+    "id": "faaa6f567ad331da2695980db1af262d",
+    "company": "Loopia",
+    "amount": "$1.2M",
+    "stage": "Seed",
+    "investors": "Undisclosed",
+    "source": "Funding Sweep (news)",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wU1RBcHpOLTcxSjJ5ZnVPZlc2NVFUM1h5RFdZdFlJOWQ5dWROYXctakZBLVRXQnptbXRKM082X0k4STdweVlnOXo1NXRPR0MxZHhDdFZueWpkazdNZ3ZMWUlR0gFnQVVfeXFMUFlWc0VMV2NkXzlraVZVSUk1LVJOakV5UTlHcFJpUkcta1hYNXVpbmpyY3gzNUNYVXl0YVNCdzZwSE54cEhuNHlSY19kRGozZGhHZktKNkp3ZlhPR1NlWTJPMlJ1MGdfWQ?oc=5",
+    "priority": 9,
+    "founders": [],
+    "location": null,
+    "roles": [],
+    "first_seen": "2026-07-01T18:52:31.198994-07:00",
+    "status": "active"
+  },
+  {
     "id": "6327449b213ce2426480d201f435b537",
     "company": "Venice",
     "amount": "$65.0M",
