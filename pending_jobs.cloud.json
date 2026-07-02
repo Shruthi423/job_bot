@@ -1,19 +1,36 @@
 [
   {
     "job": {
-      "title": "Chief Financial Officer (Remote) at Hospitable",
-      "company": "Unknown",
+      "title": "UX Designer",
+      "company": "Prophetic",
       "location": "Remote",
-      "url": "https://remotefirstjobs.com/companies/hospitablecom/jobs/chief-financial-officer-remote-832194",
-      "salary": "$312,000",
-      "description": "TLDR; We build software for short-term rentals to rent themselves, with a state-of-the-art product and user experience.\n\nWe have crafted an Applicant Handbook, which we highly recommend you check out, where you can find out more about the company, culture, how we recruit, what we do, and how we do i",
-      "posted_at": "Recently",
-      "source": "JobsCollider-Product",
+      "url": "https://uiuxjobsboard.com/job/1514226-remote-united-states-ux-designer",
+      "salary": "Not listed",
+      "description": "",
+      "posted_at": "3h",
+      "source": "UIUXJobsBoard",
       "relevant": true,
       "is_new_grad": false,
       "is_big_tech": false,
       "visa": null
     },
-    "remind_at": "2026-07-02T02:17:25.639955-07:00"
+    "remind_at": "2026-07-02T05:00:23.634056-07:00"
+  },
+  {
+    "job": {
+      "title": "Product Designer",
+      "company": "LevelTen Energy",
+      "location": "Remote",
+      "url": "https://uiuxjobsboard.com/job/1514426-remote-united-states-product-designer",
+      "salary": "$100,000 - $120,000",
+      "description": "",
+      "posted_at": "6h",
+      "source": "UIUXJobsBoard",
+      "relevant": true,
+      "is_new_grad": false,
+      "is_big_tech": false,
+      "visa": null
+    },
+    "remind_at": "2026-07-02T05:00:25.529992-07:00"
   }
 ]

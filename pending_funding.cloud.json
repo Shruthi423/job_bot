@@ -1,77 +1,151 @@
 [
   {
     "item": {
-      "company": "Digizene",
-      "amount": null,
+      "company": "BidScript",
+      "amount": "$0.8M",
       "stage": "Pre-Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/odisha-born-british-entrepreneur-arun-kar-invests-in-digizene-founded-by-rinki-singh-the-wire/",
+      "url": "https://www.thesaasnews.com/news/bidscript-raises-0-8m-pre-seed-funding/",
       "priority": 10
     },
-    "remind_at": "2026-07-02T02:18:17.448675-07:00"
+    "remind_at": "2026-07-02T05:00:46.793247-07:00"
   },
   {
     "item": {
-      "company": "Xylo",
-      "amount": null,
-      "stage": "Pre-Seed",
-      "investors": "CapitalT to scale its AI platform for processing government planning applications",
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/xylo-raises-2-8m-pre-seed/",
-      "priority": 10
-    },
-    "remind_at": "2026-07-02T02:18:20.043745-07:00"
-  },
-  {
-    "item": {
-      "company": "Adjacent",
-      "amount": "$2.5M",
-      "stage": "Pre-Seed",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/adjacent-raises-2-5m-pre-seed/",
-      "priority": 10
-    },
-    "remind_at": "2026-07-02T02:18:22.598153-07:00"
-  },
-  {
-    "item": {
-      "company": "HousApp",
+      "company": "DJ Insight",
       "amount": null,
       "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/housapp-closes-eur4-3m-seed-round/",
+      "url": "https://www.thesaasnews.com/news/dj-insight-raises-y-30m-seed-round/",
       "priority": 9
     },
-    "remind_at": "2026-07-02T02:18:25.123200-07:00"
+    "remind_at": "2026-07-02T05:00:50.281155-07:00"
   },
   {
     "item": {
-      "company": "Eye Security",
+      "company": "Heatronics",
       "amount": null,
-      "stage": "Series C",
+      "stage": "Seed",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOUZiMjdXaE9iUjBfU0pTVDhzNEdybFZxQjU2VmozR2Yyb0JwV2daZUEzbmgybGpWRWZwSVY3Y0RLWjZ1UkpPYkdHMktUSU90UUw2SlZYa2VIb2gzUUVBTnR0elptWlE3R1M0LUZUb0xLUnVlYVFmYXFUcmNJWThWdFp1TlpmV2c3N2lIR2I3dmTSAZABQVVfeXFMTjlGYjI3V2hPYlIwX1NKU1Q4czRHcmxWcUI1NlZqM0dmMm9CcFdnWmVBM25oMmxqVkVmcElWN2NES1o2dVJKT2JHRzJLVElPdFFMNkpWWGtlSG9oM1FFQU50dHpabVpRN0dTNC1GVG9MS1J1ZWFRZmFxVHJjSVk4VnRadU5aZldnNzdpSEdiN3Zk?oc=5",
+      "priority": 9
+    },
+    "remind_at": "2026-07-02T05:00:52.906420-07:00"
+  },
+  {
+    "item": {
+      "company": "KredosAi",
+      "amount": "$7.0M",
+      "stage": "Series A",
+      "investors": "BMW i Ventures",
+      "location": null,
+      "founders": [
+        "Balaji Sridharan"
+      ],
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/exclusive-kredosai-raises-7m-from-bmw-i-ventures-see-the-pitch-deck-below/",
+      "priority": 8
+    },
+    "remind_at": "2026-07-02T05:00:55.481760-07:00"
+  },
+  {
+    "item": {
+      "company": "BatX",
+      "amount": null,
+      "stage": "Series A",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFlnekxnYTBmMzBKLWZkTy15akJHOFkxOW1KQ2ZkMkpzY1AtNnJwWGFGbWdubDI0NlkyM3Jadm1oNFM0QWlKUHVSWjdRRWMtUHJXcGRDZzRrVG5VdDdjYUY2UmNJTDJNcXJmQW9IOGUzcTVoSVdlODVubUNuYm5PYk9TclRjU1RwSVAzUEs2RkQ2UDBOYWFUTmR3?oc=5",
+      "priority": 8
+    },
+    "remind_at": "2026-07-02T05:00:57.988435-07:00"
+  },
+  {
+    "item": {
+      "company": "Albatross Energetics",
+      "amount": "$1.05M",
+      "stage": "Series A",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSkE2RGoycmlQNE1RRTlPZkNpbF9sSE9RUGNqLWVlSl9jLVJoNHcyOTdJUnpvUHU4UngzcDNKdWt4dlY1OG1sVVZUSjczbHRZakItck9QWnVzYzBsSlZvcy1hVHVmOFFiRHdDVTF6b3VFYzdxeTJtaW1nQngyalZ0aG80V1pBUUtUeWJXVDZvaDVoTmRjQjdsSGluaW04Q0tBWDBScndabVd1dWJpMnpQR0E5eG1YalpVQ3ltMEpKSUZWSjZuaWlPeUpBcl9JNTBUdFowcllJTUx2bXZDcUgtbW5Xek9jcU9Tb3laTW5HZXZqdw?oc=5",
+      "priority": 8
+    },
+    "remind_at": "2026-07-02T05:01:01.339502-07:00"
+  },
+  {
+    "item": {
+      "company": "MENOU",
+      "amount": null,
+      "stage": "Series B",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/eye-security-raises-60m-series-c/",
-      "priority": 6
+      "url": "https://www.thesaasnews.com/news/menou-raises-y-520m-in-series-b/",
+      "priority": 7
     },
-    "remind_at": "2026-07-02T02:18:28.527538-07:00"
+    "remind_at": "2026-07-02T05:01:03.906366-07:00"
   },
   {
     "item": {
-      "company": "Emily Blunt",
+      "company": "The Indus Valley",
+      "amount": null,
+      "stage": "Series B",
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Funding Sweep (news)",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ19wYjEzU1JkV29ISGRQZjlCOG5qdDduSEY1eWs1em5WcGpEc2RFQzhyaDRyZ3dOb2ZHOWJTTVNnSjNSS1hXR0tFU1J1VVExMTJxYTY2MkF5akNuMUpibE1FbG83VEVjbHJmRTNETDRpS1M4Y201ci15Nkx6cVEya3pfbmNvLW84LW1pbVJ1TjB0TndHdnFRMS1wUlpucWdqOElfMm9UTXpyeGJoanpHNWZTa0RuYnA3RU5kclRtVWR2Y0RoZDB1enc4aHU?oc=5",
+      "priority": 7
+    },
+    "remind_at": "2026-07-02T05:01:07.378566-07:00"
+  },
+  {
+    "item": {
+      "company": "Z.ai",
+      "amount": "$10.0B",
+      "stage": "Extension",
+      "investors": null,
+      "location": "Beijing",
+      "founders": [
+        "Emad Mostaque"
+      ],
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
+      "priority": 5
+    },
+    "remind_at": "2026-07-02T05:01:09.891375-07:00"
+  },
+  {
+    "item": {
+      "company": "Sam Altman",
+      "amount": null,
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/",
+      "priority": 3
+    },
+    "remind_at": "2026-07-02T05:01:13.314707-07:00"
+  },
+  {
+    "item": {
+      "company": "Today",
       "amount": "$80.0M",
       "stage": null,
       "investors": null,
@@ -81,34 +155,48 @@
       "url": "https://fortune.com/2026/07/02/emily-blunt-net-worth-80-million-wanted-spanish-translator-un-dream-career/",
       "priority": 3
     },
-    "remind_at": "2026-07-02T02:18:32.287616-07:00"
+    "remind_at": "2026-07-02T05:01:15.896864-07:00"
   },
   {
     "item": {
-      "company": "Quantum Systems",
-      "amount": "$1.2B",
+      "company": "Global venture funding",
+      "amount": "$510.0B",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/07/02/global-venture-funding-hits-record-510b-first-half-ai-boom-accelerates/",
+      "priority": 3
+    },
+    "remind_at": "2026-07-02T05:01:19.197056-07:00"
+  },
+  {
+    "item": {
+      "company": "Goldman and MIT-founded LinqAlpha",
+      "amount": "$22.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "Tech Funding News",
-      "url": "https://techfundingnews.com/quantum-systems-raises-1-2b-at-8b-valuation-as-blackstone-doubles-down-on-european-defence-tech/",
+      "url": "https://techfundingnews.com/linqalpha-raises-22m-avp-ai-research-platform/",
       "priority": 3
     },
-    "remind_at": "2026-07-02T02:18:35.952196-07:00"
+    "remind_at": "2026-07-02T05:01:22.518549-07:00"
   },
   {
     "item": {
-      "company": "AIRS Medical",
-      "amount": null,
+      "company": "MDOTM",
+      "amount": "$27.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/airs-medical-secures-strategic-growth-investment/",
+      "url": "https://www.thesaasnews.com/news/mdotm-raises-27m-growth-capital/",
       "priority": 3
     },
-    "remind_at": "2026-07-02T02:18:39.178362-07:00"
+    "remind_at": "2026-07-02T05:01:25.064298-07:00"
   }
 ]
