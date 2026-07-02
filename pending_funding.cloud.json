@@ -1,170 +1,114 @@
 [
   {
     "item": {
-      "company": "TuringDream",
-      "amount": "$7.0M",
-      "stage": "Seed",
+      "company": "Digizene",
+      "amount": null,
+      "stage": "Pre-Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/turingdream-raises-7m-seed/",
-      "priority": 9
+      "url": "https://www.thesaasnews.com/news/odisha-born-british-entrepreneur-arun-kar-invests-in-digizene-founded-by-rinki-singh-the-wire/",
+      "priority": 10
     },
-    "remind_at": "2026-07-01T23:25:13.060882-07:00"
+    "remind_at": "2026-07-02T02:18:17.448675-07:00"
   },
   {
     "item": {
-      "company": "Lantern",
-      "amount": "$3.1M",
-      "stage": "Seed",
+      "company": "Xylo",
+      "amount": null,
+      "stage": "Pre-Seed",
+      "investors": "CapitalT to scale its AI platform for processing government planning applications",
+      "location": null,
+      "founders": [],
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/xylo-raises-2-8m-pre-seed/",
+      "priority": 10
+    },
+    "remind_at": "2026-07-02T02:18:20.043745-07:00"
+  },
+  {
+    "item": {
+      "company": "Adjacent",
+      "amount": "$2.5M",
+      "stage": "Pre-Seed",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/lantern-raises-3-1m-seed/",
-      "priority": 9
+      "url": "https://www.thesaasnews.com/news/adjacent-raises-2-5m-pre-seed/",
+      "priority": 10
     },
-    "remind_at": "2026-07-01T23:25:15.663976-07:00"
+    "remind_at": "2026-07-02T02:18:22.598153-07:00"
   },
   {
     "item": {
-      "company": "Tulon Materials",
+      "company": "HousApp",
       "amount": null,
       "stage": "Seed",
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSE9mci1JNDJ2YUoyRjhLaXpwTzVJSmQ1SThJY3dCaW00WVFGRnI5VEpMclZKb0lkY3NRZXZwQTdmSS1DbF9nMERhYmdzRjQ4ZUJwdkhidU05bHFZNmRNRmFYOVMxbVNRdEVMYXZhN19KZDhiNkhkUXdsWUtCSW1ZMWFMWkhXQm5HeUs4dGVxVElkeGk5LURXWDBEejhtazJfSEN2NlJJVVU0QXpSSXJENNIBsAFBVV95cUxPSE9mci1JNDJ2YUoyRjhLaXpwTzVJSmQ1SThJY3dCaW00WVFGRnI5VEpMclZKb0lkY3NRZXZwQTdmSS1DbF9nMERhYmdzRjQ4ZUJwdkhidU05bHFZNmRNRmFYOVMxbVNRdEVMYXZhN19KZDhiNkhkUXdsWUtCSW1ZMWFMWkhXQm5HeUs4dGVxVElkeGk5LURXWDBEejhtazJfSEN2NlJJVVU0QXpSSXJENA?oc=5",
+      "source": "The SaaS News",
+      "url": "https://www.thesaasnews.com/news/housapp-closes-eur4-3m-seed-round/",
       "priority": 9
     },
-    "remind_at": "2026-07-01T23:25:24.206474-07:00"
+    "remind_at": "2026-07-02T02:18:25.123200-07:00"
   },
   {
     "item": {
-      "company": "Jota",
-      "amount": "$30.0M",
-      "stage": "Series A",
+      "company": "Eye Security",
+      "amount": null,
+      "stage": "Series C",
       "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/jota-raises-30m-series-a/",
-      "priority": 8
+      "url": "https://www.thesaasnews.com/news/eye-security-raises-60m-series-c/",
+      "priority": 6
     },
-    "remind_at": "2026-07-01T23:25:26.660576-07:00"
+    "remind_at": "2026-07-02T02:18:28.527538-07:00"
   },
   {
     "item": {
-      "company": "BatX Energies",
-      "amount": null,
-      "stage": "Series A",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Funding Sweep (news)",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRG53RHZFWlh0NjBNY1dJbVp2QnN5aDV2VVBndnBGNEVlQmN4Zmhwc1ZHdUZiZVhWMm9naU5UN0hwenZraXJuSGhVUTFPWGQ5QU44ZUVGWEdNNlBwWF9Hb1ZnaGVhaFJvQUh3eDN3NnhxNEVmbEJ0RXRLZDcxdWo3aUNVQjBTX0JHbW0xRVNFVThxeUlIMjN6TTltdEIwNGRyTERaQ0ktS1RwZ9IBqgFBVV95cUxPRG53RHZFWlh0NjBNY1dJbVp2QnN5aDV2VVBndnBGNEVlQmN4Zmhwc1ZHdUZiZVhWMm9naU5UN0hwenZraXJuSGhVUTFPWGQ5QU44ZUVGWEdNNlBwWF9Hb1ZnaGVhaFJvQUh3eDN3NnhxNEVmbEJ0RXRLZDcxdWo3aUNVQjBTX0JHbW0xRVNFVThxeUlIMjN6TTltdEIwNGRyTERaQ0ktS1RwZw?oc=5",
-      "priority": 8
-    },
-    "remind_at": "2026-07-01T23:25:30.822185-07:00"
-  },
-  {
-    "item": {
-      "company": "Addi",
-      "amount": "$85.0M",
-      "stage": "Series D",
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/addi-raises-85m-series-d/",
-      "priority": 5
-    },
-    "remind_at": "2026-07-01T23:25:33.357347-07:00"
-  },
-  {
-    "item": {
-      "company": "Anthropic's Fable 5",
-      "amount": null,
+      "company": "Emily Blunt",
+      "amount": "$80.0M",
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/07/01/anthropic-fable-5-back-online-trump-export-controls-lifted",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/07/02/emily-blunt-net-worth-80-million-wanted-spanish-translator-un-dream-career/",
       "priority": 3
     },
-    "remind_at": "2026-07-01T23:25:36.769981-07:00"
+    "remind_at": "2026-07-02T02:18:32.287616-07:00"
   },
   {
     "item": {
-      "company": "WorkOnGrid",
+      "company": "Quantum Systems",
+      "amount": "$1.2B",
+      "stage": null,
+      "investors": null,
+      "location": null,
+      "founders": [],
+      "source": "Tech Funding News",
+      "url": "https://techfundingnews.com/quantum-systems-raises-1-2b-at-8b-valuation-as-blackstone-doubles-down-on-european-defence-tech/",
+      "priority": 3
+    },
+    "remind_at": "2026-07-02T02:18:35.952196-07:00"
+  },
+  {
+    "item": {
+      "company": "AIRS Medical",
       "amount": null,
       "stage": null,
       "investors": null,
       "location": null,
       "founders": [],
       "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/workongrid-raises-22-5cr-other/",
+      "url": "https://www.thesaasnews.com/news/airs-medical-secures-strategic-growth-investment/",
       "priority": 3
     },
-    "remind_at": "2026-07-01T23:25:39.235732-07:00"
-  },
-  {
-    "item": {
-      "company": "Offa",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "The SaaS News",
-      "url": "https://www.thesaasnews.com/news/offa-raises-6-5m-growth-capital/",
-      "priority": 3
-    },
-    "remind_at": "2026-07-01T23:25:41.817757-07:00"
-  },
-  {
-    "item": {
-      "company": "Data Center Firm Switch",
-      "amount": "$2.0B",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "a16z (news)",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVzZrLWxkbUtXTjlqT0FHZkdmVFh4el8wN2VKRWU1eTd4TGoxUGZhbmxkdENYbG1ONThTNVZKR2FWTTQ5d0ZDZG40ZkRUWVVuWGxqb2NHeDVIUUJJVDJ0c3lrSElZTHBpaHg5ME5teWlVV2diRVFZa21zUDMyT2JzbGJWQmNsQWV0clExaVR2SS1rVjh4Q3F5N0xMRlJkTjNkbGsxU2Y4QkdJVGM?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-07-01T23:25:45.190743-07:00"
-  },
-  {
-    "item": {
-      "company": "Switch",
-      "amount": null,
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "a16z (news)",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQckNDZ3E1MHZsdWNHMkY3NzFHMkdscG94cS1MeWY2ajZoRHIzNnR5U1QtY2s0S3RleXZ5RldhaVRQN3VzMVBCZ19sMXFJWTBOWl8tWDdGTUhRbmxZYW9TRk9ETzBhX1lRc0JZMnBXMTl6elJ3QkZzbG51akVfb18xazZkWHdhZGxmRjNHRTlmTVdQcDhEcGNpR3RLclNrVGtNUDhITHhFb1d1TERVQVpEX1NJWTRYUnAyUEtYRnFodDRZNXFxbjQxZ1lHUEs1OTNONk5OOA?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-07-01T23:25:47.624870-07:00"
-  },
-  {
-    "item": {
-      "company": "Kalshi targets $40B funding valuation",
-      "amount": "$40.0B",
-      "stage": null,
-      "investors": null,
-      "location": null,
-      "founders": [],
-      "source": "Sequoia (news)",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuZU5oZjRjc1BTSGNDa2sxWF9IbnJydThNQi1STkhHN3NyVjIxSUdoUUdSSWJiQVZ3a05oY2Yzb0dXX0x5YjFTLUVFX0tNdV9Vc1drRnFfY3plX1lBYmZkNkhwTkowWVptYWlNM1RqeGkwR0JhX3pfVg?oc=5",
-      "priority": 3
-    },
-    "remind_at": "2026-07-01T23:25:50.981331-07:00"
+    "remind_at": "2026-07-02T02:18:39.178362-07:00"
   }
 ]

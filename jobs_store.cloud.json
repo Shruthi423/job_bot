@@ -5899,5 +5899,23 @@
     "first_seen": "2026-07-01T18:52:06.739535-07:00",
     "status": "active",
     "applied_at": null
+  },
+  "c8ea52307ef329575d2410dd4e622dda": {
+    "id": "c8ea52307ef329575d2410dd4e622dda",
+    "title": "Chief Financial Officer (Remote) at Hospitable",
+    "company": "Unknown",
+    "location": "Remote",
+    "salary": "$312,000",
+    "url": "https://remotefirstjobs.com/companies/hospitablecom/jobs/chief-financial-officer-remote-832194",
+    "source": "JobsCollider-Product",
+    "is_new_grad": false,
+    "is_big_tech": false,
+    "visa": null,
+    "founders": [],
+    "posted_at": "Recently",
+    "priority": 5,
+    "first_seen": "2026-07-02T01:47:24.952826-07:00",
+    "status": "active",
+    "applied_at": null
   }
 }
